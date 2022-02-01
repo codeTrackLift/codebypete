@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-position: bottom center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
-    border-color: transparent;
+    border-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 html {
