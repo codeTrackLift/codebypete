@@ -15,6 +15,7 @@ var fadeIn2 = new ScrollMagic.Scene({
 var controllerFadeIn3 = new ScrollMagic.Controller();
 var fadeIn3 = new ScrollMagic.Scene({
     triggerElement: '.fadeIn3',
+    offset: -300
 })
 .setClassToggle('.fadeIn3', 'show')
 .addTo(controllerFadeIn1);
