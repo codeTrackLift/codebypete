@@ -6,6 +6,7 @@
     background-attachment: fixed;
     background-position: bottom center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
+    border-color: transparent;
 }
 
 html {
@@ -40,11 +41,11 @@ body {
     opacity: 0;
 }
 .fadeIn2 {
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
     opacity: 0;
 }
 .fadeIn3 {
-    transition: all 3s ease-in-out;
+    transition: all 2s ease-in-out;
     opacity: 0;
     color: white;
     font-size: 0rem;
@@ -58,6 +59,7 @@ body {
     opacity: 1;
     font-size: 100%;
     color: gray;
+    transform: scale(1, -1) scale(1, -1);
 }
 
 footer {
