@@ -4,7 +4,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
+    background-image: url("./pics/construction.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg"); */
 }
 
 html {
@@ -24,15 +25,20 @@ body {
     padding: 2rem 2rem 1rem 2rem;
     align-content: center;
     width: fit-content;
+    max-width: 90vw;
     height: fit-content;
-    margin-top: 15vh;
-    border: 1px solid lime;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 #welcome>figure>h1 {
     font-style: italic;
     color: white;
+}
+
+#welcome>figure>h4 {
+    color: black;
+    opacity: 1;
+    font-weight: normal;
 }
 
 .fadeIn1 {
@@ -46,18 +52,23 @@ body {
 .fadeIn3 {
     transition: all 2s ease-in-out;
     opacity: 0;
-    color: black;
+    color: lime;
     font-size: 0rem;
 }
 
-.fadeIn1.show,.fadeIn2.show {
+.fadeIn1.show {
+    margin-top: 15vh;
+    border: 3px solid lime;
+    opacity: 1;
+}
+.fadeIn2.show {
     opacity: 1;
 }
 
 .fadeIn3.show {
     opacity: 1;
     font-size: 100%;
-    color: gray;
+    color: cyan;
     /* transform: scale(1, -1) scale(1, -1); */
 }
 
