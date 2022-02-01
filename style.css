@@ -2,41 +2,62 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: dimgray;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
 }
 
 html {
+    background-color: black;
     overflow-x: hidden;
     width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
 }
 
 body {
     background-color: transparent;
 }
 
-/* .container-fluid {
-    margin: 0;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 0 !important;
-} */
-
 #welcome {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 2rem 2rem 1rem 2rem;
-    margin-top: 30vh;
+    align-content: center;
     width: fit-content;
+    height: fit-content;
+    margin-top: 15vh;
     border: 1px solid lime;
 }
 
 #welcome>figure>h1 {
     color: white;
     font-style: italic;
+}
+
+.fadeIn1 {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+.fadeIn2 {
+    transition: all 2s ease-in-out;
+    opacity: 0;
+}
+.fadeIn3 {
+    transition: all 3s ease-in-out;
+    opacity: 0;
+    color: white;
+    font-size: 0rem;
+}
+
+.fadeIn1.show,.fadeIn2.show {
+    opacity: 1;
+}
+
+.fadeIn3.show {
+    opacity: 1;
+    font-size: 100%;
+    color: gray;
 }
 
 footer {
