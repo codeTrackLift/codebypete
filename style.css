@@ -1,15 +1,13 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: dimgray;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg");
-    border-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 html {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-image: url("./pics/construction.jpg");
     background-color: black;
     overflow-x: hidden;
     width: 100%;
@@ -25,15 +23,16 @@ body {
     text-align: center;
     padding: 2rem 2rem 1rem 2rem;
     align-content: center;
-    width: fit-content;
-    height: fit-content;
+    width: 30rem;
+    height: 13rem;
     margin-top: 15vh;
     border: 1px solid lime;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #welcome>figure>h1 {
-    color: white;
     font-style: italic;
+    color: white;
 }
 
 .fadeIn1 {
@@ -41,13 +40,13 @@ body {
     opacity: 0;
 }
 .fadeIn2 {
-    transition: all 1s ease-in-out;
+    transition: all 1.25s ease-in-out;
     opacity: 0;
 }
 .fadeIn3 {
     transition: all 2s ease-in-out;
     opacity: 0;
-    color: white;
+    color: black;
     font-size: 0rem;
 }
 
@@ -59,7 +58,7 @@ body {
     opacity: 1;
     font-size: 100%;
     color: gray;
-    transform: scale(1, -1) scale(1, -1);
+    /* transform: scale(1, -1) scale(1, -1); */
 }
 
 footer {
@@ -70,6 +69,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
+    color: white;
 }
 
 #gitLogo,#igLogo {
