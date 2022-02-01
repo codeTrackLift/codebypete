@@ -27,7 +27,6 @@ body {
     width: fit-content;
     max-width: 90vw;
     height: fit-content;
-    /* color: white; */
 }
 
 #welcome>figure>h1 {
@@ -36,8 +35,14 @@ body {
 
 #welcome>figure>h4 {
     color: black;
-    opacity: 1;
-    font-weight: normal;
+    font-weight: bolder;
+    background: repeating-linear-gradient(
+  45deg,
+  gray,
+  gray 10px,
+  darkkhaki 10px,
+  darkkhaki 20px
+);
 }
 
 .fadeIn1 {
@@ -62,7 +67,7 @@ body {
 .fadeIn1.show {
     margin-top: 15vh;
     border: 1px solid lime;
-    box-shadow:lime;
+    /* box-shadow:lime; */
     opacity: 1;
 }
 .fadeIn2.show {
