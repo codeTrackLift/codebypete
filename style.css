@@ -45,43 +45,6 @@ body {
 darkkhaki 20px);
 }
 
-/* .fadeIn1 {
-    transition: all 0.5s ease-in-out;
-    opacity: 0;
-}
-.fadeIn2 {
-    transition: all 1s ease-in-out;
-    opacity: 0;
-}
-.fadeIn3 {
-    transition: all 2.5s ease-in-out;
-    opacity: 0;
-    color: white;
-    font-size: 0rem;
-}
-.fadeIn4 {
-    transition: all 2.5s ease-in-out;
-    color: black;
-}
-.fadeIn1.show {
-    margin-top: 15vh;
-    border: 1px solid lime;
-    opacity: 1;
-}
-.fadeIn2.show {
-    opacity: 1;
-    color: white;
-}
-.fadeIn3.show {
-    opacity: 1;
-    font-size: 100%;
-    color: lime;
-    transform: scale(1, -1) scale(1, -1);
-}
-.fadeIn4.show {
-    color: lime;
-} */
-
 footer {
     position: absolute;
     bottom: 0;
@@ -93,16 +56,16 @@ footer {
     color: white;
 }
 
-#gitLogo,#igLogo {
+#gitLogo {
     max-height: 1.5rem;
     transition: transform 0.5s ease-in-out;
 }
 
-#gitLogo:hover,#igLogo:hover {
+#gitLogo:hover {
     transform: scale(-1, 1) scale(1);
 }
 
-/* Welcome animations */
+/* Welcome Animations Below */
 .animationDropDown {
     color: white;
     animation: animationDropDown 0.75s;
@@ -222,3 +185,4 @@ footer {
         transform: scale(1, -1) scale(1, -1);
     }
 }
+/* Welcome Animations Above */
