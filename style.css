@@ -152,7 +152,7 @@ footer {
 }
 
 .animationTurnOpaque {
-    animation: animationTurnOpaque 2.5s ease-in-out;
+    animation: animationTurnOpaque 3.25s ease-in-out;
     opacity: 0.3;
 }
 @keyframes animationTurnOpaque {
@@ -189,7 +189,7 @@ footer {
 }
 
 .animationFlipIn {
-    animation: animationFlipIn 3.5s ease-in-out;
+    animation: animationFlipIn 4.25s ease-in-out;
     border-radius: .125rem;
 }
 @keyframes animationFlipIn {
