@@ -172,14 +172,14 @@ footer {
 }
 
 .animationTurnOpaque {
-    animation: animationTurnOpaque 2.45s ease-in-out;
+    animation: animationTurnOpaque 2.5s ease-in-out;
     opacity: 0.3;
 }
 @keyframes animationTurnOpaque {
     0% {
         opacity: 1;
     }
-    87% {
+    80% {
         opacity: 1;
     }
     100% {
