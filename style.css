@@ -83,7 +83,7 @@ footer {
     }
 }
 
-.animationSlideFromLeft {
+/* .animationSlideFromLeft {
     color: white;
     animation: animationSlideFromLeft 2.25s;
 }
@@ -101,6 +101,31 @@ footer {
         margin-left: 30vw;
     }
     100% {
+    }
+} */
+.animationSlideFromLeft {
+    color: white;
+    animation: animationSlideFromLeft 2.25s;
+    letter-spacing: 0.25rem;
+}
+.animationSlideFromLeft>:nth-child(2) {
+    color: black;
+}
+@keyframes animationSlideFromLeft {
+    0% {
+        margin-left: -200vw;
+        letter-spacing: -0.125rem;
+    }
+    20% {
+        margin-left: -200vw;
+        letter-spacing: -0.125rem;
+    }
+    90% {
+        margin-left: 30vw;
+        letter-spacing: -0.125rem;
+    }
+    100% {
+        letter-spacing: 0.25rem;
     }
 }
 
@@ -143,6 +168,22 @@ footer {
     }
     100% {
         color: lime;
+    }
+}
+
+.animationTurnOpaque {
+    animation: animationTurnOpaque 2.45s ease-in-out;
+    opacity: 0.3;
+}
+@keyframes animationTurnOpaque {
+    0% {
+        opacity: 1;
+    }
+    87% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
     }
 }
 
