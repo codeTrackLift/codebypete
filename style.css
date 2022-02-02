@@ -110,7 +110,7 @@ footer {
 }
 
 .animationExpand {
-    animation: animationExpand 3.5s ease-in;
+    animation: animationExpand 2.5s ease-in;
     color: lime;
 }
 @keyframes animationExpand {
@@ -136,7 +136,7 @@ footer {
 }
 
 .animationTurnGreen {
-    animation: animationTurnGreen 3.5s ease-in-out;
+    animation: animationTurnGreen 2.5s ease-in-out;
     color: lime;
 }
 @keyframes animationTurnGreen {
@@ -170,7 +170,7 @@ footer {
 .animationBorder {
     border: 1px solid lime;
     border-radius: 0.125rem;
-    animation: animationBorder 5s ease-in-out;
+    animation: animationBorder 3.5s ease-in-out;
 }
 @keyframes animationBorder {
     0% {
@@ -189,17 +189,17 @@ footer {
 }
 
 .animationFlipIn {
-    animation: animationFlipIn 5s ease-in-out;
+    animation: animationFlipIn 3.5s ease-in-out;
     border-radius: .125rem;
 }
 @keyframes animationFlipIn {
     0% {
         opacity: 0;
     }
-    87% {
+    80% {
         opacity: 0;
     }
-    90% {
+    85% {
         transform: scale(1);
     }
     100% {
