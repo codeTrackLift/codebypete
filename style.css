@@ -83,26 +83,6 @@ footer {
     }
 }
 
-/* .animationSlideFromLeft {
-    color: white;
-    animation: animationSlideFromLeft 2.25s;
-}
-.animationSlideFromLeft>:nth-child(2) {
-    color: black;
-}
-@keyframes animationSlideFromLeft {
-    0% {
-        margin-left: -200vw;
-    }
-    20% {
-        margin-left: -200vw;
-    }
-    90% {
-        margin-left: 30vw;
-    }
-    100% {
-    }
-} */
 .animationSlideFromLeft {
     color: white;
     animation: animationSlideFromLeft 2.25s;
@@ -179,7 +159,7 @@ footer {
     0% {
         opacity: 1;
     }
-    80% {
+    76% {
         opacity: 1;
     }
     100% {
