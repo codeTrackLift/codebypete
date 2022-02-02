@@ -21,20 +21,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    overflow: hidden;
+    height: 100vh;
 }
 
 #welcome {
     display: block;
     padding: -10vh 1rem 1rem 1rem;
-    margin-bottom: 20vh;
+    margin-top: -20vh;
     text-align: center;
     align-content: center;
-    /* max-width: 90vw; */
     width: fit-content;
     height: min-content;
-    /* border: 1px solid lime; */
 }
 
 #welcome>figure>h1 {
