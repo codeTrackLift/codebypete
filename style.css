@@ -203,14 +203,14 @@ footer {
 }
 
 .animationFlipIn {
-    animation: animationFlipIn 5s;
+    animation: animationFlipIn 5s ease-in-out;
     border-radius: .125rem;
 }
 @keyframes animationFlipIn {
     0% {
         opacity: 0;
     }
-    80% {
+    87% {
         opacity: 0;
     }
     90% {
