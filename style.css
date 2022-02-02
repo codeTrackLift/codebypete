@@ -149,6 +149,7 @@ footer {
     0% {
         opacity: 0;
         font-size: 0rem;
+        color: black;
     }
     79% {
         opacity: 0;
@@ -159,6 +160,7 @@ footer {
     }
     90% {
         font-size: 2.5rem;
+        color: lime;
     }
     100% {
         font-size: 1rem;
@@ -166,7 +168,7 @@ footer {
 }
 
 .animationTurnGreen {
-    animation: animationTurnGreen 3.15s ease-in-out;
+    animation: animationTurnGreen 3.5s ease-in-out;
     color: lime;
 }
 @keyframes animationTurnGreen {
@@ -184,7 +186,7 @@ footer {
 .animationBorder {
     border: 1px solid lime;
     border-radius: 0.125rem;
-    animation: animationBorder 4.4s ease-in-out;
+    animation: animationBorder 5s ease-in-out;
 }
 @keyframes animationBorder {
     0% {
