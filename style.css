@@ -17,8 +17,9 @@ html {
 }
 
 body {
-    background-color: transparent;
+    /* background-color: transparent; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -32,17 +33,6 @@ body {
     align-content: center;
     width: fit-content;
     height: min-content;
-}
-
-#welcome>figure>h1 {
-    font-style: italic;
-}
-
-#welcome>figure>h4 {
-    color: black;
-    font-weight: bolder;
-    background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,
-darkkhaki 20px);
 }
 
 footer {
@@ -68,25 +58,31 @@ footer {
 /* Welcome Animations Below */
 .animationDropDown {
     color: white;
-    animation: animationDropDown 0.75s;
-    margin-top: 5vh;
+    animation: animationDropDown 1s;
+    margin-top: 3vh;
 }
 @keyframes animationDropDown {
     0% {
         margin-top: -50vh;
     }
-    80% {
-        margin-top: 20vh;
+    30% {
+        margin-top: 25;
+        transform: scaleY(90%);
     }
-    100% {
-        margin-top: 5vh;
+    65% {
+        margin-top: 50vh;
+        transform: scaleY(80%);
+    }
+    85% {
+        margin-top: 3vh;
     }
 }
 
 .animationSlideFromLeft {
     color: white;
-    animation: animationSlideFromLeft 2.25s;
-    letter-spacing: 0.25rem;
+    font-style: italic;
+    animation: animationSlideFromLeft 3s;
+    letter-spacing: 0.3rem;
 }
 .animationSlideFromLeft>:nth-child(2) {
     color: black;
@@ -94,30 +90,33 @@ footer {
 @keyframes animationSlideFromLeft {
     0% {
         margin-left: -200vw;
+        letter-spacing: 0;
+    }
+    30% {
+        margin-left: -150vw;
         letter-spacing: -0.125rem;
     }
-    20% {
-        margin-left: -200vw;
+    40% {
+        margin-left: -125vw;
         letter-spacing: -0.125rem;
     }
     90% {
         margin-left: 30vw;
-        letter-spacing: -0.125rem;
+        letter-spacing: -0.4rem;
     }
-    100% {
-        letter-spacing: 0.25rem;
+    95% {
+        letter-spacing: 0.4rem;
     }
 }
 
 .animationExpand {
-    animation: animationExpand 2.5s ease-in;
+    animation: animationExpand 3.25s ease-in;
     color: lime;
 }
 @keyframes animationExpand {
     0% {
         opacity: 0;
         font-size: 0rem;
-        color: black;
     }
     79% {
         opacity: 0;
@@ -128,7 +127,6 @@ footer {
     }
     90% {
         font-size: 2.5rem;
-        color: lime;
     }
     100% {
         font-size: 1rem;
@@ -136,23 +134,28 @@ footer {
 }
 
 .animationTurnGreen {
-    animation: animationTurnGreen 2.5s ease-in-out;
+    animation: animationTurnGreen 3.25s ease-in-out;
     color: lime;
 }
 @keyframes animationTurnGreen {
     0% {
         color: black;
     }
-    99% {
+    89% {
         color: black;
+        font-size: 2rem;
+    }
+    90% {
+        color: lime;
+        font-size: 2.5rem;
     }
     100% {
-        color: lime;
+        font-size: 2rem;
     }
 }
 
 .animationTurnOpaque {
-    animation: animationTurnOpaque 3.25s ease-in-out;
+    animation: animationTurnOpaque 4s ease-in-out;
     opacity: 0.3;
 }
 @keyframes animationTurnOpaque {
@@ -170,7 +173,7 @@ footer {
 .animationBorder {
     border: 1px solid lime;
     border-radius: 0.125rem;
-    animation: animationBorder 3.5s ease-in-out;
+    animation: animationBorder 4.25s ease-in-out;
 }
 @keyframes animationBorder {
     0% {
@@ -189,8 +192,13 @@ footer {
 }
 
 .animationFlipIn {
-    animation: animationFlipIn 4.25s ease-in-out;
+    animation: animationFlipIn 4.75s ease-in-out;
     border-radius: .125rem;
+    color: black;
+    margin: 1rem;
+    font-size: 1rem;
+    background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,
+darkkhaki 20px);
 }
 @keyframes animationFlipIn {
     0% {
