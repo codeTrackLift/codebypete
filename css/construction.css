@@ -93,6 +93,7 @@ footer {
     font-style: italic;
     animation: animationSlideFromLeft 3s;
     letter-spacing: 0.3rem;
+    padding-bottom: 2rem;
 }
 .animationSlideFromLeft>:nth-child(2) {
     color: black;
