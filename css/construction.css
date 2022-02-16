@@ -237,12 +237,15 @@ darkkhaki 20px);
 @keyframes articleFadeIn {
     0% {
         opacity: 0;
+        height: 0%;
     }
     90% {
         opacity: 0;
+        height: 0%;
     }
     100% {
         opacity: 1;
+        height: 100%;
     }
 }
 
