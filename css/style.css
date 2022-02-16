@@ -5,8 +5,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-image: url("../pics/construction.jpg");
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/construction.jpg"); */
+    background-image: url("../pics/pharm2code_tilt.jpg");
 }
 
 html {
@@ -20,14 +19,14 @@ body {
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
 }
 
 #welcome {
     display: block;
-    margin-top: -30vh;
+    margin-top: 5vh;
     text-align: center;
     align-content: center;
     width: fit-content;
@@ -76,11 +75,11 @@ footer {
         margin-top: -50vh;
     }
     30% {
-        margin-top: 25;
+        margin-top: 10;
         transform: scaleY(90%);
     }
     65% {
-        margin-top: 50vh;
+        margin-top: 20vh;
         transform: scaleY(80%);
     }
     85% {
@@ -93,6 +92,7 @@ footer {
     font-style: italic;
     animation: animationSlideFromLeft 3s;
     letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
 }
 .animationSlideFromLeft>:nth-child(2) {
     color: black;
