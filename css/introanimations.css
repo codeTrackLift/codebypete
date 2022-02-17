@@ -1,0 +1,161 @@
+/* Intro Animations Below */
+.animationDropDown {
+    color: white;
+    animation: animationDropDown 1s;
+}
+@keyframes animationDropDown {
+    0% {
+        margin-top: -50vh;
+    }
+    30% {
+        margin-top: 10;
+        transform: scaleY(90%);
+    }
+    65% {
+        margin-top: 20vh;
+        transform: scaleY(80%);
+    }
+    85% {
+        margin-top: 0;
+    }
+}
+
+.animationSlideFromLeft {
+    color: white;
+    font-style: italic;
+    animation: animationSlideFromLeft 3s;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+.animationSlideFromLeft>:nth-child(2) {
+    color: black;
+}
+@keyframes animationSlideFromLeft {
+    0% {
+        margin-left: -200vw;
+        letter-spacing: 0;
+    }
+    30% {
+        margin-left: -150vw;
+        letter-spacing: -0.125rem;
+    }
+    40% {
+        margin-left: -125vw;
+        letter-spacing: -0.125rem;
+    }
+    90% {
+        margin-left: 30vw;
+        letter-spacing: -0.4rem;
+    }
+    95% {
+        letter-spacing: 0.4rem;
+    }
+}
+
+.animationExpand {
+    animation: animationExpand 3.25s ease-in;
+    color: lime;
+}
+@keyframes animationExpand {
+    0% {
+        opacity: 0;
+        font-size: 0rem;
+    }
+    79% {
+        opacity: 0;
+        font-size: 0rem;
+    }
+    80% {
+        font-size: 0.1rem;
+    }
+    90% {
+        font-size: 2.5rem;
+    }
+    100% {
+        font-size: 1rem;
+    }
+}
+
+.animationTurnGreen {
+    animation: animationTurnGreen 3.25s ease-in-out;
+    color: lime;
+}
+@keyframes animationTurnGreen {
+    0% {
+        color: black;
+    }
+    89% {
+        color: black;
+        font-size: 2rem;
+    }
+    90% {
+        color: lime;
+        font-size: 2.5rem;
+    }
+    100% {
+        font-size: 2rem;
+    }
+}
+
+.animationTurnOpaque {
+    animation: animationTurnOpaque 4s ease-in-out;
+    opacity: 0.3;
+}
+@keyframes animationTurnOpaque {
+    0% {
+        opacity: 1;
+    }
+    76% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.animationBorder {
+    border: 1px solid lime;
+    border-radius: 0.125rem;
+    animation: animationBorder 4.25s ease-in-out;
+}
+@keyframes animationBorder {
+    0% {
+        border: none;
+    }
+    66% {
+        border: none;
+    }
+    71% {
+        border: 8px solid lime;
+        border-radius: 10px;
+    }
+    100% {
+        border: 1px solid lime;
+    }
+}
+
+.animationFlipIn {
+    width: fit-content;
+    margin: 10vh auto;
+    text-align: center;
+    animation: animationFlipIn 4.75s ease-in-out;
+    border-radius: .125rem;
+    color: white;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+@keyframes animationFlipIn {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1, -1) scale(1, -1);
+    }
+}
+/* Intro Animations Above */
