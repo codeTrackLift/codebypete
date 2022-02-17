@@ -10,7 +10,7 @@
 html {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     background-image: url("../pics/pharm2code_tilt.jpg");
-    background-color: dimgray;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     width: 100%;
@@ -22,8 +22,6 @@ body {
 }
 
 footer {
-    /* position: absolute;
-    bottom: 0px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
