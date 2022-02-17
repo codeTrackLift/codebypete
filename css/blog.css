@@ -9,6 +9,7 @@
 
 html {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    background-image: url("../pics/pharm2code_tilt.jpg");
     background-color: dimgray;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;

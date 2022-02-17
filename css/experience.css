@@ -42,36 +42,32 @@ footer {
 }
 
 /* Article CSS Below */
-#article1 {
+#article1, #article2 {
     margin: 1rem auto;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 0.25rem;
     background-color: black;
-    width: fit-content;
+    width: 90vw;
     max-width: 1280px;
 }
 @media (max-width:1400px) {
-    #article1 {
+    #article1, #article2 {
         margin: 1rem 5vw;
     }
 }
 
-#article1>h2 {
-    padding: 0.5rem;
-    color: white;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#article1>p {
-    padding: 0.5rem;
+h1, h2, h3, h4 {
     color: silver;
+    font-style: italic;
+    text-align: start;
 }
 
-#article1>ol {
-    padding: 1rem 1.5rem 1rem 1.5rem;
+h5, h6, p {
+    color: white;
+}
+
+ul {
     color: silver;
 }
 
@@ -83,3 +79,4 @@ a,a:link,a:visited {
     color: lime;
     text-decoration: none;
 }
+
