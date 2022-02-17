@@ -40,7 +40,7 @@ footer {
 }
 
 /* Article CSS Below */
-#article1, #article2 {
+#article1, #article2, #article3 {
     margin: 1rem auto;
     padding: 1rem;
     border: 1px solid black;
@@ -50,7 +50,7 @@ footer {
     max-width: 1280px;
 }
 @media (max-width:1400px) {
-    #article1, #article2 {
+    #article1, #article2, #article3 {
         margin: 1rem 5vw;
     }
 }
