@@ -92,11 +92,12 @@ h1, h5 {
     border-color: dimgray;
     background-color: dimgray;
     color: lime;
+    transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
-    background-color: lime;
+    background-color: black;
     border-color: lime;
-    color: black;
-    transform: scale(1.1);
+    color: lime;
+    /* transform: scale(1.1); */
 }
