@@ -39,7 +39,7 @@ footer {
     transform: scale(-1, 1) scale(1);
 }
 
-h5 {
+h1, h5 {
     color: white;
 }
 
@@ -49,12 +49,14 @@ h5 {
     color: silver;
     border-radius: 0.25rem;
     background-color: transparent;
-    width: 90vw;
-    max-width: 1280px;
+    width: 75vw;
+    max-width: 800px;
+    line-height: 1;
 }
 @media (max-width:1400px) {
     .myArticles {
-        margin: 1rem 5vw;
+        margin: 1rem auto;
+        /* max-width: 800px; */
     }
 }
 
@@ -69,6 +71,11 @@ h5 {
     color: silver;
     padding: 1rem;
     border-radius: 0.25rem;
+    line-height: 1.6;
+}
+
+.card-title {
+    font-family: menlo;
 }
 
 .card>img {
@@ -76,13 +83,14 @@ h5 {
 }
 
 .btn {
-    border: none;
+    border-color: dimgray;
     background-color: dimgray;
     color: lime;
 }
 
 .btn:hover {
     background-color: lime;
+    border-color: lime;
     color: black;
     transform: scale(1.1);
 }
