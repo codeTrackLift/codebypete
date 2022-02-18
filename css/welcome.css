@@ -224,7 +224,7 @@ footer {
         opacity: 0;
     }
     81% {
-        transform: scale(0.5, 0) skew(45deg, 45deg) translate(400px, 75%) rotate(0.75turn);
+        transform: scale(0.5, 0) skew(45deg, 45deg) rotate(0.75turn);
     }
     100% {
         transform: scale(1);
