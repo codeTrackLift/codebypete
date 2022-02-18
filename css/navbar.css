@@ -31,6 +31,11 @@
     font-family: menlo;
 }
 
+.active {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
 .nav-link:hover {
     border-bottom: 1px solid lime;
     margin-bottom: -1px;
