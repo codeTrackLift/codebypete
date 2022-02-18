@@ -56,12 +56,12 @@ footer {
     animation: articleFadeIn 5.5s ease-in-out;
 }
 
-#gitLogo {
+.socialLogo {
     max-height: 1.5rem;
     transition: transform 0.5s ease-in-out;
 }
 
-#gitLogo:hover {
+.socialLogo:hover {
     transform: scale(-1, 1) scale(1);
 }
 
