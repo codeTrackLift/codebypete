@@ -208,6 +208,7 @@ footer {
     animation: animationFlipIn 4.25s ease-in-out;
     color: silver;
     background-color: black;
+    font-family: menlo;
 }
 
 @media (max-width:450px) {
