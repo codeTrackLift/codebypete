@@ -39,13 +39,16 @@ footer {
     transform: scale(-1, 1) scale(1);
 }
 
-/* Article CSS Below */
+h5 {
+    color: white;
+}
+
 .myArticles {
-    margin: 1rem auto;
+    margin: 2rem auto;
     padding: 1rem;
-    border: 1px solid black;
+    color: silver;
     border-radius: 0.25rem;
-    background-color: black;
+    background-color: transparent;
     width: 90vw;
     max-width: 1280px;
 }
@@ -55,26 +58,31 @@ footer {
     }
 }
 
-h1, h2, h3, h4 {
+.row {
+    margin: 2rem auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.card {
+    background-color: black;
     color: silver;
-    font-style: italic;
-    text-align: start;
+    padding: 1rem;
+    border-radius: 0.25rem;
 }
 
-h5, h6, p {
-    color: white;
+.card>img {
+    border-radius: 0.25rem;
 }
 
-ul {
-    color: silver;
-}
-
-#article1>ol>li {
-    margin-bottom: 1rem;
-}
-
-a,a:link,a:visited {
+.btn {
+    border: none;
+    background-color: dimgray;
     color: lime;
-    text-decoration: none;
 }
 
+.btn:hover {
+    background-color: lime;
+    color: black;
+    transform: scale(1.1);
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-2">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -20,7 +20,7 @@
         <script src="../libraries/ScrollMagic.min.js"></script>
 
         <!-- My CSS & JS -->
-        <link rel="stylesheet" href="../css/about.css">
+        <link rel="stylesheet" href="../css/projects.css">
         <link rel="stylesheet" href="../css/navbar.css">
         <script src='../js/index.js' defer></script>
         <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
@@ -41,13 +41,13 @@
                             <a class="nav-link" aria-current="page" href="../pages/welcome.html">Welcome</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/about.html">About Me</a>
+                            <a class="nav-link" aria-current="page" href="../pages/about.html">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/blog.html">My Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/experience.html">Experience</a>
+                            <a class="nav-link active" href="../pages/experience.html">Experience</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/projects.html">Projects</a>
@@ -61,16 +61,34 @@
             </div>
         </nav>
 
-        <div id='article1' class="container-fluid">
-                <p>Hello!</p>
-                <p>My name is Pete Chu and I have been a professional in the Pharmaceutical industry for the past 20 years. My technical specialities include Facility Start-up, Equipment and System Validation, as well as Quality Engineering. </p>
-                <p>I have a bachelor's degree in Biological Sciences from the University of Delaware. My experience includes Validation Consulting with Integrated Project Services (IPS), as well as direct employment with Janssen (formerly Centocor, Johnson & Johnson), and Eisai, Inc. (formerly Morphotek).</p>
-                <p>With Janssen and Eisai, I was responsible for leading equipment and system qualification efforts as a Senior Validation Engineer. In 2012, I transitioned to a Senior Quality Engineer role within Eisai and was responsible for site metrics, quality dispositions, change controls, and leading investigations. In 2017, I was managing the GMP Document Control and Quality Engineering teams.</p> 
-                <p>In December of 2021, I stumbled upon freeCodeCamp.org and rediscovered my childhood passion of coding and technology. I am currently at the midpoint of my career and have decided to part ways with Eisai in order to pursue a career change that is in line with a personal passion.</p>
-                <p>I look forward to working with you on this exciting part of my journey!</p>
-                <p style="text-align:end;font-style:italic;padding:0;color:white;"><img src="../pics/profilepic.jpg" alt="Picture of Pete" style="width:5rem;border-radius:50%;margin:0 4rem -3.5rem 0;">Best Regards,</p>
-                <p style="text-align:end;font-style:italic;padding:0;color:white;">Pete Chu, Feb 2022</p>
-                <p style="text-align:end;font-style:italic;padding:0;color:white;">Student @ MIT xPro</p>
+        <div class="container-fluid myArticles">
+            <h1>Thanks for checking out my Projects.  There will be more to come, please visit again!</h1>
+        </div>
+
+        <div class="row container-fluid justify-content-center">
+            <div class="card col-sm-4" style="width:18rem;">
+                <img src="../pics/odin-calc.png" class="card-img-top" alt="Screenshot of JavaScript Calculator.">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript Calculator</h5>
+                    <p class="card-text">Part of The Odin Project Foundations. Accepts mouse and key inputs, and makes drum noises!</p>
+                    <a href="https://codetracklift.github.io/odin-calc/" class="btn btn-primary" target="_blank">Click Me</a>
+                </div>
+            </div>
+            <div class="card col-sm-4" style="width: 18rem;">
+                <img src="../pics/lmnophoto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">L.M.N.O. Photography</h5>
+                    <p class="card-text">Built a landing page for a Photographer based in Philadelphia.  She specializes in weddings, engagements, maternity sessions, and other events!</p>
+                    <a href="https://codetracklift.github.io/lmnophoto/" class="btn btn-primary" target="_blank">Click Me</a>
+                </div>
+            </div>
+            <div class="card col-sm-4" style="width: 18rem;">
+                <img src="../pics/rock-paper-scissors.png" class="card-img-top" alt="Screenshot of a Rock, Paper, Scissors project.">
+                <div class="card-body">
+                    <h5 class="card-title">Rock, Paper, Scissors</h5>
+                    <p class="card-text">One of my earlier projects that was completed as part of The Odin Project.  Accepts text and mouse inputs with text validation and results tracking!</p>
+                    <a href="https://codetracklift.github.io/rock-paper-scissors/" class="btn btn-primary">Click Me</a>
+                </div>
             </div>
         </div>
         
