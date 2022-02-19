@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Menlo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Menlo Regular'), url('./libraries/Menlo-Regular.woff') format('woff');
+    }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: transparent;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
+}
+
+.socialLogo {
+    max-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.socialLogo:hover {
+    transform: scale(-1, 1) scale(1);
+}

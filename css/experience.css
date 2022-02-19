@@ -1,13 +1,7 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-
-html {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     background-image: url("../pics/pharm2code_tilt.jpg");
     background-color: black;
@@ -19,24 +13,6 @@ html {
 body {
     background-color: transparent;
     align-items: center;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    color: white;
-}
-
-.socialLogo {
-    max-height: 1.5rem;
-    transition: transform 0.5s ease-in-out;
-}
-
-.socialLogo:hover {
-    transform: scale(-1, 1) scale(1);
 }
 
 /* Article CSS Below */
@@ -56,10 +32,11 @@ footer {
     }
 }
 
-h1, h2, h3, h4 {
-    color: silver;
+h1, h2, h3, h4, .h3 {
+    color: #00857c;
     font-style: italic;
     text-align: start;
+    font-family: Menlo Regular;
 }
 
 h5, h6, p {

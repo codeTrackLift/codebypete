@@ -1,20 +1,10 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-
-html {
     background-image: url("../pics/pharm2code_tilt.jpg");
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    width: 100%;
 }
 
 body {
@@ -42,24 +32,6 @@ body {
 
 #welcome>figure {
     padding: 0 1rem 0 1rem;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    color: white;
-}
-
-.socialLogo {
-    max-height: 1.5rem;
-    transition: transform 0.5s ease-in-out;
-}
-
-.socialLogo:hover {
-    transform: scale(-1, 1) scale(1);
 }
 
 /* Intro Animations Below */
@@ -200,7 +172,6 @@ footer {
 
 .animationFlipIn {
     width: fit-content;
-    /* border: 1px inset black; */
     border-radius: 0.25rem;
     padding: 0.75rem 1rem 0.5rem 1rem;
     margin: 10vh auto;
@@ -208,7 +179,7 @@ footer {
     animation: animationFlipIn 4.25s ease-in-out;
     color: silver;
     background-color: black;
-    font-family: menlo;
+    font-family: Menlo Regular;
 }
 
 @media (max-width:650px) {
