@@ -23,10 +23,10 @@ body {
     border-radius: 0.25rem;
     background-color: black;
     width: 90vw;
-    max-width: 1280px;
+    max-width: 960px;
     line-height: 1.6;
 }
-@media (max-width:1400px) {
+@media (max-width:960px) {
     .myArticles {
         margin: 1rem 5vw;
     }
