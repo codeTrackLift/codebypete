@@ -43,18 +43,14 @@ a,a:link,a:visited {
 
 /* Blog CSS Below */
 .myBlog {
-    margin-top: 1rem;
+    margin: 1rem;
     border-radius: 0.25rem;
     background-color: black;
     width: 90vw;
     max-width: 960px;
     line-height: 1.6;
 }
-/* @media (min-width:1400px) {
-    .myBlog {
-        margin: 1rem 5vw;
-    }
-} */
+
 
 .myBlog>div {
     padding: 1rem;
