@@ -21,10 +21,11 @@ h2 {
     font-family: Menlo Regular;
 }
 
-h6 {
+h5 {
     font-family: Menlo Regular;
-    color: #00857c;
+    color: lime;
 }
+
 p {
     padding-block: 0.125rem;
     color: silver;
@@ -71,4 +72,19 @@ a,a:link,a:visited {
         margin-left: -2rem;
         margin-right: -3rem;
     }
+}
+
+.accordion-button {
+    gap: 5vw;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid rgb(38, 38, 38);
+}
+
+.accordion-button:hover {
+    border: 1px solid lime;
+}
+
+.accordion-button>h6, h6 {
+    color: #00857c;
+    font-family: Menlo Regular;
 }
