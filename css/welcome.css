@@ -163,7 +163,6 @@ body {
     }
     71% {
         border: 8px solid lime;
-        border-radius: 10px;
     }
     100% {
         border: 1px solid lime;

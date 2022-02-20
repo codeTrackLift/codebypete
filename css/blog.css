@@ -72,6 +72,9 @@ a,a:link,a:visited {
         margin-left: -2rem;
         margin-right: -3rem;
     }
+    .row>p {
+        margin-left: -0.75rem;
+    }
 }
 
 .accordion-button {
