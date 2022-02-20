@@ -33,6 +33,10 @@ footer {
     color: white;
 }
 
+footer>p>span {
+    font-style: italic;
+}
+
 .socialLogo {
     max-height: 1.5rem;
     transition: transform 0.5s ease-in-out;
