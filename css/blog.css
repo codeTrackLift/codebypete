@@ -43,14 +43,10 @@ a,a:link,a:visited {
 
 /* Blog CSS Below */
 .myBlog {
-    margin: 1rem;
-    border: 1px solid black;
-    /* border-radius: 0.25rem; */
+    border-radius: 0.25rem;
     background-color: black;
-    /* width: fit-content; */
     width: 90vw;
     max-width: 960px;
-    /* min-width: 90vw; */
     line-height: 1.6;
 }
 @media (max-width:1400px) {
