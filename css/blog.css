@@ -14,10 +14,11 @@ body {
 
 h2 {
     padding: 0.5rem;
-    color: white;
+    color: #00857c;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
+    font-family: Menlo Regular;
 }
 
 h6 {
@@ -42,12 +43,12 @@ a,a:link,a:visited {
 /* Blog CSS Below */
 .myBlog {
     margin: 1rem auto;
-    padding: 1rem;
     border: 1px solid black;
     border-radius: 0.25rem;
     background-color: black;
     width: fit-content;
     max-width: 1280px;
+    min-width: 90vw;
     line-height: 1.6;
 }
 @media (max-width:1400px) {
@@ -58,4 +59,9 @@ a,a:link,a:visited {
 
 .myBlog>div {
     padding: 1rem;
+}
+
+.accordion-item,.accordion-header,.accordion-collapse,.accordion-body,.accordion-button {
+    background-color: transparent;
+    text-decoration: none;
 }
