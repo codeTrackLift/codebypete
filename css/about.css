@@ -18,14 +18,9 @@ body {
     border: 1px solid black;
     border-radius: 0.25rem;
     background-color: black;
-    width: fit-content;
+    width: 90vw;
     max-width: 960px;
     line-height: 1.6;
-}
-@media (max-width:1400px) {
-    #article1 {
-        margin: 1rem 5vw;
-    }
 }
 
 #article1>h2 {
