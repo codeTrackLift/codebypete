@@ -19,7 +19,7 @@ body {
     border-radius: 0.25rem;
     background-color: black;
     width: fit-content;
-    max-width: 1280px;
+    max-width: 960px;
     line-height: 1.6;
 }
 @media (max-width:1400px) {
