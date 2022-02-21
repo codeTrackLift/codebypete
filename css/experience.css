@@ -39,7 +39,7 @@ body {
     margin-right: 5vw;
 }
 
-h1, h2, h3, h4, .h3 {
+h1, h2, .container-fluid>div>div>h3, h4, .h3 {
     color: #00857c;
     text-align: start;
     font-family: Menlo Regular;
@@ -61,4 +61,3 @@ a,a:link,a:visited {
     color: lime;
     text-decoration: none;
 }
-
