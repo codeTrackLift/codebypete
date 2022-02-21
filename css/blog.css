@@ -13,7 +13,7 @@ body {
 }
 
 h2 {
-    padding-block: 0.5rem;
+    /* padding-block: 0.5rem; */
     color: #00857c;
     font-style: italic;
     text-align: center;
@@ -50,7 +50,6 @@ a,a:link,a:visited {
     max-width: 960px;
     line-height: 1.6;
 }
-
 
 .myBlog>div {
     padding: 1rem;
