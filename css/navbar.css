@@ -65,9 +65,13 @@
         transform: rotate(-10deg); 
         padding: 0;
     }
-    3% { 
+    4% { 
        transform: rotate(0deg); 
        padding: 0.125rem;
+    }
+    6% { 
+       transform: rotate(0deg); 
+       padding: 0.25rem;
     }
   100% { 
       transform: rotate(0deg); 
