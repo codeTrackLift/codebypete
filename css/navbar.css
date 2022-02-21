@@ -46,12 +46,10 @@
     animation: logoWiggle 5s ease-in-out;
     animation-iteration-count: infinite;
     transition: 0.5s ease-in-out;
-    border: 2px solid transparent;
+    padding: 0.25rem;
 }
 .navbar-toggler>img:hover {
-    border-left: 2px solid lime;
-    border-right: 2px solid lime;
-    border-radius: 100%;
+    padding: 0;
 }
 
 @keyframes logoWiggle {
