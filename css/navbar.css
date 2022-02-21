@@ -55,6 +55,7 @@
 @keyframes logoWiggle {
     0% { 
         transform: rotate(0deg); 
+        padding: 0.25rem;
     }
     1% { 
         transform: rotate(10deg); 
@@ -66,8 +67,10 @@
     }
     3% { 
        transform: rotate(0deg); 
+       padding: 0.125rem;
     }
   100% { 
       transform: rotate(0deg); 
+      /* padding: 0.25rem; */
     }
 }
