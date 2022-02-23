@@ -46,15 +46,14 @@
     animation: logoWiggle 5s ease-in-out;
     animation-iteration-count: infinite;
     transition: 0.5s ease-in-out;
-    padding: 0.25rem;
 }
 .navbar-toggler>img:hover {
-    padding: 0;
+    animation: spinFaster 2s ease-in-out infinite;
 }
 
 @keyframes logoWiggle {
     0% { 
-        transform: rotate(0deg) scale(1); 
+        transform: rotate(0deg); 
     }
     1% { 
         transform: rotate(10deg); 
@@ -65,13 +64,19 @@
     4% { 
        transform: rotate(0deg); 
     }
-    6% { 
-       transform: rotate(0deg); 
+    50% {
+        transform: scale(-1, 1);
+    }
+}
+
+@keyframes spinFaster {
+    0% {
+        transform: scale(1);
     }
     50% {
         transform: scale(-1, 1) scale(1);
     }
-  100% { 
-      transform: rotate(0deg) scale(1); 
+    100% {
+        transform: scale(1);
     }
 }
