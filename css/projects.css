@@ -11,8 +11,18 @@ body {
     align-items: center;
 }
 
-h1, h5 {
+h1 {
     color: white;
+    font-family: Menlo Regular;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    color: #00857c;
 }
 
 .myArticles {
