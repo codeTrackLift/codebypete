@@ -1,67 +1,72 @@
 @font-face {
-    font-family: 'Menlo Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Menlo Regular'), url('../libraries/Menlo-Regular.woff') format('woff');
-    }
+  font-family: 'Menlo Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Menlo Regular'), url('../libraries/Menlo-Regular.woff') format('woff');
+}
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-    overflow-x: hidden;
-    width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
-    background-color: transparent;
-    align-items: center;
-    /* height: 100vh; */
+  background-color: transparent;
+  align-items: center;
+  /* height: 100vh; */
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  color: white;
 }
 
-footer>a, footer>p {
-    margin: auto 0;
+footer>a,
+footer>p {
+  margin: auto 0;
 }
 
 footer>p>span {
-    font-style: italic;
+  font-style: italic;
 }
 
 footer>p>img {
-    animation: slowSpin 5s ease-in-out infinite;
+  animation: slowSpin 5s ease-in-out infinite;
 }
 
 @keyframes slowSpin {
-    0% { 
-        transform: scale(1); 
-    }
-    50% {
-        transform: scale(-1, 1);
-    }
-    100% { 
-        transform: scale(1); 
-    }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(-1, 1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .socialLogo {
-    max-height: 1.5rem;
-    transition: transform 0.5s ease-in-out;
+  max-height: 1.5rem;
+  transition: transform 0.5s ease-in-out;
 }
 
 .socialLogo:hover {
-    transform: scale(-1, 1) scale(1);
+  transform: scale(-1, 1) scale(1);
 }

@@ -1,195 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <meta name='description' content='codeByPete Pete Chu Web Developer Software Developer Portfolio'>
 
-        <!-- Bootstrap Link -->
-        <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Font CSS Links -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name='description' content='codeByPete Pete Chu Web Developer Software Developer Portfolio'>
 
-        <!-- Scroll Magic JS -->
-        <script src="../libraries/ScrollMagic.min.js"></script>
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="../libraries/bootstrap.min.css">
 
-        <!-- My CSS & JS -->
-        <link rel="stylesheet" href="../css/global.css">
-        <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/experience.css">
-        <script src='../js/index.js' defer></script>
-        <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
+  <!-- Font CSS Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-        <title>codeByPete</title>
-    </head>
+  <!-- Scroll Magic JS -->
+  <script src="../libraries/ScrollMagic.min.js"></script>
 
-    <body>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-transparent sticky-top">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <img id='pharm2CodeLogo' src='../pics/pharma2code_icon.gif' style="width:2.5rem;">
-                </button>
-                <h3 class="d-block d-sm-none" style="font-style:italic;letter-spacing:2vw;"><span style="color:white;">code</span><span style="color:#00857c;">By</span><span style="color:lime;">Pete</span></h3>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../pages/welcome.html">Welcome</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../pages/about.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/blog.html">My Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../pages/experience.html">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/projects.html">Projects</a>
-                        </li>
-                    </ul>
-                    <!-- <form class="d-flex">
+  <!-- My CSS & JS -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/experience.css">
+  <script src='../js/index.js' defer></script>
+  <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
+
+  <title>codeByPete</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-transparent sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <img id='pharm2CodeLogo' src='../pics/pharma2code_icon.gif' style="width:2.5rem;">
+      </button>
+      <h3 class="d-block d-sm-none" style="font-style:italic;letter-spacing:2vw;"><span
+          style="color:white;">code</span><span style="color:#00857c;">By</span><span style="color:lime;">Pete</span>
+      </h3>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/welcome.html">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/blog.html">My Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/projects.html">Projects</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form> -->
-                </div>
-            </div>
-        </nav>
+      </div>
+    </div>
+  </nav>
 
-        <div class="container-fluid myArticles">
-            <div class="row">
-                <div class="col-sm-8">    
-                    <h3>Company <img class='float-end' src="../pics/lenovainc_logo.gif" alt="LeNova Logo"></h3><h5>LeNova, Inc. <a href="https://www.lenovainc.com/" target="_blank">Website</a></h5>
-                </div>
-                <div class="col-sm-4">    
-                    <h3>Timeframe</h3><h5>Jan 2022 to Present</h5>
-                </div>
-            </div>
-            <div class="row">
-                <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3'style='color:white;'>Web Developer<span style="color:gray;"> (Contract)</span></span>
-            </div>
-            <div>
-                <span class="h3">Description</span>
-            </div>
-            <p>LeNova, Inc. is a engineering and technology solutions provider with a focus on the Life Sciences and Commercial industries.  LeNova, Inc. has over 30 years of experience, with a focus on the biopharmaceutical space.  I joined LeNova in 2022 to support business expansion initiatives and develop their website.</p>
-            <p>My roles and responsibilities include:</p>
-            <ul>
-               <li>Research business goals, customers and their expected behavior.</li>
-               <li>Propose and update website designs and layouts with key stakeholders.</li>
-               <li>Develop the website using HTML, CSS, and JavaScript.</li>
-               <li>Ensure website is fully mobile and browser compatible.</li>
-               <li>Testing of all features, website maintenance and updates.</li>
-               <li>Continuous Integration / Continuous Deployment (CI/CD).</li>
-               <li>Search Engine Optimization (SEO) and Google Lighthouse.</li>
-            </ul>
-        </div>
+  <div class="container-fluid myArticles">
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>Company <img class='float-end' src="../pics/lenovainc_logo.gif" alt="LeNova Logo"></h3>
+        <h5>LeNova, Inc. <a href="https://www.lenovainc.com/" target="_blank">Website</a></h5>
+      </div>
+      <div class="col-sm-4">
+        <h3>Timeframe</h3>
+        <h5>Jan 2022 to Present</h5>
+      </div>
+    </div>
+    <div class="row">
+      <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3' style='color:white;'>Web Developer<span
+          style="color:gray;"> (Contract)</span></span>
+    </div>
+    <div>
+      <span class="h3">Description</span>
+    </div>
+    <p>LeNova, Inc. is a engineering and technology solutions provider with a focus on the Life Sciences and Commercial
+      industries. LeNova, Inc. has over 30 years of experience, with a focus on the biopharmaceutical space. I joined
+      LeNova in 2022 to support business expansion initiatives and develop their website.</p>
+    <p>My roles and responsibilities include:</p>
+    <ul>
+      <li>Research business goals, customers and their expected behavior.</li>
+      <li>Propose and update website designs and layouts with key stakeholders.</li>
+      <li>Develop the website using HTML, CSS, and JavaScript.</li>
+      <li>Ensure website is fully mobile and browser compatible.</li>
+      <li>Testing of all features, website maintenance and updates.</li>
+      <li>Continuous Integration / Continuous Deployment (CI/CD).</li>
+      <li>Search Engine Optimization (SEO) and Google Lighthouse.</li>
+    </ul>
+  </div>
 
-        <div class="container-fluid myArticles">
-            <div class="row">
-                <div class="col-sm-8">    
-                    <h3>Company <img class='float-end' src="../pics/eisai_logo.png" alt="Eisai Logo"></h3><h5>Eisai, Inc. <a href="https://us.eisai.com/" target="_blank">Website</a></h5>
-                </div>
-                <div class="col-sm-4">    
-                    <h3>Timeframe</h3><h5>Sep 2010 to Dec 2021</h5>
-                </div>
-            </div>
-            <div class="row">
-                <span class="h3 col-sm-3">Position</span><span class='h5 px-3 col-sm-9'style='color:white;'>Senior Quality Engineer</span>
-            </div>
-            <div>
-                <span class="h3">Description</span>
-            </div>
-            <p>Eisai is a research based human health care company that discovers, develops, and markets products throughout the world.  I started at Eisai when it was still known as Morphotek and I was initially hired as a Contract Senior Validation Specialist, but transitioned to a full time employee with their Quality Assurance organization in 2012.</p>
-            <p>My roles and responsibilities included:</p>
-            <ul>
-                <li>Quality Lead for: Document Control, Validation, Facilities, Automation, Deviation Management, and Change Control.</li>
-                <li>Manage, mentor, and develop junior validation / quality staff.</li>
-                <li>Provide guidance on calibration, preventive maintenance, and process tolerance programs.</li>
-                <li>Develop procedures to support Commercialization and Pilot Plant Commissioning / Qualification / Validation (CQV) program.</li>
-                <li>Meeting Leadership Skills: collaborating with stakeholders, requesting and proposing changes, assessing impact and establishing justification, establishing an implementation plan, execution and closure of implementation activities, and providing high-level summaries and metrics.</li>
-                <li>Led Change Management Review Board.</li>
-                <li>Led Deviation Management Program.</li>
-                <li>Led and managed Commissioning Qualification Validation contract/consulting firms.</li>
-                <li>Successfully support manufacturing facility and associated QMS documentation during Regulatory Inspections and Internal Audits.</li>
-                <li>Responsible for site Continuous Improvement efforts.</li>
-            </ul>
-        </div>
+  <div class="container-fluid myArticles">
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>Company <img class='float-end' src="../pics/eisai_logo.png" alt="Eisai Logo"></h3>
+        <h5>Eisai, Inc. <a href="https://us.eisai.com/" target="_blank">Website</a></h5>
+      </div>
+      <div class="col-sm-4">
+        <h3>Timeframe</h3>
+        <h5>Sep 2010 to Dec 2021</h5>
+      </div>
+    </div>
+    <div class="row">
+      <span class="h3 col-sm-3">Position</span><span class='h5 px-3 col-sm-9' style='color:white;'>Senior Quality
+        Engineer</span>
+    </div>
+    <div>
+      <span class="h3">Description</span>
+    </div>
+    <p>Eisai is a research based human health care company that discovers, develops, and markets products throughout the
+      world. I started at Eisai when it was still known as Morphotek and I was initially hired as a Contract Senior
+      Validation Specialist, but transitioned to a full time employee with their Quality Assurance organization in 2012.
+    </p>
+    <p>My roles and responsibilities included:</p>
+    <ul>
+      <li>Quality Lead for: Document Control, Validation, Facilities, Automation, Deviation Management, and Change
+        Control.</li>
+      <li>Manage, mentor, and develop junior validation / quality staff.</li>
+      <li>Provide guidance on calibration, preventive maintenance, and process tolerance programs.</li>
+      <li>Develop procedures to support Commercialization and Pilot Plant Commissioning / Qualification / Validation
+        (CQV) program.</li>
+      <li>Meeting Leadership Skills: collaborating with stakeholders, requesting and proposing changes, assessing impact
+        and establishing justification, establishing an implementation plan, execution and closure of implementation
+        activities, and providing high-level summaries and metrics.</li>
+      <li>Led Change Management Review Board.</li>
+      <li>Led Deviation Management Program.</li>
+      <li>Led and managed Commissioning Qualification Validation contract/consulting firms.</li>
+      <li>Successfully support manufacturing facility and associated QMS documentation during Regulatory Inspections and
+        Internal Audits.</li>
+      <li>Responsible for site Continuous Improvement efforts.</li>
+    </ul>
+  </div>
 
-        <div class="container-fluid myArticles">
-            <div class="row">
-                <div class="col-sm-8">    
-                    <h3>Company <img class='float-end' src="../pics/janssen_logo.jpg" alt="Eisai Logo" style="border-radius:100%;"></h3><h5> Janssen Pharmaceuticals <a href="https://www.janssen.com/" target="_blank">Website</a></h5>
-                </div>
-                <div class="col-sm-4">    
-                    <h3>Timeframe</h3><h5>Sep 2006 to Sep 2010</h5>
-                </div>
-            </div>
-            <div class="row">
-                <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3'style='color:white;'>Senior Validation Engineer</span>
-            </div>
-            <div>
-                <span class="h3">Description</span><span class='h5 px-3'style='color:white;'></span>
-            </div>
-            <p>Janssen Pharmaceuticals is a wholly-owned subsidiary of Johnson & Johnson, and acquired Centocor Biopharmaceutical in 1999.  Centocor was a world leader in monoclonal antibody production and cell therapy technology.  I joined Centocor R&D / J&J in 2006 as a Validation Engineer II.</p>
-            <p>My roles and responsibilities included:</p>
-            <ul>
-                <li>Managing a multi-site laboratory equipment qualification program.</li>
-                <li>Managing a plant floor automation program that supports two pilot plant facilities and one QC laboratory.</li>
-                <li>Responsible for day-to-day activities of Validation and Automation Consultants, includes: project scope, budget, schedule, and cross-functional communications.</li>
-                <li>Conducting and overseeing investigations from qualification discrepancies and atypical events; includes root cause analysis, proposing and implementing corrective actions, and effectiveness checks</li>
-                <li>Providing technical support for production deviations and audit observations, includes initiating atypical events, conducting event investigations, and implementing corrective actions</li>
-                <li>Supporting lean manufacturing efficiency initiatives and conducting Failure Mode and Effects Analysis (FMEA)</li>
-                <li>Performing, executing, and overseeing qualification studies for sterilization, cleaning, process equipment, and systems</li>
-                <li>Authoring, reviewing, revising and approving a variety of cGMP documentation; including but not limited to the following: SOPs, site qualification master plans, design documents, atypical events, event investigations, corrective action plans, and change control</li>
-            </ul>
-        </div>
+  <div class="container-fluid myArticles">
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>Company <img class='float-end' src="../pics/janssen_logo.jpg" alt="Eisai Logo" style="border-radius:100%;">
+        </h3>
+        <h5> Janssen Pharmaceuticals <a href="https://www.janssen.com/" target="_blank">Website</a></h5>
+      </div>
+      <div class="col-sm-4">
+        <h3>Timeframe</h3>
+        <h5>Sep 2006 to Sep 2010</h5>
+      </div>
+    </div>
+    <div class="row">
+      <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3' style='color:white;'>Senior Validation
+        Engineer</span>
+    </div>
+    <div>
+      <span class="h3">Description</span><span class='h5 px-3' style='color:white;'></span>
+    </div>
+    <p>Janssen Pharmaceuticals is a wholly-owned subsidiary of Johnson & Johnson, and acquired Centocor
+      Biopharmaceutical in 1999. Centocor was a world leader in monoclonal antibody production and cell therapy
+      technology. I joined Centocor R&D / J&J in 2006 as a Validation Engineer II.</p>
+    <p>My roles and responsibilities included:</p>
+    <ul>
+      <li>Managing a multi-site laboratory equipment qualification program.</li>
+      <li>Managing a plant floor automation program that supports two pilot plant facilities and one QC laboratory.</li>
+      <li>Responsible for day-to-day activities of Validation and Automation Consultants, includes: project scope,
+        budget, schedule, and cross-functional communications.</li>
+      <li>Conducting and overseeing investigations from qualification discrepancies and atypical events; includes root
+        cause analysis, proposing and implementing corrective actions, and effectiveness checks</li>
+      <li>Providing technical support for production deviations and audit observations, includes initiating atypical
+        events, conducting event investigations, and implementing corrective actions</li>
+      <li>Supporting lean manufacturing efficiency initiatives and conducting Failure Mode and Effects Analysis (FMEA)
+      </li>
+      <li>Performing, executing, and overseeing qualification studies for sterilization, cleaning, process equipment,
+        and systems</li>
+      <li>Authoring, reviewing, revising and approving a variety of cGMP documentation; including but not limited to the
+        following: SOPs, site qualification master plans, design documents, atypical events, event investigations,
+        corrective action plans, and change control</li>
+    </ul>
+  </div>
 
-        <div class="container-fluid myArticles">
-            <div class="row">
-                <div class="col-sm-8">    
-                    <h3>Company <img class='float-end' src="../pics/ipsdb_logo.gif" alt="IPS Logo"></h3><h5>Integrated Project Services <a href="https://www.ipsdb.com/" target="_blank">Website</a></h5>
-                </div>
-                <div class="col-sm-4">    
-                    <h3>Timeframe</h3><h5>Feb 2002 to Sep 2006</h5>
-                </div>
-            </div>
-            <div class="row">
-                <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3'style='color:white;'>Validation Specialist</span>
-            </div>
-            <div>
-                <span class="h3">Description</span>
-            </div>
-            <p>Integrated Project Services is a fully integrated, design-build engineering firm specializing in the life sciences and semiconductor industries.  I joined IPS as a Validation Specialist in 2002 after graduated from the University of Delaware with a Bachelor's Degree in Biological Sciences.</p>
-            <p>My roles and responsibilities included:</p>
-            <ul>
-                <li>Detailed preparation, execution, and review of validation protocols, test scripts, and reports, commissioning documentation, engineering turnover packages, and standard operating procedures.</li>
-                <li>Proficient in operation of Emerson DeltaV software, experienced in reading and interpreting run logic </li>
-                <li>Performance Qualifications for Steam-In-Place procedures</li>
-                <li>Computer system validation support during all phases of product development life cycle and implementation</li>
-                <li>Calibration, qualification, and utilization of a variety of validation equipment, including the Kaye Validator 2000</li>
-                <li>Correspondence with engineering, maintenance, validation, vendors, owners, and quality assurance.</li>
-            </ul>
-        </div>
-        
-        <footer class="container-fluid">
-            <p>Copyright © 
-                <script>
-                    document.write(new Date().getFullYear())
-                </script> 
-                <img class='d-none d-sm-inline' src="../pics/pharma2code_icon.gif" style='height: 2rem;' alt="My 'Pharma 2 Code' Logo.">
-                <span style="color:white;">code</span><span style="color:#00857c;">By</span><span style="color:lime;">Pete</span>
-            </p>
-            <a href="https://github.com/codetracklift" target="_blank"><img class="socialLogo" src="../pics/GitHub-Mark-Light-64px.png" alt="GitHub Icon"></a>
-            <a href="https://twitter.com/codeTrackLift" target="_blank"><img class="socialLogo" src="../pics/Twitter_social_icons-circle-white.png" alt="Twitter Icon"></a>
-            <a href="https://www.linkedin.com/in/codebypete/" target="_blank"><img class="socialLogo" src="../pics/linkedin_white.png" alt="LinkedIn Icon"></a>
-        </footer>
+  <div class="container-fluid myArticles">
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>Company <img class='float-end' src="../pics/ipsdb_logo.gif" alt="IPS Logo"></h3>
+        <h5>Integrated Project Services <a href="https://www.ipsdb.com/" target="_blank">Website</a></h5>
+      </div>
+      <div class="col-sm-4">
+        <h3>Timeframe</h3>
+        <h5>Feb 2002 to Sep 2006</h5>
+      </div>
+    </div>
+    <div class="row">
+      <span class="h3 col-sm-3">Position</span><span class='h5 col-sm-9 px-3' style='color:white;'>Validation
+        Specialist</span>
+    </div>
+    <div>
+      <span class="h3">Description</span>
+    </div>
+    <p>Integrated Project Services is a fully integrated, design-build engineering firm specializing in the life
+      sciences and semiconductor industries. I joined IPS as a Validation Specialist in 2002 after graduated from the
+      University of Delaware with a Bachelor's Degree in Biological Sciences.</p>
+    <p>My roles and responsibilities included:</p>
+    <ul>
+      <li>Detailed preparation, execution, and review of validation protocols, test scripts, and reports, commissioning
+        documentation, engineering turnover packages, and standard operating procedures.</li>
+      <li>Proficient in operation of Emerson DeltaV software, experienced in reading and interpreting run logic </li>
+      <li>Performance Qualifications for Steam-In-Place procedures</li>
+      <li>Computer system validation support during all phases of product development life cycle and implementation</li>
+      <li>Calibration, qualification, and utilization of a variety of validation equipment, including the Kaye Validator
+        2000</li>
+      <li>Correspondence with engineering, maintenance, validation, vendors, owners, and quality assurance.</li>
+    </ul>
+  </div>
 
-        <!-- JS Libraries: Bootstrap -->
-        <script src="../libraries/bootstrap.min.js"></script>
-    </body>
+  <footer class="container-fluid">
+    <p>Copyright ©
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+      <img class='d-none d-sm-inline' src="../pics/pharma2code_icon.gif" style='height: 2rem;'
+        alt="My 'Pharma 2 Code' Logo.">
+      <span style="color:white;">code</span><span style="color:#00857c;">By</span><span style="color:lime;">Pete</span>
+    </p>
+    <a href="https://github.com/codetracklift" target="_blank"><img class="socialLogo"
+        src="../pics/GitHub-Mark-Light-64px.png" alt="GitHub Icon"></a>
+    <a href="https://twitter.com/codeTrackLift" target="_blank"><img class="socialLogo"
+        src="../pics/Twitter_social_icons-circle-white.png" alt="Twitter Icon"></a>
+    <a href="https://www.linkedin.com/in/codebypete/" target="_blank"><img class="socialLogo"
+        src="../pics/linkedin_white.png" alt="LinkedIn Icon"></a>
+  </footer>
+
+  <!-- JS Libraries: Bootstrap -->
+  <script src="../libraries/bootstrap.min.js"></script>
+</body>
+
 </html>

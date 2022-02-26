@@ -1,63 +1,72 @@
 html {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    background-image: url("../pics/pharm2code_tilt.jpg");
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  background-image: url("../pics/pharm2code_tilt.jpg");
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
-    background-color: transparent;
-    align-items: center;
+  background-color: transparent;
+  align-items: center;
 }
 
 /* Article CSS Below */
 .myArticles {
-    margin: 1rem auto;
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: 0.25rem;
-    background-color: black;
-    width: 90vw;
-    max-width: 960px;
-    line-height: 1.6;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  background-color: black;
+  width: 90vw;
+  max-width: 960px;
+  line-height: 1.6;
 }
+
 @media (max-width:960px) {
-    .myArticles {
-        margin: 1rem 5vw;
-    }
+  .myArticles {
+    margin: 1rem 5vw;
+  }
 }
 
 .myArticles>div>div>h3>img {
-    width: 20vw;
-    min-width: 5rem;
-    max-width: 10rem;
-    margin-right: 5vw;
+  width: 20vw;
+  min-width: 5rem;
+  max-width: 10rem;
+  margin-right: 5vw;
 }
 
-h1, h2, .container-fluid>div>div>h3, h4, .h3 {
-    color: #00857c;
-    text-align: start;
-    font-family: Menlo Regular;
+h1,
+h2,
+.container-fluid>div>div>h3,
+h4,
+.h3 {
+  color: #00857c;
+  text-align: start;
+  font-family: Menlo Regular;
 }
 
-h5, h6, p {
-    color: white;
+h5,
+h6,
+p {
+  color: white;
 }
 
 ul {
-    color: silver;
+  color: silver;
 }
 
 #article1>ol>li {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-a,a:link,a:visited {
-    color: lime;
-    text-decoration: none;
+a,
+a:link,
+a:visited {
+  color: lime;
+  text-decoration: none;
 }

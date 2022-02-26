@@ -1,86 +1,98 @@
 html {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    background-image: url("../pics/pharm2code_tilt.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  background-image: url("../pics/pharm2code_tilt.jpg");
 }
 
 body {
-    background-color: transparent;
-    align-items: center;
-    color: silver;
+  background-color: transparent;
+  align-items: center;
+  color: silver;
 }
 
 h2 {
-    /* padding-block: 0.5rem; */
-    color: #00857c;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
-    font-family: Menlo Regular;
+  /* padding-block: 0.5rem; */
+  color: #00857c;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Menlo Regular;
 }
 
 h5 {
-    font-family: Menlo Regular;
-    color: lime;
+  font-family: Menlo Regular;
+  color: lime;
 }
 
 p {
-    padding-block: 0.125rem;
-    color: silver;
+  padding-block: 0.125rem;
+  color: silver;
 }
 
 ol {
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    color: silver;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  color: silver;
 }
 
-a,a:link,a:visited {
-    color: lime;
-    text-decoration: none;
+a,
+a:link,
+a:visited {
+  color: lime;
+  text-decoration: none;
 }
 
 /* Blog CSS Below */
 .myBlog {
-    margin: 1rem;
-    border-radius: 0.25rem;
-    background-color: black;
-    width: 90vw;
-    max-width: 960px;
-    line-height: 1.6;
+  margin: 1rem;
+  border-radius: 0.25rem;
+  background-color: black;
+  width: 90vw;
+  max-width: 960px;
+  line-height: 1.6;
 }
 
 .myBlog>div {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.accordion-item,.accordion-header,.accordion-collapse,.accordion-body,.accordion-button {
-    background-color: transparent;
-    text-decoration: none;
+.accordion-item,
+.accordion-header,
+.accordion-collapse,
+.accordion-body,
+.accordion-button {
+  background-color: transparent;
+  text-decoration: none;
 }
 
 @media (max-width:540px) {
-    .col-sm-4>p,.col-sm-6>p,.col-sm-8>p,ol>li {
-        margin-left: -2rem;
-        margin-right: -3rem;
-    }
-    .row>p {
-        margin-left: -0.75rem;
-    }
+
+  .col-sm-4>p,
+  .col-sm-6>p,
+  .col-sm-8>p,
+  ol>li {
+    margin-left: -2rem;
+    margin-right: -3rem;
+  }
+
+  .row>p {
+    margin-left: -0.75rem;
+  }
 }
 
 .accordion-button {
-    gap: 5vw;
-    transition: all 0.5s ease-in-out;
-    border: 1px solid rgb(38, 38, 38);
+  gap: 5vw;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid rgb(38, 38, 38);
 }
 
 .accordion-button:hover {
-    border: 1px solid lime;
+  border: 1px solid lime;
 }
 
-.accordion-button>h6, h6 {
-    color: #00857c;
-    font-family: Menlo Regular;
+.accordion-button>h6,
+h6 {
+  color: #00857c;
+  font-family: Menlo Regular;
 }

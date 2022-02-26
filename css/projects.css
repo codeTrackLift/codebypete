@@ -1,88 +1,89 @@
 html {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    background-image: url("../pics/pharm2code_tilt.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  background-image: url("../pics/pharm2code_tilt.jpg");
 }
 
 body {
-    background-color: transparent;
-    align-items: center;
+  background-color: transparent;
+  align-items: center;
 }
 
 h1 {
-    color: white;
-    font-family: Menlo Regular;
-    text-align: center;
-    text-shadow: 1px 1px black;
+  color: white;
+  font-family: Menlo Regular;
+  text-align: center;
+  text-shadow: 1px 1px black;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 h5 {
-    color: #00857c;
+  color: #00857c;
 }
 
 .myArticles {
-    margin: 2rem auto;
-    padding: 1rem;
-    color: silver;
-    border-radius: 0.25rem;
-    background-color: transparent;
-    width: 75vw;
-    max-width: 800px;
-    line-height: 1;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: silver;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  width: 75vw;
+  max-width: 800px;
+  line-height: 1;
 }
+
 @media (max-width:1400px) {
-    .myArticles {
-        margin: 1rem auto;
-    }
+  .myArticles {
+    margin: 1rem auto;
+  }
 }
 
 .row {
-    margin: 2rem auto;
-    padding: 2rem;
-    gap: 2rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .card {
-    background-color: black;
-    color: silver;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    line-height: 1.6;
+  background-color: black;
+  color: silver;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  line-height: 1.6;
 }
 
 .card-title {
-    font-family: menlo;
+  font-family: menlo;
 }
 
 .card>img {
-    border-radius: 0.25rem;
+  border-radius: 0.25rem;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .card-text>span {
-    color: white;
+  color: white;
 }
 
 .btn {
-    border-color: dimgray;
-    background-color: dimgray;
-    color: lime;
-    transition: all 0.5s ease-in-out;
+  border-color: dimgray;
+  background-color: dimgray;
+  color: lime;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
-    background-color: black;
-    border-color: lime;
-    color: lime;
+  background-color: black;
+  border-color: lime;
+  color: lime;
 }
