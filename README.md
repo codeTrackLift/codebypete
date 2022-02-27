@@ -1,3 +1,3 @@
 # codebypete
 Portfolio
-Thanks Pixabay for the copyright free image and icon!
+Thanks Pixabay, Pexels, and Unsplash for the copyright free image and icon!
