@@ -13,12 +13,16 @@ body {
 }
 
 h2 {
-  /* padding-block: 0.5rem; */
   color: #00857c;
   font-style: italic;
   text-align: center;
   text-decoration: underline;
   font-family: Menlo Regular;
+}
+
+h4 {
+  font-family: Menlo Regular;
+  color: #00857c;
 }
 
 h5 {
@@ -29,6 +33,10 @@ h5 {
 p {
   padding-block: 0.125rem;
   color: silver;
+}
+
+.h6 {
+  line-height: 1.6;
 }
 
 ol {
