@@ -247,7 +247,7 @@ section {
 #typeWriter {
   margin: 0 auto;
   width: fit-content;
-  padding: 1rem 0;
+  padding: 2rem 0;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -262,21 +262,21 @@ section {
     font-size: 4vw;
   }
   #typeWriter>h2 {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
     letter-spacing: normal !important;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #typeWriter>h2 {
-    font-size: 0.75rem !important;
+    font-size: 1.25rem !important;
     letter-spacing: normal !important;
   }
 }
 
 @media (max-width: 350px) {
   #typeWriter>h2 {
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
     letter-spacing: normal !important;
   }
 }
