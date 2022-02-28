@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: transparent;
-  align-items: center;
+  /* align-items: center; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -236,18 +236,45 @@ body {
 
 /* Intro Animations Above */
 
-#typeWriter {
+section {
+  background-color: black;
   width: 100vw;
-  padding: 2rem 0;
+}
+
+#typeWriter {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 1rem 0;
   background-color: black;
   display: flex;
   flex-direction: column;
+}
+
+#typeWriterSection {
   animation: animationFadeIn 5s ease-in-out;
 }
 
-@media (max-width:650px) {
+@media (max-width: 635px) {
   #typeWriter>h2 {
     font-size: 4vw;
+  }
+  #typeWriter>h2 {
+    font-size: 1rem !important;
+    /* margin-left: -6vw; */
+  }
+}
+
+@media (max-width: 400px) {
+  #typeWriter>h2 {
+    font-size: 0.75rem !important;
+    /* margin-left: -10vw; */
+  }
+}
+
+@media (max-width: 350px) {
+  #typeWriter>h2 {
+    font-size: 0.75rem !important;
+    /* margin-left: -15vw; */
   }
 }
 
@@ -271,12 +298,11 @@ body {
 }
 
 #typeWriter>h2 {
-  margin-left: 21vw;
   position: relative;
   width: max-content; 
   font-weight: normal;
   font-family: Menlo Regular;
-  font-size: 3.5vw;
+  font-size: 1.5rem;
   letter-spacing: 0.125rem;
   color: silver;
 }
@@ -335,7 +361,6 @@ body {
 }
 
 #typeWriter2 {
-  padding-left: 2ch;
   animation: typeWriter2Fade 7s ease-in-out;
 }
 
@@ -374,7 +399,6 @@ body {
 }
 
 #typeWriter3 {
-  padding-left: 2ch;
   animation: typeWriter3Fade 11s ease-in-out;
 }
 
