@@ -46,17 +46,14 @@ body {
   0% {
     margin-top: -50vh;
   }
-
   30% {
     margin-top: 10;
     transform: scaleY(90%);
   }
-
   65% {
     margin-top: 20vh;
     transform: scaleY(80%);
   }
-
   85% {
     margin-top: 0;
   }
@@ -79,22 +76,18 @@ body {
     margin-left: -200vw;
     letter-spacing: 0;
   }
-
   30% {
     margin-left: -150vw;
     letter-spacing: -0.125rem;
   }
-
   40% {
     margin-left: -125vw;
     letter-spacing: -0.125rem;
   }
-
   90% {
     margin-left: 30vw;
     letter-spacing: -0.4rem;
   }
-
   95% {
     letter-spacing: 0.4rem;
   }
@@ -113,23 +106,17 @@ body {
   59% {
     opacity: 0;
     font-size: 0rem;
-    color: black;
   }
   79% {
     opacity: 0;
     font-size: 0rem;
-    color: lime;
   }
-  79.1% {
+  80% {
+    opacity: 1;
     font-size: 0.1rem;
-    color: lime;
   }
   89% {
     font-size: 2.5rem;
-    color: lime;
-  }
-  100% {
-    /* font-size: 1rem; */
   }
 }
 
@@ -149,9 +136,6 @@ body {
   90% {
     color: lime;
     font-size: 2.5rem;
-  }
-  100% {
-    /* font-size: 2rem; */
   }
 }
 
@@ -194,10 +178,6 @@ body {
 }
 
 /* Intro Animations Above */
-
-section {
-
-}
 
 #typeWriter {
   margin: 0 auto;
