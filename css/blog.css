@@ -35,7 +35,6 @@ h6 {
 }
 
 p {
-  padding-block: 0.125rem;
   color: silver;
 }
 
@@ -80,6 +79,7 @@ a:visited {
 
 @media (max-width:540px) {
 
+  .narrowText,
   .col-sm-4>p,
   .col-sm-6>p,
   .col-sm-8>p,

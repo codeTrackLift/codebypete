@@ -82,25 +82,29 @@
         <div class="accordion-body">
           <div class="'container-fluid row">
             <div class="col-sm-8">
-              <div class='my-4' style="">
-                <h4 class="text-center">Hello Again!</h4>
-                <div class="h6">
-                  Welcome to my third blog post & discussion assignment from the <span style="color:white;">MIT xPro Full Stack Coding Bootcamp</span>. 
-                </div>
-                <div class="h6">
-                  Starter code was provided and the project scope included coding a '<span style="color:white;">Pac-Man Factory</span>' with 2D hard-coded movement, boundary response, and alternating images to animate horizontal movement.
+              <div>
+                <h4 class="text-center mb-4">Hello Again!</h4>
+                <div class='m-auto' style="max-width: 480px;">
+                  <div class="h6">
+                    Welcome to my third blog post & discussion assignment from the <span style="color:white;">MIT xPro Full Stack Coding Bootcamp</span>. 
+                  </div>
+                  <div class="h6">
+                    Starter code was provided and the project scope included coding a '<span style="color:white;">Pac-Man Factory</span>' with 2D hard-coded movement, boundary response, and alternating images to animate horizontal movement.
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 my-auto">
-              <a href="../pics/pacman/pacman_minigame.png" target="_blank">
+            <div class="col-sm-4 my-auto p-3">
+              <!-- <a href="../pics/pacman/pacman_minigame.png" target="_blank"> -->
                 <img class="img-fluid" src="../pics/pacman/pacman_minigame.png"
                   alt="Screenshot of JavaScript showing the resize function.">
-              </a>
+              <!-- </a> -->
             </div>
-            <div class="row mx-auto" style="max-width:860px;">
-              <hr style="background:transparent">
-              <p>I decided to add some additional features: <span style="color:white;">user controls</span>, image support for vertical movement, and integration of the previous 'Magic Ball Challenge' to give Pac-Man something to do. Check out the images and write-up below for more details.</p>
+            <div class="row mx-auto">
+              <img src="../pics/pacman/pacman_icon.png" class='d-none d-sm-block img-fluid col-sm-2 m-auto p-4' alt="Pac-Man chasing logo." style="max-width:25vw;">
+              <div class="col-sm-10 m-auto" style="max-width: 640px;">
+                <p>I decided to add some additional features: <span style="color:white;">user controls</span>, image support for vertical movement, and integration of the previous 'Magic Ball Challenge' to give Pac-Man something to do. Check out the images and write-up below for more details.</p>
+              </div>
             </div>
           </div>
           <div>
@@ -124,7 +128,7 @@
                     alt="Screenshot of JavaScript showing utility functions.">
                 </a>
               </div>
-              <p>Image 2 shows a couple 'utility' functions.  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random" target="_blank">Random</a> numbers are always useful, and the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/orientationchange_event' target='_blank'>onorientationchange method</a> reloads screen to update boundaries upon screen orientation change.</p>
+              <p class="narrowText">Image 2 shows a couple 'utility' functions.  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random" target="_blank">Random</a> numbers are always useful, and the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/orientationchange_event' target='_blank'>onorientationchange method</a> reloads screen to update boundaries upon screen orientation change.</p>
             </div>
             <div class="col-sm-5">
               <div>
@@ -134,7 +138,7 @@
                     alt="Screenshot of JavaScript showing user input functions.">
                 </a>
               </div>
-              <p>Image 3 shows the functions for User Input. I used <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">Event Listeners</a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" target="_blank">Keyboard Event sequence</a> to manage the keyboard inputs and responses.</p>
+              <p class="narrowText">Image 3 shows the functions for User Input. I used <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">Event Listeners</a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" target="_blank">Keyboard Event sequence</a> to manage the keyboard inputs and responses.</p>
             </div>
           </div>
           <div class="container-fluid row">
@@ -146,7 +150,7 @@
                     alt="Screenshot of JavaScript showing functions for Pac-Man's movement.">
                 </a>
               </div>
-              <p>Image 4 shows the functions for the Pac-Man element.  The Run function manages which image is shown then calls the Move function, which changes Pac-Man's position on the screen.  The checkCollison and checkLimits functions check for Pac-Man contacting a boundary or the ball. </p>
+              <p class="narrowText">Image 4 shows the functions for the Pac-Man element.  The Run function manages which image is shown then calls the Move function, which changes Pac-Man's position on the screen.  The checkCollison and checkLimits functions check for Pac-Man contacting a boundary or the ball. </p>
             </div>
             <div class="col-sm-5">
               <div>
@@ -156,17 +160,17 @@
                     alt="Screenshot of JavaScript showing functions for the ball's movement.">
                 </a>
               </div>
-              <p>Image 5 shows the functions for the Ball element.  Refer to my <a href='./blog.html#blog2'>Magic Ball Challenge</a> blog post for more details.</p>
+              <p class="narrowText">Image 5 shows the functions for the Ball element.  Refer to my <a href='./blog.html#blog2'>Magic Ball Challenge</a> blog post for more details.</p>
             </div>
           </div>
-          <div class="container-fluid row">
-            <div class="col-sm-8">
+          <div class="container-fluid row mx-auto">
+            <div class="col-sm-6">
               <h6 class="text-center">Watch Video</h6>
-              <iframe class='ratio ratio-4x3' width="420" height="315"
+              <iframe class='container-fluid ratio ratio-1x1' 
               src="https://youtube.com/embed/iOKK8Q2unxE?&autoplay=0&mute=1" frameborder="0" allowfullscreen>
               </iframe>
             </div>
-            <div class="col-sm-4 my-auto text-center">
+            <div class="col-sm-6 my-auto text-center">
               <h6>Click Below to Play</h6>
               <h5><a href="https://codetracklift.github.io/pacman" target="_blank">Pac-Man Mini-Game</a></h5>
               <p>Thank you for visiting, and happy coding!</p>
@@ -211,7 +215,7 @@
             </div>
           </div>
           <div class="container-fluid row">
-            <div class="col-sm-6">
+            <div class="col-sm-7">
               <div>
                 <h6>Image 1</h6>
                 <a href="../pics/magicBall/magicBall_originalDiv.png" target="_blank">
@@ -219,13 +223,13 @@
                     alt="Screenshot of HTML showing the 'Original Div' portion of my Magic Ball Project.">
                 </a>
               </div>
-              <p>Image 1 shows the HTML 'div' for the ball and its style attributes. This was provided by the MIT xPro
+              <p class="narrowText">Image 1 shows the HTML 'div' for the ball and its style attributes. This was provided by the MIT xPro
                 Bootcamp. I added the 'body' tags since I was using <a href="https://code.visualstudio.com/"
                   target="_blank">Visual Studio Code</a> and the editor indicated that I needed to add those in order to
                 use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
                   target="_blank">Live Server Extension</a> (updates the HTML page when I save).</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
               <div>
                 <h6>Image 2</h6>
                 <a href="../pics/magicBall/magicBall_myLogo.png" target="_blank">
@@ -233,7 +237,7 @@
                     alt="Screenshot of HTML showing my logo in image tags.">
                 </a>
               </div>
-              <p>In Image 2, I decided to personalize this challenge by adding my logo to the ball. I did this by using
+              <p class="narrowText">In Image 2, I decided to personalize this challenge by adding my logo to the ball. I did this by using
                 an HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
                   target="_blank">'img'</a> tag instead of the <a
                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">'div'</a> tags.
@@ -324,8 +328,9 @@
                   target='_blank'>concatentation</a>.</p>
             </div>
           </div>
-          <p>Please let me know with any suggestions, or comments. Thank you again for visiting my site, and happy
-            coding!</p>
+          <div class="m-auto" style="max-width: 640px;">
+            <p>Please let me know with any suggestions, or comments. Thank you again for visiting, and happy coding!</p>
+            </div>
           <div>
             <p style="text-align:end;font-style:italic;color:white;"><img src="../pics/profilepic.jpg"
                 alt="Picture of Pete" style="width:5rem;border-radius:50%;margin:0 2rem -2rem 0;"> - Pete, Feb 20, 2022
