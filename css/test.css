@@ -260,21 +260,21 @@ section {
   }
   #typeWriter>h2 {
     font-size: 1rem !important;
-    /* margin-left: -6vw; */
+    letter-spacing: normal !important;
   }
 }
 
 @media (max-width: 400px) {
   #typeWriter>h2 {
     font-size: 0.75rem !important;
-    /* margin-left: -10vw; */
+    letter-spacing: normal !important;
   }
 }
 
 @media (max-width: 350px) {
   #typeWriter>h2 {
     font-size: 0.75rem !important;
-    /* margin-left: -15vw; */
+    letter-spacing: normal !important;
   }
 }
 
