@@ -84,7 +84,13 @@ h5 {
   color: white;
 }
 
+.btnContainer {
+  display: flex;
+}
+
 .btn {
+  margin: 0 1px;
+  width: 7rem;
   border-color: dimgray;
   background-color: dimgray;
   color: lime;

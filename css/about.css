@@ -2,8 +2,8 @@ html {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  background-image: url("../pics/pharm2code_tilt.jpg");
+  /* background-image: url("../pics/pharm2code_tilt.jpg"); */
+  background-color: rgb(50, 50, 50);
 }
 
 body {
@@ -50,4 +50,30 @@ a:link,
 a:visited {
   color: lime;
   text-decoration: none;
+}
+
+.animationFlipIn {
+  padding: 1rem;
+  animation: animationFlipIn 1s ease-in-out;
+  border-radius: .125rem;
+  color: black;
+  margin: 1rem;
+  font-family: Menlo Regular;
+  background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,
+      darkkhaki 20px);
+}
+
+@keyframes animationFlipIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1, -1) scale(1, -1);
+  }
 }
