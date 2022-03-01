@@ -6,7 +6,9 @@ const blog3Button = document.getElementById('blog3Button');
 const blog2Button = document.getElementById('blog2Button');
 const blog1Button = document.getElementById('blog1Button');
 const blog0Button = document.getElementById('blog0Button');
-var blog3OpenStatus = true; // Set to true if start open
+
+// Set to true if starting open
+var blog3OpenStatus = false; 
 var blog2OpenStatus = false;
 var blog1OpenStatus = false;
 var blog0OpenStatus = false;
