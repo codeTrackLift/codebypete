@@ -3,7 +3,8 @@ html {
   background-attachment: fixed;
   background-position: center;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  background-image: url("../pics/pharm2code_tilt.jpg");
+  /* background-image: url("../pics/pharm2code_tilt.jpg"); */
+  background-color: rgb(50, 50, 50);
 }
 
 body {
@@ -15,11 +16,12 @@ h1 {
   color: white;
   font-family: Menlo Regular;
   text-align: center;
-  text-shadow: 1px 1px black;
+  text-shadow: 3px 3px black;
 }
 
 h3 {
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 h5 {
@@ -43,6 +45,12 @@ h5 {
   }
 }
 
+#myProjects {
+  max-width: 1400px;
+  justify-content: space-between;
+  display: flex;
+}
+
 .row {
   margin: 2rem auto;
   padding: 2rem;
@@ -55,6 +63,7 @@ h5 {
   padding: 1rem;
   border-radius: 0.25rem;
   line-height: 1.6;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .card-title {
@@ -94,3 +103,4 @@ a:visited {
   color: lime;
   text-decoration: none;
 }
+
