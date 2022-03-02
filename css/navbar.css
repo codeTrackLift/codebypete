@@ -44,6 +44,10 @@
   color: lime !important;
 }
 
+.navbar>div>h3 {
+    text-shadow: 1px 1px black;
+}
+
 .navbar-toggler>img {
   animation: logoWiggle 5s ease-in-out;
   animation-iteration-count: infinite;
