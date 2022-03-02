@@ -29,8 +29,8 @@ h5 {
 }
 
 .myArticles {
-  margin: 2rem auto;
-  padding: 1rem;
+  /* margin: 2rem auto 0 auto; */
+  padding-top: 2.5rem;
   color: silver;
   border-radius: 0.25rem;
   background-color: transparent;
@@ -39,11 +39,11 @@ h5 {
   line-height: 1;
 }
 
-@media (max-width:1400px) {
+/* @media (max-width:1400px) {
   .myArticles {
     margin: 1rem auto;
   }
-}
+} */
 
 #myProjects {
   max-width: 1400px;
