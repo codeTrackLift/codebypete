@@ -67,6 +67,14 @@ a:visited {
     text-decoration: none;
 }
 
+a>img {
+    transition: all 0.5s ease-in-out;
+}
+
+a>img:hover {
+    opacity: 0.5;
+}
+
 .img-fluid {
     height: 10rem;
     width: 10rem;
