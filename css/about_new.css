@@ -78,6 +78,17 @@ a:visited {
     opacity: 0.5;
 }
 
+#greetingPic>img {
+    width: 30vw;
+    height: 30vw;
+    position: static;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-top: -15rem;
+    margin-left: -3rem;
+    margin-bottom: -10rem;
+}
+
 #techStack>.row,
 #education>.row,
 #personal>.row {
