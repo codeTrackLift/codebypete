@@ -108,6 +108,7 @@ a>img:hover {
 
 @media (max-width:540px) {
     #myIntro>p,
+    #myIntro>h2,
     #myIntro>h4 {
         margin-left: -2rem;
         margin-right: -3rem;
