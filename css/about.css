@@ -103,7 +103,7 @@ a>img:hover {
 }
 
 #myIntro>p>span {
-    color: white;
+    color: silver;
 }
 
 @media (max-width:540px) {
