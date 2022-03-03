@@ -196,6 +196,7 @@ a:visited {
     font-size: 1.75rem;
     letter-spacing: 0.125rem;
     color: silver;
+    text-shadow: 1px 1px black;
 }
 
 #typeWriter1:before,
