@@ -1,0 +1,165 @@
+html {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(50, 50, 50);
+}
+
+body {
+    background-color: transparent;
+    align-items: center;
+}
+
+/* Article CSS Below */
+.myArticles {
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background-color: black;
+    width: 90vw;
+    max-width: 960px;
+    line-height: 1.6;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width:960px) {
+    .myArticles {
+        margin: 1rem 5vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .myArticles {
+        padding: 1rem 5rem;
+    }
+}
+
+.myArticles>div>div>h6 {
+    color: chocolate;
+}
+
+h1,
+h2,
+h4,
+.container-fluid>div>div>h3,
+.h3 {
+    color: white;
+    font-family: Menlo Regular;
+}
+
+h5,
+p {
+    color: white;
+}
+
+h6 {
+    font-family: Menlo Regular;
+}
+
+ul {
+    color: silver;
+}
+
+a,
+a:link,
+a:visited {
+    color: lime;
+    text-decoration: none;
+}
+
+a>img {
+    transition: all 0.5s ease-in-out;
+}
+
+a>img:hover {
+    opacity: 0.5;
+}
+
+#greetingPic>img {
+    width: 30rem;
+    height: 20rem;
+    /* max-width: 60vmin;
+    max-height: 40vmin; */
+    position: static;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin: -20rem 0 0 -5vw;
+}
+
+@media (max-width: 580px) {
+    #greetingPic>img {
+        margin-left: -10vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    #greetingPic>img {
+        margin-left: 5vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    #greetingPic>img {
+        margin-left: 10vw;
+    }
+}
+
+.contactLogo {
+    max-height: 2rem;
+    transition: transform 0.5s ease-in-out;
+}
+.contactLogo:hover,.contactLogo:focus{
+    transform: scale(-1, 1) scale(1);
+}
+
+.form-item>input {
+    background-color: transparent;
+    color: white;
+    border-radius: 0.25rem;
+    border: .125rem solid black;
+    margin-bottom: 0.5rem;
+}
+
+.form-item>input::placeholder,.form-item>textarea::placeholder  {
+    color: gray;
+}
+
+.form-item>textarea {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: .125rem solid black;
+    resize: none;
+}
+
+.form-item>label {
+    align-self: center;
+    display: flex;
+    justify-content: start;
+    color: cornflowerblue;
+    font-family: Menlo Regular;
+}
+
+input {
+    background-color: rgb(50, 50, 50) !important;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+}
+
+.btn {
+    margin: 0 1px;
+    width: 7rem;
+    border-color: rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    color: lime;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    border-color: lime;
+    color: lime;
+  }

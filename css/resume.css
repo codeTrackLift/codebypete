@@ -152,6 +152,12 @@ a:visited {
     }
 }
 
+@media (max-width: 580px) {
+    #typeWriterSection {
+        margin-top: 0 !important;
+    }
+}
+
 @media (max-width: 500px) {
     #typeWriter>h2 {
         font-size: 1.25rem !important;
