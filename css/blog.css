@@ -157,21 +157,21 @@ h6 {
     }
 
     #typeWriter>h2 {
-        font-size: 1.5rem !important;
+        font-size: 1.375rem !important;
         letter-spacing: normal !important;
     }
 }
 
 @media (max-width: 500px) {
     #typeWriter>h2 {
-        font-size: 1.25rem !important;
+        font-size: 1.125rem !important;
         letter-spacing: normal !important;
     }
 }
 
 @media (max-width: 350px) {
     #typeWriter>h2 {
-        font-size: 1rem !important;
+        font-size: 0.875rem !important;
         letter-spacing: normal !important;
     }
 }
