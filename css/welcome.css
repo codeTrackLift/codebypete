@@ -290,7 +290,7 @@ body {
 #typeWriter1::before {
     width: 100vw;
     background: black;
-    animation: write 1s steps(25) 0.5s forwards;
+    animation: write 1s steps(22) 0.5s forwards;
     animation-delay: 4s;
 }
 
@@ -362,7 +362,7 @@ body {
 #typeWriter2::before {
     width: 100vw;
     background: black;
-    animation: write 1.5s steps(35) 0.5s forwards;
+    animation: write 1.5s steps(28) 0.5s forwards;
     animation-delay: 5.5s;
 }
 
