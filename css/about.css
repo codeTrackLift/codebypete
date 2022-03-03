@@ -93,6 +93,32 @@ a>img:hover {
     margin-bottom: -10rem;
 }
 
+#myIntro {
+    padding: 2rem 5rem;
+}
+
+#myIntro>p {
+    color: gray;
+}
+
+#myIntro>p>span {
+    color: white;
+}
+
+@media (max-width:540px) {
+    #myIntro>p,
+    #myIntro>h4 {
+        margin-left: -2rem;
+        margin-right: -3rem;
+    }
+}
+
+@media (min-width:500px) {
+    #myIntro>div>p {
+        margin-top: -5rem;
+    }
+}
+
 #personal>.row {
     display: flex;
     flex-direction: row;
