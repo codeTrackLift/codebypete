@@ -97,7 +97,8 @@ a>img:hover {
     padding: 2rem 5rem;
 }
 
-#myIntro>p {
+#myIntro>p,
+#myIntro>div>p {
     color: gray;
 }
 
