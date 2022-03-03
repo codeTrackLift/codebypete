@@ -5,6 +5,10 @@
   src: local('Menlo Regular'), url('../libraries/Menlo-Regular.woff') format('woff');
 }
 
+.menloRegular {
+    font-family: Menlo Regular;
+}
+
 *,
 *::before,
 *::after {
