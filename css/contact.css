@@ -106,11 +106,36 @@ a>img:hover {
 }
 
 .contactLogo {
+    max-width: 2rem;
     max-height: 2rem;
     transition: transform 0.5s ease-in-out;
 }
-.contactLogo:hover,.contactLogo:focus{
+
+.contactLogo:hover,
+.contactLogo:focus {
     transform: scale(-1, 1) scale(1);
+}
+
+#emailIcon>img {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.5;
+    transition: transform 0.5s ease-in-out;
+}
+#emailIcon>img:hover,
+#emailIcon>img:focus {
+    transform: scale(-1, 1) scale(1);
+    background-color: lime;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+#emailIcon>span {
+    font-size: 2rem;
+    padding: 2rem;
+    color: white;
+    font-family: Menlo Regular;
 }
 
 .form-item>input {
@@ -121,7 +146,8 @@ a>img:hover {
     margin-bottom: 0.5rem;
 }
 
-.form-item>input::placeholder,.form-item>textarea::placeholder  {
+.form-item>input::placeholder,
+.form-item>textarea::placeholder {
     color: gray;
 }
 
@@ -156,10 +182,24 @@ input {
     background-color: rgb(50, 50, 50);
     color: lime;
     transition: all 0.5s ease-in-out;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: black;
     border-color: lime;
     color: lime;
-  }
+}
+
+#googleMap {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    margin: 3rem auto;
+}
+
+#googleMap>iframe {
+    max-width: 80vw;
+    max-width: 80vw;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

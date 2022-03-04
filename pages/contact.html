@@ -84,19 +84,27 @@
     </div>
 
     <div class="container-fluid myArticles row">
+        <div class="text-center">
+            <h1 style="color:darkorchid">Let's Connect!</h1>
+            <h5 style="color:gray;">Interested in chatting about code?</h5>
+        </div>
         <div class="col-sm-7">
             <div class="d-flex gap-3">
-                <a href="https://www.google.com/maps/place/Horsham,+PA" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/locationIcon.gif" alt="Location Icon"></a>
-                <h6 class="my-auto">Horsham, PA USA</h6>
+                <a href="https://www.linkedin.com/in/codebypete/" target="_blank"><img class='img-fluid contactLogo p-1' src="../pics/linkedin_white.png" alt="LinkedIn Logo"></a>
+                <h6 class="my-auto">@codeByPete</h6>
             </div>
             <div class="d-flex gap-3">
+                <a href="https://goo.gl/maps/99RfesTSTFK8ifAVA" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/locationIcon.gif" alt="Location Icon"></a>
+                <h6 class="my-auto">Philadelphia, PA USA</h6>
+            </div>
+            <!-- <div class="d-flex gap-3">
                 <img class='img-fluid contactLogo' src="../pics/contact/emailIcon.gif" alt="Email Icon">
                 <h6 class="my-auto">codeTrackLift@gmail.com</h6>
             </div>
             <div class="d-flex gap-3">
                 <img class='img-fluid contactLogo' src="../pics/contact/phoneIcon.gif" alt="Phone Icon">
                 <h6 class="my-auto">(302)570-0076</h6>
-            </div>
+            </div> -->
         </div>
         <div class="col-sm-5">
             <div class="d-flex gap-3">
@@ -107,39 +115,35 @@
                 <a href="https://twitter.com/codeTrackLift" target="_blank"><img class='img-fluid contactLogo p-1' src="../pics/Twitter_social_icons-circle-white.png" alt="Twitter Logo"></a>
                 <h6 class="my-auto">@codeTrackLift</h6>
             </div>
-            <div class="d-flex gap-3">
-                <a href="https://www.linkedin.com/in/codebypete/" target="_blank"><img class='img-fluid contactLogo p-1' src="../pics/linkedin_white.png" alt="LinkedIn Logo"></a>
-                <h6 class="my-auto">@codeByPete</h6>
-            </div>
+
         </div>
     </div>
 
     <div id='contact' class='myArticles container-fluid mt-4'>
-        <div class="text-center">
-            <h1 style="color:darkorchid">Contact Me!</h1>
-            <h5 style="color:gray;">Interested in chatting about code?</h5>
+        <div id='emailIcon' class="text-center">
+            <img class='img-fluid' src="../pics/contact/emailIcon.gif" alt="Email Icon"><span>E-Mail Me</span>
         </div>
         <div class='container-fluid'>
             <form class='' action="https://formsubmit.co/f61adf2ff38bc5c4deb30cb261bf1ec0" method="POST">
                 <div class='form-item row'>
                     <label class='col-sm-2' for="">Name: </label>
-                    <input class='col-sm-10' type="text" name='name' placeholder='Full Name (Required)' required>
+                    <input class='col-sm-10' type="text" name='name' placeholder='Your Name (Required)' required>
                 </div>
-                <div class='form-item row'>
+                <!-- <div class='form-item row'>
                     <label class='col-sm-2' for="">Company: </label>
                     <input class='col-sm-10' type="text" name="company" placeholder='Company Name (Optional)'>
                 </div>
                 <div class='form-item row'>
                     <label class='col-sm-2' for="">Phone: </label>
                     <input class='col-sm-10' type="tel" name="phone" placeholder='xxx-xxx-xxxx (Optional)'>
-                </div>
+                </div> -->
                 <div class='form-item row'>
                     <label class='col-sm-2' for="">Email:</label>
                     <input class='col-sm-10' type="email" name='email' placeholder="your_email@domain.com (Required)" required>
                 </div>
                 <div class='form-item row'>
                     <label class='col-sm-2' for="">Message:</label>
-                    <textarea class='col-sm-10' name="message" cols="30" rows="10" placeholder="Why do you love code? (Required)" required></textarea>
+                    <textarea class='col-sm-10' name="message" cols="30" rows="5" placeholder="Why do you love code? (Required)" required></textarea>
                 </div>
                 <input type="hidden" name="_subject" value="New codeByPete Inquiry!">
                 <input type="hidden" name="_template" value="basic">
@@ -150,6 +154,10 @@
         </div>
     </div>
 
+    <div id='googleMap' class="container-fluid text-center">
+        <iframe class='' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783016.4387251107!2d-75.87194969440895!3d39.9490398101001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c191f3adf4a9%3A0x4066eeee7bc551d0!2sPhiladelphia%20Metropolitan%20Area!5e0!3m2!1sen!2sus!4v1646398004514!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+        
     <footer class="container-fluid">
         <p>Copyright ©
             <script>
