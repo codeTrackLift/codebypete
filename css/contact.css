@@ -133,7 +133,7 @@ a>img:hover {
 
 #emailIcon>span {
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     color: white;
     font-family: Menlo Regular;
 }
@@ -184,7 +184,7 @@ input {
 
 .btn {
     margin: 0 1px;
-    width: 7rem;
+    width: fit-content;
     border-color: rgb(50, 50, 50);
     background-color: rgb(50, 50, 50);
     color: lime;
