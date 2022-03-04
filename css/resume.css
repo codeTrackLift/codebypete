@@ -116,13 +116,6 @@ ul {
     margin-bottom: 1rem;
 }
 
-a,
-a:link,
-a:visited {
-    color: lime;
-    text-decoration: none;
-}
-
 /* typeWriter below */
 #typeWriter {
     margin: 0 auto;

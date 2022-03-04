@@ -45,13 +45,6 @@ ol {
   color: silver;
 }
 
-a,
-a:link,
-a:visited {
-  color: lime;
-  text-decoration: none;
-}
-
 .myArticles {
   margin: 2rem auto;
   padding: 1rem;

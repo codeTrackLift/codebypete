@@ -61,13 +61,6 @@ ul {
     color: silver;
 }
 
-a,
-a:link,
-a:visited {
-    color: lime;
-    text-decoration: none;
-}
-
 a>img {
     transition: all 0.5s ease-in-out;
 }
@@ -109,11 +102,23 @@ a>img:hover {
     max-width: 2rem;
     max-height: 2rem;
     transition: transform 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.contactLogoSquare {
+    max-width: 2rem;
+    max-height: 2rem;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10%;
 }
 
 .contactLogo:hover,
-.contactLogo:focus {
+.contactLogo:focus,
+.contactLogoSquare:hover,
+.contactLogoSquare:focus {
     transform: scale(-1, 1) scale(1);
+    background-color: lime;
+    opacity: 1;
 }
 
 #emailIcon>img {
