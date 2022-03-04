@@ -25,11 +25,12 @@ h3 {
 }
 
 h5 {
-  color: #00857c;
+  color: cornflowerblue;
 }
 
 .myArticles {
-  padding-top: 1rem;
+  padding-top: 2rem;
+  margin-bottom: -2rem;
   color: silver;
   border-radius: 0.25rem;
   background-color: transparent;

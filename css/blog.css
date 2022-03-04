@@ -20,7 +20,7 @@ h2 {
 
 h4 {
   font-family: Menlo Regular;
-  color: #00857c;
+  color: cornflowerblue;
 }
 
 h5 {
@@ -68,6 +68,10 @@ a:visited {
   font-family: Menlo Regular;
   text-align: center;
   text-shadow: 3px 3px black;
+}
+
+.myArticles>h3 {
+    text-shadow: 1px 1px black;
 }
 
 @media (max-width:1400px) {
