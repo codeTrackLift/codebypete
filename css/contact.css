@@ -138,6 +138,13 @@ a>img:hover {
     font-family: Menlo Regular;
 }
 
+@media (max-width: 400px) {
+    #emailIcon>span {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+}
+
 .form-item>input {
     background-color: transparent;
     color: white;
