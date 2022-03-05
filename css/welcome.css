@@ -15,8 +15,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 2rem;
-    background-image: linear-gradient(rgba(50,50,50, 0.7), rgba(50, 50, 50, 0.7)),url("../pics/vesselCode_tilt_full.jpg");
+    background-position: 50% 3rem;
+    /* background-image: linear-gradient(rgba(50,50,50, 0.7), rgba(50, 50, 50, 0.7)),url("../pics/vesselCode_tilt_full.jpg"); */
     background-image: url("../pics/vesselCode_tilt_part.jpg");
 }
 
