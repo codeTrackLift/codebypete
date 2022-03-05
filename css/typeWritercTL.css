@@ -54,7 +54,7 @@
     }
 }
 
-@keyframes animationFadeIn {
+/* @keyframes animationFadeIn {
     0% {
         opacity: 0;
     }
@@ -68,7 +68,7 @@
         transform: scale(1);
         opacity: 1;
     }
-}
+} */
 
 #typeWriter>h2 {
     position: relative;
