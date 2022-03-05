@@ -32,10 +32,10 @@ body {
 
 @media (max-width: 400px) {
     html {
-        background-size: contain;
+        background-size: 200%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position-y: 12%;
+        background-position-y: top;
     }
 }
 
