@@ -1,7 +1,7 @@
 /* Intro Animations Below */
 .animationDropDown {
     color: white;
-    animation: animationDropDown 1s;
+    animation: animationDropDown 1s ease-in-out;
 }
 
 @keyframes animationDropDown {
