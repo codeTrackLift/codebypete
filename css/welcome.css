@@ -75,6 +75,11 @@ body {
     margin: 0 auto;
 }
 
+.card-body>p {
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
 .myArticles>div>img {
     transition: transform 0.5s ease-in-out;
 }
