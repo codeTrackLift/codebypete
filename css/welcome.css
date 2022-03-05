@@ -11,10 +11,12 @@ body {
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-image: linear-gradient(rgba(50,50,50, 0.7), rgba(50, 50, 50, 0.7)),url("../pics/vesselCode_tilt_full.jpg");
+    background-image: url("../pics/vesselCode_tilt_part.jpg");
 }
 
 #welcome {
