@@ -212,6 +212,7 @@
 @keyframes animationFadeIn {
     0% {
         opacity: 0;
+        transform: scale(0);
     }
 
     56.125% {
@@ -222,7 +223,7 @@
     59.125% {
         transform: scale(1);
         opacity: 1;
-    }
+    }   
 }
 
 #typeWriter>h2 {
