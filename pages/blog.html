@@ -70,26 +70,170 @@
 
     <section id="typeWriterSection" class="">
         <figure id='typeWriter' class="mx-auto">
-            <h2 id="typeWriter1"><span style="color:darkorchid;">const</span> <span style="color:lime">myCodingJourney</span> <span style='color:gray'>=</span> () <span style="color:gray">=></span> {</h2>
-            <h2 id="typeWriter2"><span style="color:rgb(50,50,50);text-shadow:none;">__</span><span style="color:darkorchid;">for</span> (<span style="color:cornflowerblue;">article</span> <span style="color:gray;">in</span> <span style="color:#00857c;">blog</span>) {</h2>
-            <h2 id="typeWriter3"><span style="color:rgb(50,50,50);text-shadow:none;">____</span><span style="color:brown">console</span><span style='color:gray;'>.</span><span style="color:olive">log</span>(<span style="color:#00857c;">blog</span><span style='color:dodgerblue;'>[</span><span style="color:cornflowerblue;">article</span><span style='color:dodgerblue;'>]</span>)<span style='color:gray;'>;</span></h2>
+            <h2 id="typeWriter1"><span style="color:darkorchid;">const</span> <span
+                    style="color:lime">myCodingJourney</span> <span style='color:gray'>=</span> () <span
+                    style="color:gray">=></span> {</h2>
+            <h2 id="typeWriter2"><span style="color:rgb(50,50,50);text-shadow:none;">__</span><span
+                    style="color:darkorchid;">for</span> (<span style="color:cornflowerblue;">article</span> <span
+                    style="color:gray;">in</span> <span style="color:#00857c;">blog</span>) {</h2>
+            <h2 id="typeWriter3"><span style="color:rgb(50,50,50);text-shadow:none;">____</span><span
+                    style="color:brown">console</span><span style='color:gray;'>.</span><span
+                    style="color:olive">log</span>(<span style="color:#00857c;">blog</span><span
+                    style='color:dodgerblue;'>[</span><span style="color:cornflowerblue;">article</span><span
+                    style='color:dodgerblue;'>]</span>)<span style='color:gray;'>;</span></h2>
             <h2 id="typeWriter4"><span style="color:rgb(50,50,50);text-shadow:none;">__</span>}</span></h2>
             <h2 id="typeWriter5">}<span style='color:gray'>;</span></h2>
         </figure>
     </section>
 
     <div class="container-fluid myArticles">
-        <h3 class="text-center" style="color:gray;">These are reflections of my experience during the MIT xPro Coding Bootcamp.</h3>
+        <div class="row">
+            <div class="col-3 m-auto">
+                <a href="https://xpro.mit.edu/" target="_blank"><img id='mitLogo' src="../pics/about/mitxPro_logoStacked.jpg" class="img-fluid" alt="MIT xPro Logo."></a>
+            </div>
+            <div class="col-9 m-auto">
+                <h3 class="text-center" style="color:gray;">These are reflections of my experience during the MIT xPro Coding Bootcamp.</h3>
+            </div>
+        </div>
     </div>
 
     <div class="accordion myBlog mx-auto">
 
         <div class="accordion-item">
             <h2 class="accordion-header">
+                <button id='blog4Button' onclick="blog4Open()" class="accordion-button collapsed bg-transparent"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">4</span><span
+                            style='color:dodgerblue'>]</span></h6>
+                    <h5>Custom CSS Typewriter</h5>
+                </button>
+            </h2>
+            <div id="blog4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <div class="'container-fluid row">
+                        <div class="'container-fluid row">
+                            <div class="col-sm-7">
+                                <div>
+                                    <h4 class="text-center mb-4">Greetings!</h4>
+                                    <div class='m-auto' style="max-width: 480px;">
+                                        <div class="h6 narrowText">
+                                            During week 4 of my <span style="color:white;">MIT xPro Coding Bootcamp</span>, I spent a lot of time on my portfolio.
+                                        </div>
+                                        <div class="h6 narrowText">
+                                            I liked the 'Typewriter' CSS animation and wanted to customize it and propogate it strategically throughout my portfolio.  Here's the example I followed from 
+                                            <a href="https://codepen.io/evirunurm/pen/MWOQoyO" target="_blank">CodePen</a>.  There were some challanges along the way...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 my-auto">
+                                <iframe id='blog4Video' class='container-fluid ratio ratio-1x1'
+                                    src="https://youtube.com/embed/YYzOL7NGuxM" frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class='col-md-5 align-self-center'>
+                                <h6>Image 1</h6>
+                                <a href="../pics/typewriter/typewriterHTML.png" target="_blank"><img src="../pics/typewriter/typewriterHTML.png" class='img-fluid m-auto' alt="Screenshot of HTML show the 'Typewriter' Section."></a>
+                            </div>
+                            <div class="col-md-7 my-auto">
+                                <p class='narrowText'>I wanted to simulate typing multiple lines of code, I needed a way to control and delay each row individually.  I chose to assign <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank">'id'</a> tags that I later call upon in the CSS.  I chose to use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" targe="_blank">'span'</a> tags to manuipate colors directly in the HTML.  Note that I used underscores that color-matched the background to simulate a tab. </id></p>
+                            </div>
+                        </div>
+
+                        <div class="row mx-auto">
+                            <div class="col-sm-4 my-auto">
+                                <p>Images 2 & 3 show the CSS properties for the 'typewriter,' the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">'section'</a> and the 'h2' font.</p>
+                                <p class="d-none d-sm-none d-md-block">Image 4 shows the properties for the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">pseudo-elements</a> '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before" target="_blank">:before</a>' and '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after" target='_blank'>:after</a>.' Image 5 shows using the 'write' and 'blink' animations for the aforementioned pseudo-elements.  Note that the 'steps' matched the character length of the row.</p>
+                            </div>
+                            <div class="col-sm-8 col-md-6 row">
+                                <div class="col-sm-5">
+                                    <h6>Image 2</h6>
+                                    <a href="../pics/typewriter/typewriterCSS1.png" target="_blank"><img src="../pics/typewriter/typewriterCSS1.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                                <div class="col-sm-7">
+                                    <h6>Image 3</h6>
+                                    <a href="../pics/typewriter/typewriterCSS2.png" target="_blank"><img src="../pics/typewriter/typewriterCSS2.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                                <div class="col-sm-12 d-none d-sm-none d-md-block">
+                                    <h6>Image 5</h6>
+                                    <a href="../pics/typewriter/typewriterCSS4.png" target="_blank"><img src="../pics/typewriter/typewriterCSS4.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 d-none d-sm-none d-md-block">
+                                <h6>Image 4</h6>
+                                <a href="../pics/typewriter/typewriterCSS3.png" target="_blank"><img src="../pics/typewriter/typewriterCSS3.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 d-none d-sm-block d-md-none">
+                                    <h6>Image 4</h6>
+                                    <a href="../pics/typewriter/typewriterCSS3.png" target="_blank"><img src="../pics/typewriter/typewriterCSS3.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                                <div class="col-sm-9 d-none d-sm-block d-md-none">
+                                    <h6>Image 5</h6>
+                                    <a href="../pics/typewriter/typewriterCSS4.png" target="_blank"><img src="../pics/typewriter/typewriterCSS4.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-block d-md-none">
+                                <p>Image 4 shows the properties for the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">pseudo-elements</a> '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before" target="_blank">:before</a>' and '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after" target='_blank'>:after</a>.' Image 5 shows using the 'write' and 'blink' <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation" target="_blank">animations</a> for the aforementioned pseudo-elements.  Note that the 'steps' matched the character length of the row.</p>
+                            </div>
+                            <div class="col-sm-2 d-sm-none d-md-none">
+                                <h6>Image 4</h6>
+                                <a href="../pics/typewriter/typewriterCSS3.png" target="_blank"><img src="../pics/typewriter/typewriterCSS3.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                            </div>
+                            <div class="d-block d-sm-none">
+                                <h6>Image 5</h6>
+                                <a href="../pics/typewriter/typewriterCSS4.png" target="_blank"><img src="../pics/typewriter/typewriterCSS4.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                            </div>
+                        </div>
+
+                        <div class="row mx-auto">
+                            <div class="col-sm-6 row">
+                                <div class="col-sm-6">
+                                    <h6>Image 6</h6>
+                                    <a href="../pics/typewriter/typewriterCSS5.png" target="_blank"><img src="../pics/typewriter/typewriterCSS5.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6>Image 7</h6>
+                                    <a href="../pics/typewriter/typewriterCSS6.png" target="_blank"><img src="../pics/typewriter/typewriterCSS6.png" class="img-fluid m-auto" alt="Screnshot of CSS showing 'Typewriter' rows 1 - 5."></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 my-auto">
+                                <div class="my-5">
+                                    <p class='narrowText'>Image 6 shows the 'write' and 'blink' <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation" target="_blank">animations</a>.  Note that my color choices were for a darker background.</p>
+                                    <p class='narrowText'>Image 7 shows the CSS properties and animation properties of the subsequent 'typewriter' rows. Note that the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function" target="_blank">timing and steps</a> needed to be adjusted for each row.</p>
+                                </div>
+                                <div class="float-end">
+                                    <div class="text-end">
+                                        <p>Happy coding!</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p style="text-align:end;font-style:italic;color:white;"><img src="../pics/profilepic.jpg"
+                                                alt="Picture of Pete" style="width:5rem;border-radius:50%;margin:0 2rem -2rem 0;"> -
+                                            Pete, Mar 5, 2022
+                                        </p>
+                                        <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPro</p>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
                 <button id='blog3Button' onclick="blog3Open()" class="accordion-button collapsed bg-transparent"
                     type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
                     aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">3</span><span style='color:dodgerblue'>]</span></h6>
+                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">3</span><span
+                            style='color:dodgerblue'>]</span></h6>
                     <h5>Pac-Man Mini-Game</h5>
                 </button>
             </h2>
@@ -116,10 +260,8 @@
                         </div>
                         <div class="col-sm-5 my-auto">
                             <iframe id='blog3Video' class='container-fluid ratio ratio-1x1'
-                                src="https://youtube.com/embed/iOKK8Q2unxE?" frameborder="0" allowfullscreen>
+                                src="https://youtube.com/embed/iOKK8Q2unxE" frameborder="0" allowfullscreen>
                             </iframe>
-                            <!-- <img class="img-fluid" src="../pics/pacman/pacman_minigame.png"
-                alt="Screenshot of JavaScript showing the resize function."> -->
                         </div>
                         <div class="row mx-auto">
                             <img src="../pics/pacman/pacman_icon.png"
@@ -221,10 +363,6 @@
                         </div>
                     </div>
                     <div class="container-fluid row">
-                        <!-- <div class="col-sm-6">
-              <img class="img-fluid p-3" src="../pics/pacman/pacman_minigame.png"
-                alt="Screenshot of JavaScript showing the resize function.">
-            </div> -->
                         <div class="col-sm-6 my-auto text-center">
                             <h6>Click Below to Play</h6>
                             <h5><a href="https://codetracklift.github.io/pacman" target="_blank">Pac-Man Mini-Game</a>
@@ -248,7 +386,8 @@
                 <button id='blog2Button' onclick="blog2Open()" class="accordion-button collapsed bg-transparent"
                     type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
                     aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">2</span><span style='color:dodgerblue'>]</span></h6>
+                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">2</span><span
+                            style='color:dodgerblue'>]</span></h6>
                     <h5>Magic Ball Challenge</h5>
                 </button>
             </h2>
@@ -434,7 +573,8 @@
                 <button id='blog1Button' onclick="blog1Open()" class="accordion-button collapsed bg-transparent"
                     type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
                     aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">1</span><span style='color:dodgerblue'>]</span></h6>
+                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">1</span><span
+                            style='color:dodgerblue'>]</span></h6>
                     <h5>Creating a GitHub Website</h5>
                 </button>
             </h2>
@@ -516,7 +656,8 @@
                 <button id='blog0Button' onclick='blog0Open()' class="accordion-button collapsed bg-transparent"
                     type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
                     aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">0</span><span style='color:dodgerblue'>]</span></h6>
+                    <h6>blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">0</span><span
+                            style='color:dodgerblue'>]</span></h6>
                     <h5>Coding Bootcamp Introduction</h5>
                 </button>
             </h2>

@@ -73,6 +73,18 @@ ol {
   }
 }
 
+#mitLogo {
+    opacity: 0.75;
+    box-shadow: silver 0px 5px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+#mitLogo:hover,
+#mitLogo:focus {
+    opacity: 1;
+    box-shadow: lime 0px 5px 15px;
+}
+
 /* Blog CSS Below */
 .myBlog {
   margin: 1rem;
@@ -123,10 +135,13 @@ ol {
   border: 1px solid lime;
 }
 
-.accordion-button>h6,
+
 h6 {
-  color: #00857c;
+  color: cornflowerblue;
   font-family: Menlo Regular;
+}
+.accordion-button>h6 {
+  color: #00857c;
 }
 
 /* typeWriter below */
