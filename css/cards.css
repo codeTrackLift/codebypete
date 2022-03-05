@@ -9,6 +9,7 @@
 
 .card-title {
     font-family: Menlo Regular;
+    text-align: center;
 }
 
 .card>img {
