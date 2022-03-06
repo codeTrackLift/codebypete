@@ -69,8 +69,12 @@ a>img:hover {
     opacity: 0.5;
 }
 
+#typeWriter>h2 {
+    z-index: 3;
+}
+
 #greetingPic>img {
-    z-index: 1;
+    z-index: 4;
     width: 45vw;
     height: 35vw;
     max-width: 26rem;
