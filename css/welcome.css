@@ -80,6 +80,22 @@ body {
     line-height: 1.4;
 }
 
+.card>img {
+    margin-top: 1rem;
+}
+
+@media (max-width: 950px) {
+    .card>img {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .card>img {
+        margin-top: 1.5rem;
+    }
+}
+
 .myArticles>div>img {
     transition: transform 0.5s ease-in-out;
 }
