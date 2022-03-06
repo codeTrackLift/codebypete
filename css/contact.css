@@ -1,3 +1,7 @@
+* {
+    z-index: 5;
+}
+
 html {
     background-size: cover;
     background-attachment: fixed;
@@ -134,6 +138,7 @@ a>img:hover {
     opacity: 0.5;
     transition: transform 0.5s ease-in-out;
 }
+
 #emailIcon>img:hover,
 #emailIcon>img:focus {
     transform: scale(-1, 1) scale(1);
