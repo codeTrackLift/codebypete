@@ -70,26 +70,20 @@ a>img:hover {
 }
 
 #typeWriter>h2 {
-    z-index: 3;
+    z-index: 1;
 }
 
 #greetingPic>img {
-    z-index: 4;
+    z-index: 2;
     width: 45vw;
     height: 35vw;
     max-width: 26rem;
     max-height: 20rem;
     position: fixed;
     left: 0;
-    top: 15vh;
+    top: 0;
     opacity: 0.25;
     border-radius: 50%;
-}
-
-@media (max-width:600px) {
-    #greetPic>img {
-        margin-left: -3rem;
-    }
 }
 
 @media (min-width: 1200px) {
