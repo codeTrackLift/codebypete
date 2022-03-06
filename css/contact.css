@@ -70,31 +70,39 @@ a>img:hover {
 }
 
 #greetingPic>img {
+    z-index: 1;
     width: 45vw;
     height: 35vw;
     max-width: 26rem;
     max-height: 20rem;
-    position: static;
+    position: fixed;
+    left: 0;
+    top: 15vh;
     opacity: 0.25;
     border-radius: 50%;
-    margin: -15rem 0 0 -5vw;
 }
 
-@media (max-width: 580px) {
-    #greetingPic>img {
-        margin-left: -10vw;
+@media (max-width:600px) {
+    #greetPic>img {
+        margin-left: -3rem;
     }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
     #greetingPic>img {
-        margin-left: 5vw;
+        left: 5vw;
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
     #greetingPic>img {
-        margin-left: 10vw;
+        left: 10vw;
+    }
+}
+
+@media (min-width: 2000px) {
+    #greetingPic>img {
+        left: 20vw;
     }
 }
 
@@ -153,6 +161,7 @@ a>img:hover {
 .form-item>input {
     background-color: transparent;
     color: white;
+    text-shadow: 1px 1px black;
     border-radius: 0.25rem;
     border: .125rem solid black;
     margin-bottom: 0.5rem;
@@ -166,6 +175,7 @@ a>img:hover {
 .form-item>textarea {
     background-color: rgb(50, 50, 50);
     color: white;
+    text-shadow: 1px 1px black;
     border-radius: 0.25rem;
     margin-bottom: 0.5rem;
     border: .125rem solid black;
