@@ -1,11 +1,31 @@
-# codebypete
-Thanks for visiting my Portfolio Readme!
+# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> **Portfolio Project**: <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='30'> ***codeByPete***
 
-This website is intended to reflect my progression as a Web Developer as I make a career change.  I discovered freeCodeCamp.org in December of 2021 and fell in love with coding and started the self-teaching journey using freeCodeCamp.org and The Odin Project.
+## About
+Thanks for visiting my portfolio. This repository is intended to showcase my progression as a Full Stack Web Developer, and includes projects developed during my self-taught journey and MIT xPro Coding Bootcamp.
 
-I also signed up for a Full Stack Coding Bootcamp with MIT xPro, where we will be learning to use MongoDB, Express, React, and Node.  This is a full-time 16 week program that runs from Feb-Jul, 2022.
+## How to Run
+>Please visit [www.codeByPete.com](https://www.codebypete.com) to join me, on ***myCodingJourney***.  
 
-Thank you again for visiting, I look forward to working with you during this exciting part of my journey!
+This portfolio includes the following sections:
+1. About Me
+2. My Blog
+3. Projects
+4. Resume
+5. Contact Form
 
-Best Regards,
-Pete
+## Future Roadmap
+- [x] Fully Responsive
+- [x] Refactor with Bootstrap
+- [x] Typewriter CSS effects
+- [ ] Refactor Navbar with JavaScript
+- [ ] Refactor with React
+
+## MIT License
+
+Copyright (c) 2022 Pete Chu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
