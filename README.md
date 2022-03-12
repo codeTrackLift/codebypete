@@ -1,5 +1,12 @@
 # <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> **Portfolio Project**: <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='30'> ***codeByPete***
 
+<img src='https://www.codebypete.com/pics/about/html5_logo.gif' alt='HTML5 logo' width='30'>
+<img src='https://www.codebypete.com/pics/about/css3_logo.gif' alt='CSS3 logo' width='30'>
+<img src='https://www.codebypete.com/pics/about/javascript_logo.gif' alt='JavaScript logo' width='30'>
+<img src='https://www.codebypete.com/pics/about/bootstrap-logo.svg' alt='Bootstrap logo' width='35'>
+<img src='https://www.codebypete.com/pics/about/gitLogoOrangeRed.png' alt='VS Code logo' width='30'>
+<img src='https://www.codebypete.com/pics/about/vsCodeLogo.png' alt='VS Code logo' width='30'>
+
 ## About
 Thanks for visiting my portfolio. This repository is intended to showcase my progression as a Full Stack Web Developer, and includes projects developed during my self-taught journey and MIT xPro Coding Bootcamp.
 
@@ -22,7 +29,7 @@ This portfolio includes the following sections:
 
 ## MIT License
 
-Copyright (c) 2022 Pete Chu
+Copyright (c) 2022 Pete Chu <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
