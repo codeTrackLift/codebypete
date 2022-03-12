@@ -19,6 +19,7 @@ This portfolio includes the following sections:
 
 ## Future Roadmap
 - [x] Fully Responsive
+- [x] Mobile Compatible
 - [x] Refactor with Bootstrap
 - [x] Typewriter CSS effects
 - [ ] Refactor Navbar with JavaScript
