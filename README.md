@@ -1,4 +1,5 @@
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> **Portfolio Project**: <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='30'> ***codeByPete***
+# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> **Portfolio Project**
+## <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***codeByPete***
 
 >Please visit [www.codeByPete.com](https://www.codebypete.com) to join me, on ***myCodingJourney***.  
 
