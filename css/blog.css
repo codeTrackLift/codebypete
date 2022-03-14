@@ -76,7 +76,7 @@ ol {
 #mitLogo {
     opacity: 0.75;
     box-shadow: silver 0px 5px 15px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 #mitLogo:hover,
@@ -127,7 +127,7 @@ ol {
 
 .accordion-button {
   gap: 5vw;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
   border: 1px solid rgb(38, 38, 38);
 }
 

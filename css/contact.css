@@ -66,7 +66,7 @@ ul {
 }
 
 a>img {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 a>img:hover {
@@ -206,7 +206,7 @@ input {
     border-color: rgb(50, 50, 50);
     background-color: rgb(50, 50, 50);
     color: lime;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .btn:hover {

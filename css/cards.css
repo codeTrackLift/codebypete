@@ -47,7 +47,8 @@
     border-color: dimgray;
     background-color: dimgray;
     color: lime;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    opacity: 1 !important;
 }
 
 .btn:hover {

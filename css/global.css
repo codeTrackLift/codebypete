@@ -34,10 +34,13 @@ a:link,
 a:visited {
   color: lime;
   text-decoration: none;
+  transition: all 0.25s ease-in-out;
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: underline;
+    opacity: 0.75;
 }
 
 footer {
