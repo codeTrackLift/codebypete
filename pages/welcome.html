@@ -105,8 +105,8 @@
                     <p class="card-text">Demo projects or view source code on GitHub.</p>
                     <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                     <div class="btnContainer mt-3">
-                        <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                        <a href="../pages/blog.html" class="btn btn-secondary btnRepo">My Blog</a>
+                        <a id='projectsButton' onclick="buttonEffect('projectsButton')" href="../pages/projects.html" class="btn btn-secondary">Projects</a>
+                        <a id='blogButton' onclick="buttonEffect('blogButton')" href="../pages/blog.html" class="btn btn-secondary btnRepo">My Blog</a>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@
                     <p class="card-text">20 year Pharmaceutical Professional</p>
                     <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                     <div class="btnContainer mt-3">
-                        <a href="../pages/about.html" class="btn btn-secondary">About Me</a>
-                        <a href="../pages/contact.html" class="btn btn-secondary btnRepo" target="_blank">Contact</a>
+                        <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary">About Me</a>
+                        <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary btnRepo" target="_blank">Contact</a>
                     </div>
                 </div>
             </div>
@@ -158,6 +158,7 @@
     <!-- My JS -->
     <script src="../js/footer.js"></script>
     <script>setTimeout(injectMyFooter,3000)</script>
+    <script src="../js/cards.js"></script>
 </body>
 
 </html>

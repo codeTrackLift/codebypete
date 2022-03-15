@@ -24,7 +24,7 @@ This portfolio includes the following sections:
 - [x] Typewriter CSS effects
 - [x] Refactor footer with JavaScript
 - [x] Open blog articles with URL hash
-- [ ] Add button click effects
+- [x] Add button click effects
 - [ ] Refactor Navbar with JavaScript
 - [ ] Refactor with React
 

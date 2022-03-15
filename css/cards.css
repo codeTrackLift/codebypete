@@ -49,11 +49,16 @@
     color: lime;
     transition: all 0.25s ease-in-out;
     opacity: 1 !important;
+    text-decoration: none !important;
 }
 
 .btn:hover {
     background-color: black;
     border-color: lime;
     color: lime;
-    text-decoration: none;
+}
+
+.buttonEffect {
+    background-color: transparent !important;
+    border: none !important;
 }
