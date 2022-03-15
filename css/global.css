@@ -41,6 +41,10 @@ body {
   align-items: center;
 }
 
+#mainContent {
+    width: 100%;
+}
+
 a,
 a:link,
 a:visited {
