@@ -46,15 +46,15 @@ function blog5Open() {
         blog5OpenStatus = !blog5OpenStatus;
         blog5.classList.add('show');
         blog5Button.classList.remove('collapsed');
-        blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE?&autoplay=1&mute=1';
-        blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8?&autoplay=1&mute=1';
+        // blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE?&autoplay=1&mute=1';
+        // blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8?&autoplay=1&mute=1';
         return
     }
     blog5OpenStatus = !blog5OpenStatus;
     blog5.classList.remove('show');
     blog5Button.classList.add('collapsed');
-    blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE';
-    blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8';
+    // blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE';
+    // blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8';
 }
 
 function blog4Open() {
