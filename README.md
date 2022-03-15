@@ -22,6 +22,9 @@ This portfolio includes the following sections:
 - [x] Mobile Compatible
 - [x] Refactor with Bootstrap
 - [x] Typewriter CSS effects
+- [x] Refactor footer with JavaScript
+- [x] Open blog articles with URL hash
+- [ ] Add button click effects
 - [ ] Refactor Navbar with JavaScript
 - [ ] Refactor with React
 

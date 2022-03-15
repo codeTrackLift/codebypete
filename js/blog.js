@@ -1,3 +1,13 @@
+// Open Anchor Accordion
+function openAnchorAccordion() {
+    if (window.location.hash) {
+        hash = `${window.location.hash}Open()`;
+        hash = hash.replace('#','').replace('Button','');
+        setTimeout(hash,50);
+    }
+}
+openAnchorAccordion();
+
 // Blog div .accordion-collapse 
 const blog5 = document.getElementById('blog5');
 const blog4 = document.getElementById('blog4');
