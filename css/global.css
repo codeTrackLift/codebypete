@@ -9,6 +9,18 @@
     font-family: Menlo Regular;
 }
 
+.cornflowerBlue {
+    color: cornflowerblue;
+}
+
+.chocolate {
+    color: chocolate;
+}
+
+.text-silver {
+    color: silver;
+}
+
 *,
 *::before,
 *::after {

@@ -23,6 +23,8 @@ var blog1OpenStatus = false;
 var blog0OpenStatus = false;
 
 // Blog videos
+const blog5VideoPac = document.getElementById('blog5VideoPac');
+const blog5VideoEye = document.getElementById('blog5VideoEye');
 const blog4Video = document.getElementById('blog4Video');
 const blog3Video = document.getElementById('blog3Video');
 const blog2Video = document.getElementById('blog2Video');
@@ -34,11 +36,15 @@ function blog5Open() {
         blog5OpenStatus = !blog5OpenStatus;
         blog5.classList.add('show');
         blog5Button.classList.remove('collapsed');
+        blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE?&autoplay=1&mute=1';
+        blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8?&autoplay=1&mute=1';
         return
     }
     blog5OpenStatus = !blog5OpenStatus;
     blog5.classList.remove('show');
     blog5Button.classList.add('collapsed');
+    blog5VideoPac.src = 'https://youtube.com/embed/JywuU_yC3PE';
+    blog5VideoEye.src = 'https://youtube.com/embed/Md5x0Ta30V8';
 }
 
 function blog4Open() {
