@@ -215,6 +215,11 @@ input {
     color: lime;
 }
 
+.buttonEffect {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
 #googleMap {
     background-color: transparent;
     box-shadow: none;
