@@ -29,8 +29,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-transparent sticky-top">
-        <div class="container-fluid">
+    <nav id='navbar' class="navbar navbar-expand-sm navbar-dark bg-transparent sticky-top">
+        <!-- <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <img id='pharm2CodeLogo' src='../pics/pharma2code_icon.gif' style="width:2.5rem;">
@@ -60,12 +60,8 @@
                         <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
                 </ul>
-                <!-- <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
             </div>
-        </div>
+        </div> -->
     </nav>
 
     <section id="typeWriterSection">
@@ -317,6 +313,8 @@
     <script src="../libraries/bootstrap.min.js"></script>
 
     <!-- My JS -->
+    <script src="../js/navbar.js"></script>
+    <script>injectMyNavbar();setActiveNavlink('navlinkResume');</script>
     <script src="../js/footer.js"></script>
     <script>injectMyFooter()</script>
 </body>
