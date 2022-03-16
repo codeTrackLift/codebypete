@@ -63,7 +63,7 @@ const myWelcome = `
 
 const injectWelcome = () => mainContent.innerHTML = myWelcome;
 
-const myBackground = () => {
+const injectWelcomeBackground = () => {
     const body = document.querySelector('body');
     body.style.backgroundImage = 'url("../pics/vesselCode_tilt_part.jpg")'
 }
