@@ -43,20 +43,17 @@
 
     <section id="typeWriterSection" class="">
         <figure id='typeWriter' class="mx-auto">
-            <h2 id="typeWriter1"><span style="color: cornflowerblue">stationInLife</span><span style='color:gray;'>.</span><span
-                    style="color:darkorchid;">replace</span>(</h2>
-            <h2 id="typeWriter2"><span style="color:black;text-shadow:none;">__</span>'<span
-                    style="color: #00857c;">Pharmaceutical
-                    Engineer</span>'<span style='color:gray;'>,</span></h2>
-            <h2 id="typeWriter3"><span style="color:black;text-shadow:none;">__</span>'<span
-                    style="color:lime;">Software
-                    Developer</span>')<span style='color:gray;'>;</span></h2>
+            <h2 id="typeWriter1"><span style="color: cornflowerblue">stationInLife</span><span style='color:gray;'>.</span><span style="color:darkorchid;">replace</span>(</h2>
+            <h2 id="typeWriter2"><span style="color:black;text-shadow:none;">__</span>'<span style="color: #00857c;">Pharmaceutical Engineer</span>'<span style='color:gray;'>,</span></h2>
+            <h2 id="typeWriter3"><span style="color:black;text-shadow:none;">__</span>'<span style="color:lime;">Software Developer</span>')<span style='color:gray;'>;</span></h2>
         </figure>
     </section>
 
     <main id="mainContent">
+        
+        <!--
 
-        <!-- <section id="mySection">
+            <section id="mySection">
 
             <div class="row container-fluid">
                 <div class="text-center mb-4">
@@ -114,8 +111,8 @@
 
             </div>
 
-        </section> -->
-
+        </section> 
+    -->
     </main>
 
     <footer id="footer" class="container-fluid"></footer>
@@ -125,12 +122,17 @@
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
-    <script>injectMyNavbar();setActiveNavlink('navlinkWelcome');navbarCBPRemove();</script>
     <script src="../js/welcome.js"></script>
-    <script>setTimeout(injectWelcome,3000)</script>
     <script src="../js/cards.js"></script>
     <script src="../js/footer.js"></script>
-    <script>setTimeout(injectMyFooter,3000)</script>
+    <script>
+        injectMyNavbar();
+        setActiveNavlink('navlinkWelcome');
+        navbarCBPRemove();
+        setTimeout(myBackground, 2850);
+        setTimeout(injectWelcome,3000);
+        setTimeout(injectMyFooter,3000);
+    </script>
 </body>
 
 </html>
