@@ -21,6 +21,10 @@
     color: silver;
 }
 
+.textShadowBlack {
+    text-shadow: 1px 1px black;
+}
+
 *,
 *::before,
 *::after {
@@ -71,6 +75,7 @@ footer {
 footer>a,
 footer>p {
   margin: auto 0;
+  text-shadow: 1px 1px black;
 }
 
 footer>p>span {

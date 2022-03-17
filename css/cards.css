@@ -50,6 +50,7 @@
     transition: all 0.25s ease-in-out;
     opacity: 1 !important;
     text-decoration: none !important;
+    text-shadow: 1px 1px black;
 }
 
 .btn:hover {

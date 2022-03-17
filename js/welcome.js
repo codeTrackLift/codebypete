@@ -4,7 +4,7 @@ const myWelcome = `
 
     <div class="row container-fluid">
         <div class="text-center mb-4">
-            <h5 class='menloRegular' style="color:white;">Join me, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
+            <h5 class='menloRegular textShadowBlack' style="color:white;">Join me, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
         </div>
 
         <div class="card col-sm-4" style="width: 18rem;">
@@ -27,13 +27,13 @@ const myWelcome = `
                 <img src="../pics/about/css3_logo.gif" class='col-sm-2 img-fluid img-round' alt="CSS3 Logo.">
                 <img src="../pics/about/javascript_logo.gif" class='col-sm-2 img-fluid img-round' alt="JavaScript Logo.">
             </div>
-            <h1 class="text-center mb-4 menloRegular">Technology</h1>
+            <h1 class="text-center mb-4 menloRegular textShadowBlack">Technology</h1>
         </div>
     </div>
 
     <div class="row container-fluid">
         <div class="col-sm-4 myArticles container-fluid my-auto">
-            <h1 class="text-center mb-4 menloRegular">Stack</h1>
+            <h1 class="text-center mb-4 menloRegular textShadowBlack">Stack</h1>
             <div class="row justify-content-evenly">
                 <img src="../pics/about/gitLogoOrangeRed.png" class='py-3 col-sm-2 img-fluid img-square' alt="Bootstrap Logo.">
                 <img src="../pics/about/vsCodeLogo.png" class='py-3 col-sm-2 img-fluid img-square' alt="Visual Studio Code Logo.">
