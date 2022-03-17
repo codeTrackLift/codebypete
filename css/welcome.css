@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 3rem;
-    /* background-image: url("../pics/vesselCode_tilt_part.jpg"); */
 }
 
 @media (max-width:400px) {
@@ -116,6 +115,8 @@ body {
     height: 8rem;
     width: auto;
     box-shadow: none;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 footer {
