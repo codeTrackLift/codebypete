@@ -44,6 +44,7 @@
 .btn {
     margin: 0 1px;
     width: 7rem;
+    border-radius: 2px;
     border-color: dimgray;
     background-color: dimgray;
     color: lime;
