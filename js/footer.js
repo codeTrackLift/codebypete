@@ -17,8 +17,3 @@ const myFooter = `
     </a>`;
 
 const injectMyFooter = () => footer.innerHTML = myFooter;
-
-const footerRemFixedPosition = () => {
-    footer.classList.remove('fixed-bottom');
-    footer.style.backgroundColor = 'rgb(50,50,50)';
-};
