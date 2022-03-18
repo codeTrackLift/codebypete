@@ -18,7 +18,7 @@ h1 {
   text-shadow: 3px 3px black;
 }
 
-h3 {
+h3, h6 {
   text-align: center;
   text-shadow: 2px 2px black;
 }
@@ -28,7 +28,7 @@ h5 {
 }
 
 .myArticles {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-bottom: -2rem;
   color: silver;
   border-radius: 0.25rem;
