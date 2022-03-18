@@ -44,6 +44,12 @@ h5 {
   display: flex;
 }
 
+#myProjects2 {
+  max-width: 1200px;
+  justify-content: space-between;
+  display: flex;
+}
+
 .row {
   margin: 2rem auto;
   padding: 2rem;
