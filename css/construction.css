@@ -2,7 +2,7 @@ html {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("../pics/construction.jpg");
+  background-image: url("../pics/backgrounds/construction.jpg");
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
