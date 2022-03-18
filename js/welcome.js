@@ -56,6 +56,14 @@ const myWelcome = `
             </div>
         </div>
 
+
+
+    </div>
+
+    <div id='githubContributions' class="container-fluid text-center">
+        <a href="https://github.com/codeTrackLift" target="_blank">
+            <img src="../pics/about/githubContributions.png" alt="GitHub contribution">
+        </a>
     </div>
 
     </section>

@@ -63,6 +63,22 @@ a:focus {
     opacity: 0.75;
 }
 
+#githubContributions {
+    width: 100%;
+}
+
+#githubContributions>a>img {
+    width: 90vw;
+    max-width: 960px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#githubContributions>a:hover,
+#githubContributions>a>img:hover {
+    opacity: 1;
+}
+
+
 footer {
   display: flex;
   flex-direction: row;
