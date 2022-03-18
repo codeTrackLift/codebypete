@@ -6,7 +6,7 @@ const myFooter = `
         <img class='d-none d-sm-inline' src="../pics/pharma2code_icon.gif" style='height: 2rem;' alt="My 'Pharma 2 Code' Logo.">
         <span style="color:white;">code</span><span style="color:#00857c;">By</span><span style="color:lime;">Pete</span>
     </p>
-    <a href="https://github.com/codetracklift" target="_blank">
+    <a href="https://github.com/codeTrackLift/codebypete" target="_blank">
         <img class="socialLogo" src="../pics/GitHub-Mark-Light-64px.png" alt="GitHub Icon">
     </a>
     <a href="https://twitter.com/codeTrackLift" target="_blank">
