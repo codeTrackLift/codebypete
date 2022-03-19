@@ -144,6 +144,13 @@ h6 {
   color: #00857c;
 }
 
+.profilePic {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 0 2rem -2rem 0;
+    opacity: 0.75;
+}
+
 /* typeWriter below */
 #typeWriter {
     margin: 0 auto;

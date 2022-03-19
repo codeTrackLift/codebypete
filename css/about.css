@@ -83,6 +83,9 @@ a>img:hover {
     opacity: 0.25;
     border-radius: 50%;
     margin: -20rem 0 -12rem 5vw;
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter: drop-shadow(2px 2px 2px black);
+    box-shadow: none;
 }
 
 @media (min-width: 1200px) {
