@@ -121,16 +121,19 @@ body {
 
 #welcomeCard1 {
     transition: all 0.5s ease-in-out;
-    transform: translate(-2rem) scale(0.9);
+    transform: translate(-1rem) scale(0.9);
+    opacity: 0.75;
 }
 
 #welcomeCard2 {
     transition: all 0.5s ease-in-out;
-    transform: translate(2rem) scale(0.9);
+    transform: translate(1rem) scale(0.9);
+    opacity: 0.75;
 }
 
 .shift {
-    transform: scale(1.1) !important;
+    transform: scale(1.05) !important;
+    opacity: 1 !important;
 }
 
 footer {
