@@ -13,7 +13,7 @@ const myWelcome = `
             <div class="card-body">
                 <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
                 <p class="card-text">Demo projects and see my progression.</p>
-                <p class="card-text">View the source code, or see my documentation on GitHub.</p>
+                <p class="card-text">View source code or my documentation on GitHub.</p>
                 <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                 <div class="btnContainer mt-3">
                     <a id='projectsButton' onclick="buttonEffect('projectsButton')" href="../pages/projects.html" class="btn btn-secondary">Projects</a>
