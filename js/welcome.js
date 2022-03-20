@@ -12,7 +12,7 @@ const myWelcome = `
             </iframe>
             <div class="card-body">
                 <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
-                <p class="card-text">Demo projects or view source code on GitHub.</p>
+                <p class="card-text">Demo projects, view the source code, or README.md on GitHub.</p>
                 <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                 <div class="btnContainer mt-3">
                     <a id='projectsButton' onclick="buttonEffect('projectsButton')" href="../pages/projects.html" class="btn btn-secondary">Projects</a>
