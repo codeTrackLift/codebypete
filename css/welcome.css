@@ -119,6 +119,15 @@ body {
     filter: drop-shadow(1px 1px 1px black);
 }
 
+#welcomeCard1,
+#welcomeCard2 {
+    transition: all 0.5s ease-in-out;
+}
+
+.shift {
+    transform: scale(1.05);
+}
+
 footer {
     background-color: rgb(50, 50, 50);
 }

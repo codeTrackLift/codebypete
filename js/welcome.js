@@ -7,7 +7,7 @@ const myWelcome = `
             <h5 class='menloRegular textShadowBlack' style="color:white;">Join me, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
         </div>
 
-        <div class="card col-sm-4" style="width: 18rem;">
+        <div id='welcomeCard1' class="card col-sm-4" style="width: 18rem;">
             <iframe class='container-fluid ratio ratio-1x1 pt-4' src="https://youtube.com/embed/L2MLboXUkUA" frameborder="0" allowfullscreen>
             </iframe>
             <div class="card-body">
@@ -41,7 +41,7 @@ const myWelcome = `
             </div>
         </div>
 
-        <div class="card col-sm-4" style="width: 18rem;">
+        <div id='welcomeCard2' class="card col-sm-4" style="width: 18rem;">
             <img src="../pics/about/crushItApple.jpg" class="card-img-top mx-auto" alt="Pac Man image"
                 style="width:10rem;">
             <div class="card-body">
@@ -74,4 +74,24 @@ const injectWelcome = () => mainContent.innerHTML = myWelcome;
 const injectWelcomeBackground = () => {
     const body = document.querySelector('body');
     body.style.backgroundImage = 'url("../pics/backgrounds/vesselCode_tilt_part.jpg")'
+}
+
+const initScrollMagic = () => {
+    var welcomeCard1Controller = new ScrollMagic.Controller();
+    var welcomeCard1 = new ScrollMagic.Scene({
+        triggerElement: '#welcomeCard1',
+        offset: 0,
+        duration: 500
+    })
+    .setClassToggle('#welcomeCard1', 'shift')
+    .addTo(welcomeCard1Controller);
+
+    var welcomeCard2Controller = new ScrollMagic.Controller();
+    var welcomeCard2 = new ScrollMagic.Scene({
+        triggerElement: '#welcomeCard2',
+        offset: 0,
+        duration: 500
+    })
+    .setClassToggle('#welcomeCard2', 'shift')
+    .addTo(welcomeCard2Controller);
 }
