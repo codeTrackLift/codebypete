@@ -122,18 +122,18 @@ body {
 #welcomeCard1 {
     transition: all 0.5s ease-in-out;
     transform: translate(-1rem) scale(0.9);
-    opacity: 0.75;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #welcomeCard2 {
     transition: all 0.5s ease-in-out;
     transform: translate(1rem) scale(0.9);
-    opacity: 0.75;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .shift {
-    transform: scale(1.05) !important;
-    opacity: 1 !important;
+    transform: scale(1) !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
 }
 
 footer {
