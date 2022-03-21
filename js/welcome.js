@@ -86,7 +86,7 @@ const initScrollMagic = () => {
     var welcomeCard1 = new ScrollMagic.Scene({
             triggerElement: '#welcomeCard1',
             offset: 0,
-            duration: 600
+            duration: 500
         })
         .setClassToggle('#welcomeCard1', 'shift')
         .addTo(welcomeCard1Controller);
@@ -95,7 +95,7 @@ const initScrollMagic = () => {
     var welcomeCard2 = new ScrollMagic.Scene({
             triggerElement: '#welcomeCard2',
             offset: 0,
-            duration: 600
+            duration: 500
         })
         .setClassToggle('#welcomeCard2', 'shift')
         .addTo(welcomeCard2Controller);

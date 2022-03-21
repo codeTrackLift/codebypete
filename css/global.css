@@ -90,7 +90,7 @@ a:focus {
 }
 
 .carousel-inner {
-    width: 90vw;
+    max-width: 50rem;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(50,50,50);
