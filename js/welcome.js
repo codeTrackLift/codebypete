@@ -75,18 +75,12 @@ const injectWelcome = () => mainContent.innerHTML = myWelcome;
 const injectWelcomeBackground = () => {
     const body = document.querySelector('body');
     body.style.backgroundImage = 'url("../pics/backgrounds/vesselCode_tilt_part.jpg")'
-    const carousel = document.getElementById('carousel');
-    carousel.style.transform = 'scale(1)';
-    carousel.style.padding = '3rem 0';
-    carousel.style.margin = '0';
 }
 
 const initScrollMagic = () => {
     var welcomeCard1Controller = new ScrollMagic.Controller();
     var welcomeCard1 = new ScrollMagic.Scene({
             triggerElement: '#welcomeCard1',
-            offset: 0,
-            duration: 500
         })
         .setClassToggle('#welcomeCard1', 'shift')
         .addTo(welcomeCard1Controller);
@@ -94,9 +88,14 @@ const initScrollMagic = () => {
     var welcomeCard2Controller = new ScrollMagic.Controller();
     var welcomeCard2 = new ScrollMagic.Scene({
             triggerElement: '#welcomeCard2',
-            offset: 0,
-            duration: 500
         })
         .setClassToggle('#welcomeCard2', 'shift')
         .addTo(welcomeCard2Controller);
+}
+
+const unhideCarousel = () => {
+    const carousel = document.getElementById('carousel');
+    carousel.style.transform = 'scale(1)';
+    carousel.style.padding = '3rem 0';
+    carousel.style.margin = '0';
 }
