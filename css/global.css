@@ -21,6 +21,10 @@
     color: silver;
 }
 
+.text-gray {
+    color: gray;
+}
+
 .textShadowBlack {
     text-shadow: 1px 1px black;
 }
@@ -78,6 +82,19 @@ a:focus {
     opacity: 1;
 }
 
+#carousel {
+    z-index: 1;
+    margin: 4rem 0;
+    width: 100vw;
+    background-color: rgb(50,50,50);
+}
+
+.carousel-inner {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(50,50,50);
+}
 
 footer {
   display: flex;
