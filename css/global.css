@@ -72,6 +72,7 @@ a:focus {
 }
 
 #githubContributions>a>img {
+    margin: 1rem 0;
     width: 90vw;
     max-width: 960px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -80,13 +81,6 @@ a:focus {
 #githubContributions>a:hover,
 #githubContributions>a>img:hover {
     opacity: 1;
-}
-
-#carousel {
-    z-index: 1;
-    margin: 4rem 0;
-    width: 100vw;
-    background-color: rgb(50,50,50);
 }
 
 .carousel-inner {

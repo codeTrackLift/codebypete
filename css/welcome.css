@@ -142,8 +142,11 @@ body {
 }
 
 #carousel {
+    z-index: 1;
     margin: -3rem;
     transform: scale(0);
+    width: 100vw;
+    background-color: rgb(50,50,50);
 }
 
 footer {

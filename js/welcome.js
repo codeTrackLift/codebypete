@@ -96,6 +96,6 @@ const initScrollMagic = () => {
 const unhideCarousel = () => {
     const carousel = document.getElementById('carousel');
     carousel.style.transform = 'scale(1)';
-    carousel.style.padding = '3rem 0';
+    carousel.style.padding = '1rem 0';
     carousel.style.margin = '0';
 }
