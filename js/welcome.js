@@ -52,7 +52,7 @@ const myWelcome = `
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
                     <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary">About Me</a>
-                    <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary btnRepo" target="_blank">Contact</a>
+                    <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary btnRepo">Contact</a>
                 </div>
             </div>
         </div>
