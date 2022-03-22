@@ -75,7 +75,7 @@ a:focus {
     margin: 1rem 0;
     width: 90vw;
     max-width: 960px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
 #githubContributions>a:hover,
