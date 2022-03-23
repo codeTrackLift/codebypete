@@ -113,7 +113,7 @@ var etchASketchRepo = new ScrollMagic.Scene({
 var rockPaperScissorsDemoController = new ScrollMagic.Controller();
 var rockPaperScissorsDemo = new ScrollMagic.Scene({
     triggerElement: '#rockPaperScissorsDemo',
-    offset: -350
+    offset: -300
 })
 .setClassToggle('#rockPaperScissorsDemo', 'show')
 .addTo(rockPaperScissorsDemoController);
@@ -121,7 +121,7 @@ var rockPaperScissorsDemo = new ScrollMagic.Scene({
 var rockPaperScissorsRepoController = new ScrollMagic.Controller();
 var rockPaperScissorsRepo = new ScrollMagic.Scene({
         triggerElement: '#rockPaperScissorsRepo',
-        offset: -350
+        offset: -300
     })
     .setClassToggle('#rockPaperScissorsRepo', 'show')
     .addTo(rockPaperScissorsRepoController);
@@ -129,7 +129,7 @@ var rockPaperScissorsRepo = new ScrollMagic.Scene({
 var odinLandingpageDemoController = new ScrollMagic.Controller();
 var odinLandingpageDemo = new ScrollMagic.Scene({
     triggerElement: '#odinLandingpageDemo',
-    offset: -350
+    offset: -400
 })
 .setClassToggle('#odinLandingpageDemo', 'show')
 .addTo(odinLandingpageDemoController);
@@ -137,7 +137,7 @@ var odinLandingpageDemo = new ScrollMagic.Scene({
 var odinLandingpageRepoController = new ScrollMagic.Controller();
 var odinLandingpageRepo = new ScrollMagic.Scene({
         triggerElement: '#odinLandingpageRepo',
-        offset: -350
+        offset: -400
     })
     .setClassToggle('#odinLandingpageRepo', 'show')
     .addTo(odinLandingpageRepoController);
@@ -145,7 +145,7 @@ var odinLandingpageRepo = new ScrollMagic.Scene({
 var buttonAboutController = new ScrollMagic.Controller();
 var buttonAbout = new ScrollMagic.Scene({
     triggerElement: '#buttonAbout',
-    offset: -350
+    offset: -400
 })
 .setClassToggle('#buttonAbout', 'show')
 .addTo(buttonAboutController);
@@ -153,7 +153,7 @@ var buttonAbout = new ScrollMagic.Scene({
 var buttonContactController = new ScrollMagic.Controller();
 var buttonContact = new ScrollMagic.Scene({
         triggerElement: '#buttonContact',
-        offset: -350
+        offset: -400
     })
     .setClassToggle('#buttonContact', 'show')
     .addTo(buttonContactController);
