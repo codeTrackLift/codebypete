@@ -77,6 +77,10 @@ body {
     margin-top: 1rem;
 }
 
+.btnContainer>.btn {
+    opacity: 1 !important;
+}
+
 @media (max-width: 950px) {
     .card>img {
         margin-top: 3rem;
