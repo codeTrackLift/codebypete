@@ -220,13 +220,6 @@ input {
     border-color: transparent !important;
 }
 
-#carousel {
-    z-index: 1;
-    margin: 4rem 0 1rem 0;
-    width: 100vw;
-    background-color: rgb(50,50,50);
-}
-
 #googleMap {
     background-color: transparent;
     box-shadow: none;
