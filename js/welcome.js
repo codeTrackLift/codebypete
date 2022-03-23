@@ -47,7 +47,7 @@ const myWelcome = `
                 style="width:10rem;">
             <div class="card-body">
                 <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
-                <p class="card-text">Degree in Biological Sciences</p>
+                <p class="card-text">University Degree in Biological Sciences</p>
                 <p class="card-text">20 year Pharmaceutical Professional</p>
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
