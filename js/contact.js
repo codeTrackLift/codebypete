@@ -5,15 +5,7 @@ var emailButton = new ScrollMagic.Scene({
     })
     .setClassToggle('#emailButton', 'show')
     .addTo(emailButtonController);
-
-var buttonBlogController = new ScrollMagic.Controller();
-var buttonBlog = new ScrollMagic.Scene({
-        triggerElement: '#buttonBlog',
-        offset: -350
-    })
-    .setClassToggle('#buttonBlog', 'show')
-    .addTo(buttonBlogController);
-
+    
 var buttonProjectsController = new ScrollMagic.Controller();
 var buttonProjects = new ScrollMagic.Scene({
         triggerElement: '#buttonProjects',
@@ -21,3 +13,11 @@ var buttonProjects = new ScrollMagic.Scene({
     })
     .setClassToggle('#buttonProjects', 'show')
     .addTo(buttonProjectsController);
+
+var buttonAboutController = new ScrollMagic.Controller();
+var buttonAbout = new ScrollMagic.Scene({
+        triggerElement: '#buttonAbout',
+        offset: -350
+    })
+    .setClassToggle('#buttonAbout', 'show')
+    .addTo(buttonAboutController);

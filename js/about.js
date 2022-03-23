@@ -5,15 +5,7 @@ var githubContributions = new ScrollMagic.Scene({
     })
     .setClassToggle('#githubContributions', 'show')
     .addTo(githubContributionsController);
-
-var buttonProjectsController = new ScrollMagic.Controller();
-var buttonProjects = new ScrollMagic.Scene({
-        triggerElement: '#buttonProjects',
-        offset: -300
-    })
-    .setClassToggle('#buttonProjects', 'show')
-    .addTo(buttonProjectsController);
-
+    
 var buttonContactController = new ScrollMagic.Controller();
 var buttonContact = new ScrollMagic.Scene({
         triggerElement: '#buttonContact',
@@ -21,3 +13,11 @@ var buttonContact = new ScrollMagic.Scene({
     })
     .setClassToggle('#buttonContact', 'show')
     .addTo(buttonContactController);
+
+var buttonBlogController = new ScrollMagic.Controller();
+var buttonBlog = new ScrollMagic.Scene({
+        triggerElement: '#buttonBlog',
+        offset: -300
+    })
+    .setClassToggle('#buttonBlog', 'show')
+    .addTo(buttonBlogController);
