@@ -90,7 +90,7 @@ body {
 }
 
 .myArticles>div>img {
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .myArticles>div>img:hover,

@@ -91,6 +91,14 @@ const initScrollMagic = () => {
         })
         .setClassToggle('#welcomeCard2', 'shift')
         .addTo(welcomeCard2Controller);
+
+    var githubContributionsController = new ScrollMagic.Controller();
+    var githubContributions = new ScrollMagic.Scene({
+            triggerElement: '#githubContributions',
+            offset: -50
+        })
+        .setClassToggle('#githubContributions', 'show')
+        .addTo(githubContributionsController);
 }
 
 const unhideCarousel = () => {
