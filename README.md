@@ -25,6 +25,7 @@ This portfolio includes the following sections:
 - [x] Open blog accordions with URL hash
 - [x] Add JS button click effects
 - [x] Refactor Footer & Navbar with JavaScript
+- [x] Add Scroll Magic effects
 - [ ] Refactor with React
 
 ## MIT License
