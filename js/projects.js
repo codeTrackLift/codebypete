@@ -129,7 +129,7 @@ var rockPaperScissorsRepo = new ScrollMagic.Scene({
 var odinLandingpageDemoController = new ScrollMagic.Controller();
 var odinLandingpageDemo = new ScrollMagic.Scene({
     triggerElement: '#odinLandingpageDemo',
-    offset: -400
+    offset: -350
 })
 .setClassToggle('#odinLandingpageDemo', 'show')
 .addTo(odinLandingpageDemoController);
@@ -137,7 +137,7 @@ var odinLandingpageDemo = new ScrollMagic.Scene({
 var odinLandingpageRepoController = new ScrollMagic.Controller();
 var odinLandingpageRepo = new ScrollMagic.Scene({
         triggerElement: '#odinLandingpageRepo',
-        offset: -400
+        offset: -350
     })
     .setClassToggle('#odinLandingpageRepo', 'show')
     .addTo(odinLandingpageRepoController);
@@ -145,7 +145,7 @@ var odinLandingpageRepo = new ScrollMagic.Scene({
 var buttonAboutController = new ScrollMagic.Controller();
 var buttonAbout = new ScrollMagic.Scene({
     triggerElement: '#buttonAbout',
-    offset: -400
+    offset: -350
 })
 .setClassToggle('#buttonAbout', 'show')
 .addTo(buttonAboutController);
@@ -153,7 +153,7 @@ var buttonAbout = new ScrollMagic.Scene({
 var buttonContactController = new ScrollMagic.Controller();
 var buttonContact = new ScrollMagic.Scene({
         triggerElement: '#buttonContact',
-        offset: -400
+        offset: -350
     })
     .setClassToggle('#buttonContact', 'show')
     .addTo(buttonContactController);

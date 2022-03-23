@@ -34,6 +34,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
 
@@ -948,12 +949,46 @@
 
         </div> <!-- myBlog closing div -->
 
+        <div id='bottomNav' class="container-fluid mt-5">
+            <h5 class="menloRegular text-silver textShadowBlack text-center">Learn more about me. Need help with your project?</h5>
+            <div class="container-fluid text-center mt-4 d-flex justify-content-evenly" style="max-width:480px;">
+                <a id='buttonAbout' onclick="buttonEffect('buttonProjects')"
+                    href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
+                <a id='buttonContact' onclick="buttonEffect('buttonContact')"
+                    href="../pages/contact.html" class="btn btn-secondary ">Contact</a>
+            </div>
+        </div>
+
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3 class="px-5 text-gray textShadowBlack" style="font-style:italic;">"If something is important to you, I would encourage you to pursue it relentlessly."</h3>
+                    <figcaption class="blockquote-footer text-end mt-3 mx-5">
+                        <cite title="Source Title" class="text-white" style="opacity:0.6;">quote<span style="color:#00857c">By</span><span style="color:lime">Pete</span></cite>
+                    </figcaption>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="px-5 text-gray textShadowBlack" style="font-style:italic;">"I am a fast learner, if I had a 'super-power' it would be the ability to focus."</h3>
+                    <figcaption class="blockquote-footer text-end mt-3 mx-5">
+                        <cite title="Source Title" class="text-white" style="opacity:0.6;">quote<span style="color:#00857c">By</span><span style="color:lime">Pete</span></cite>
+                    </figcaption>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="px-5 text-gray textShadowBlack" style="font-style:italic;">"I spent 20 years pursuing 'success,' I will spend the next 20 pursuing my passion."</h3>
+                    <figcaption class="blockquote-footer text-end mt-3 mx-5">
+                        <cite title="Source Title" class="text-white" style="opacity:0.6;">quote<span style="color:#00857c">By</span><span style="color:lime">Pete</span></cite>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer id="footer" class="container-fluid"></footer>
 
     <!-- JS Libraries -->
     <script src="../libraries/bootstrap.min.js"></script>
+    <script src="../libraries/ScrollMagic.min.js"></script>
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
