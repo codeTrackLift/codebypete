@@ -55,3 +55,13 @@ h5 {
   padding: 2rem;
   gap: 2rem;
 }
+
+.btn {
+    opacity: 0 !important;
+}
+
+
+
+.btn:hover, .show {
+    opacity: 1 !important;
+}
