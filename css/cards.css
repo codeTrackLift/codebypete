@@ -35,6 +35,14 @@
     background-color: rgb(50, 50, 50) !important;
 }
 
+.btnRepo>img {
+    margin-top: -0.125rem;
+    margin-bottom: 0.125rem;
+    height: 1rem;
+    background-color: lime;
+    border-radius: 50%
+}
+
 .btnRepo:hover {
     background-color: black !important;
     border-color: lime !important;
