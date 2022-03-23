@@ -141,3 +141,19 @@ var odinLandingpageRepo = new ScrollMagic.Scene({
     })
     .setClassToggle('#odinLandingpageRepo', 'show')
     .addTo(odinLandingpageRepoController);
+
+var buttonAboutController = new ScrollMagic.Controller();
+var buttonAbout = new ScrollMagic.Scene({
+    triggerElement: '#buttonAbout',
+    offset: -350
+})
+.setClassToggle('#buttonAbout', 'show')
+.addTo(buttonAboutController);
+
+var buttonContactController = new ScrollMagic.Controller();
+var buttonContact = new ScrollMagic.Scene({
+        triggerElement: '#buttonContact',
+        offset: -350
+    })
+    .setClassToggle('#buttonContact', 'show')
+    .addTo(buttonContactController);
