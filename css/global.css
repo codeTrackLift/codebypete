@@ -105,14 +105,15 @@ a:focus {
 @media (max-width:575px) {
     .carousel-inner{
         max-width: 30rem;
+        height: 8rem;
     }
 }
 
 @media (max-width:400px) {
     .carousel-inner{
-        /* margin: ; */
         padding: 0;
         width: 100vw;
+        height: 10rem;
     }
 }
 
