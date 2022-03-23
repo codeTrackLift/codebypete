@@ -30,12 +30,12 @@
     display: flex;
 }
 
-.btnRepo {
+.btnDark {
     border: 1px solid rgb(50, 50, 50) !important;
     background-color: rgb(50, 50, 50) !important;
 }
 
-.btnRepo>img {
+.btnDark>img {
     margin-top: -0.125rem;
     margin-bottom: 0.125rem;
     height: 1rem;
@@ -43,7 +43,7 @@
     border-radius: 50%
 }
 
-.btnRepo:hover {
+.btnDark:hover {
     background-color: black !important;
     border-color: lime !important;
     color: lime !important;

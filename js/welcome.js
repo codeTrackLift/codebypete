@@ -17,7 +17,7 @@ const myWelcome = `
                 <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                 <div class="btnContainer mt-3">
                     <a id='projectsButton' onclick="buttonEffect('projectsButton')" href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                    <a id='blogButton' onclick="buttonEffect('blogButton')" href="../pages/blog.html" class="btn btn-secondary btnRepo">My Blog</a>
+                    <a id='blogButton' onclick="buttonEffect('blogButton')" href="../pages/blog.html" class="btn btn-secondary btnDark">My Blog</a>
                 </div>
             </div>
         </div>
@@ -51,8 +51,8 @@ const myWelcome = `
                 <p class="card-text">20 year Pharmaceutical Professional</p>
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
-                    <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary">About Me</a>
-                    <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary btnRepo">Contact</a>
+                    <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary btnDark">About Me</a>
+                    <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary">Contact</a>
                 </div>
             </div>
         </div>
