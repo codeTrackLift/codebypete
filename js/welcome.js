@@ -95,7 +95,7 @@ const initScrollMagic = () => {
     var githubContributionsController = new ScrollMagic.Controller();
     var githubContributions = new ScrollMagic.Scene({
             triggerElement: '#githubContributions',
-            offset: -50
+            offset: -200
         })
         .setClassToggle('#githubContributions', 'show')
         .addTo(githubContributionsController);
