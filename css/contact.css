@@ -215,6 +215,14 @@ input {
     color: lime;
 }
 
+#emailButton {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
 .buttonEffect {
     background-color: transparent !important;
     border-color: transparent !important;
