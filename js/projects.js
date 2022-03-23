@@ -150,10 +150,10 @@ var buttonAbout = new ScrollMagic.Scene({
 .setClassToggle('#buttonAbout', 'show')
 .addTo(buttonAboutController);
 
-var buttonContactController = new ScrollMagic.Controller();
-var buttonContact = new ScrollMagic.Scene({
-        triggerElement: '#buttonContact',
+var buttonBlogController = new ScrollMagic.Controller();
+var buttonBlog = new ScrollMagic.Scene({
+        triggerElement: '#buttonBlog',
         offset: -350
     })
-    .setClassToggle('#buttonContact', 'show')
-    .addTo(buttonContactController);
+    .setClassToggle('#buttonBlog', 'show')
+    .addTo(buttonBlogController);
