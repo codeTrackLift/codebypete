@@ -110,9 +110,9 @@ a:focus {
 
 @media (max-width:400px) {
     .carousel-inner{
-        margin-left: -2.5rem;
+        /* margin: ; */
         padding: 0;
-        width: 27rem;
+        width: 100vw;
     }
 }
 
