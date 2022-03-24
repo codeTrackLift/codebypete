@@ -111,13 +111,16 @@ a:focus {
         max-width: 30rem;
         height: 8rem;
     }
+    #carousel {
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width:400px) {
     .carousel-inner{
         padding: 0;
         width: 100vw;
-        height: 10rem;
+        height: 9rem;
     }
 }
 
