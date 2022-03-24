@@ -160,7 +160,7 @@ body {
 
 @media (max-width:575px) {
     #footer {
-        margin-top: 2rem !important;
+        /* margin-top: 2rem !important; */
         height: 2.5rem;
     }
     .carousel-inner{
