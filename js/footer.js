@@ -17,3 +17,8 @@ const myFooter = `
     </a>`;
 
 const injectMyFooter = () => footer.innerHTML = myFooter;
+
+const footerBackground = () => {
+    footer.style.backgroundColor = 'rgb(50,50,50)';
+    footer.style.height = '3rem';
+}
