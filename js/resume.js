@@ -1,3 +1,11 @@
+var yodaJimController = new ScrollMagic.Controller();
+var yodaJim = new ScrollMagic.Scene({
+        triggerElement: '#yodaJim',
+        offset: -100
+    })
+    .setClassToggle('#yodaJim', 'show')
+    .addTo(yodaJimController);
+
 var buttonProjectsController = new ScrollMagic.Controller();
 var buttonProjects = new ScrollMagic.Scene({
         triggerElement: '#buttonProjects',
