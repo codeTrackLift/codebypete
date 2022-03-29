@@ -11,6 +11,20 @@ body {
     align-items: center;
 }
 
+#downloadIcon {
+    border: 4px solid transparent;
+    border-radius: 50%;
+    width: 2rem;
+    animation: slowSpin 5s ease-in-out infinite;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#downloadIcon:hover {
+    background-color: lime;
+    opacity: 1;
+}
+
 /* Experience Tech Stack */
 #techStack>.row,
 #education>.row {
