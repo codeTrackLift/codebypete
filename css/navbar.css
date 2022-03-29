@@ -52,8 +52,8 @@
 }
 
 .navbar-toggler>img {
-    animation: logoWiggle 5s ease-in-out;
-    animation-iteration-count: infinite;
+    animation: logoWiggle 5s ease-in-out infinite;
+    /* animation-iteration-count: infinite; */
     transition: 0.5s ease-in-out;
     width: 2.5rem;
     -webkit-filter: drop-shadow(2px 2px 2px black);
