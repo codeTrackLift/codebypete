@@ -57,7 +57,9 @@ const myWelcome = `
             </div>
         </div>
 
-
+        <div class="container-fluid text-center mt-4">
+            <img class='bg-black p-4 boxShadowSmall mt-4' src="../pics/about/mernStackTrans.png" style='width:30rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
+        </div>
 
     </div>
 
