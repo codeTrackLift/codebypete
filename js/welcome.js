@@ -39,6 +39,7 @@ const myWelcome = `
                 <img src="../pics/about/gitLogoOrangeRed.png" class='py-3 col-sm-2 img-fluid img-square' alt="Bootstrap Logo.">
                 <img src="../pics/about/vsCodeLogo.png" class='py-3 col-sm-2 img-fluid img-square' alt="Visual Studio Code Logo.">
                 <img src="../pics/about/bootstrap-logo.svg" class='py-3 col-sm-2 img-fluid img-square' alt="Bootstrap Logo.">
+                <img src="../pics/about/jest_logo.gif" class='py-3 col-sm-2 img-fluid img-square' alt="Jest Logo.">
             </div>
         </div>
 
@@ -58,7 +59,7 @@ const myWelcome = `
         </div>
 
         <div class="myArticles container-fluid text-center mt-4">
-            <img class='img-fluid bg-black rounded m-auto' src="../pics/about/mernStackTrans.png" style='width:30rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
+            <img class='img-fluid bg-black rounded m-auto' src="../pics/about/mernStackTrans.png" style='width:25rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
         </div>
 
     </div>
