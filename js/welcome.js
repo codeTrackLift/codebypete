@@ -63,7 +63,7 @@ const myWelcome = `
         </div>
 
         <div id='bottomNav' class="container-fluid mt-5">
-            <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Working on a project? <span class='text-white'>Let's connect!</span></h5>
+            <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Give me some feedback. <span class='text-white'>Let me know you visited...</span></h5>
             <div class="container-fluid text-center mt-4" style="max-width:480px;">
                 <a id='buttonContact' href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
         </div>
