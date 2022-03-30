@@ -4,7 +4,7 @@ const myWelcome = `
 
     <div class="row container-fluid">
         <div class="text-center mb-4">
-            <h5 class='menloRegular textShadowBlack' style="color:white;">Join me, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
+            <h5 class='menloRegular textShadowBlack text-silver'><span class='text-white'>Join me</span>, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
         </div>
 
         <div id='welcomeCard1' class="card col-sm-4" style="width: 18rem;">
@@ -63,7 +63,7 @@ const myWelcome = `
         </div>
 
         <div id='bottomNav' class="container-fluid mt-5">
-            <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Give me some feedback. <span class='text-white'>Let me know you visited...</span></h5>
+            <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Give me some feedback, <span class='text-white'>let me know you visited</span>...</h5>
             <div class="container-fluid text-center mt-4" style="max-width:480px;">
                 <a id='buttonContact' href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
         </div>
