@@ -16,8 +16,8 @@ const myWelcome = `
                 <p class="card-text">View source code or my documentation on GitHub.</p>
                 <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                 <div class="btnContainer mt-3">
-                    <a id='projectsButton' onclick="buttonEffect('projectsButton')" href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                    <a id='blogButton' onclick="buttonEffect('blogButton')" href="../pages/blog.html" class="btn btn-secondary btnDark">My Blog</a>
+                    <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
+                    <a href="../pages/blog.html" class="btn btn-secondary btnDark">My Blog</a>
                 </div>
             </div>
         </div>
@@ -52,8 +52,8 @@ const myWelcome = `
                 <p class="card-text">20 year Pharmaceutical Professional</p>
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
-                    <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary btnDark">About Me</a>
-                    <a id='resumeButton' onclick="buttonEffect('resumeButton')" href="../pages/resume.html" class="btn btn-secondary">Resume</a>
+                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About Me</a>
+                    <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
                 </div>
             </div>
         </div>
@@ -65,8 +65,7 @@ const myWelcome = `
         <div id='bottomNav' class="container-fluid mt-5">
             <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Working on a project? <span class='text-white'>Let's connect!</span></h5>
             <div class="container-fluid text-center mt-4" style="max-width:480px;">
-                <a id='buttonContact' onclick="buttonEffect('buttonContact')"
-                    href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
+                <a id='buttonContact' href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
         </div>
     </div>
 
