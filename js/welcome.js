@@ -53,7 +53,7 @@ const myWelcome = `
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
                     <a id='aboutButton' onclick="buttonEffect('aboutButton')" href="../pages/about.html" class="btn btn-secondary btnDark">About Me</a>
-                    <a id='contactButton' onclick="buttonEffect('contactButton')" href="../pages/contact.html" class="btn btn-secondary">Contact</a>
+                    <a id='resumeButton' onclick="buttonEffect('resumeButton')" href="../pages/resume.html" class="btn btn-secondary">Resume</a>
                 </div>
             </div>
         </div>
@@ -61,6 +61,14 @@ const myWelcome = `
         <div class="myArticles container-fluid text-center mt-4">
             <img class='img-fluid bg-black rounded m-auto' src="../pics/about/mernStackTrans.png" style='width:25rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
         </div>
+
+        <div id='bottomNav' class="container-fluid mt-5">
+            <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Need help with a project? <span class='text-white'>Let's connect!</span></h5>
+            <div class="container-fluid text-center mt-4" style="max-width:480px;">
+                <a id='buttonContact' onclick="buttonEffect('buttonContact')"
+                    href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
+        </div>
+    </div>
 
     </div>
 
@@ -102,6 +110,14 @@ const initScrollMagic = () => {
         })
         .setClassToggle('#githubContributions', 'show')
         .addTo(githubContributionsController);
+
+    var buttonContactController = new ScrollMagic.Controller();
+    var buttonContact = new ScrollMagic.Scene({
+            triggerElement: '#buttonContact',
+            offset: -200
+        })
+        .setClassToggle('#buttonContact', 'show')
+        .addTo(buttonContactController);
 }
 
 const unhideCarousel = () => {

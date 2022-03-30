@@ -6,13 +6,13 @@ var emailButton = new ScrollMagic.Scene({
     .setClassToggle('#emailButton', 'show')
     .addTo(emailButtonController);
     
-var buttonProjectsController = new ScrollMagic.Controller();
-var buttonProjects = new ScrollMagic.Scene({
-        triggerElement: '#buttonProjects',
+var buttonResumeController = new ScrollMagic.Controller();
+var buttonResume = new ScrollMagic.Scene({
+        triggerElement: '#buttonResume',
         offset: -350
     })
-    .setClassToggle('#buttonProjects', 'show')
-    .addTo(buttonProjectsController);
+    .setClassToggle('#buttonResume', 'show')
+    .addTo(buttonResumeController);
 
 var buttonAboutController = new ScrollMagic.Controller();
 var buttonAbout = new ScrollMagic.Scene({
