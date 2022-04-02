@@ -17,7 +17,7 @@ const myWelcome = `
                 <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
                 <div class="btnContainer mt-3">
                     <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                    <a href="../pages/blog.html" class="btn btn-secondary btnDark">My Blog</a>
+                    <a href="../pages/blog.html" class="btn btn-secondary btnDark">Blog</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ const myWelcome = `
                 <p class="card-text">20 year Pharmaceutical Professional</p>
                 <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
                 <div class="btnContainer mt-3">
-                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About Me</a>
+                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
                     <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
                 </div>
             </div>
