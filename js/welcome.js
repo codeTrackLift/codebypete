@@ -99,15 +99,6 @@ const injectWelcomeBackground = () => {
 }
 
 const initScrollMagic = () => {
-    var navbarCBPController = new ScrollMagic.Controller();
-    var navbarCBP = new ScrollMagic.Scene({
-            triggerElement: '#welcome',
-            offset: 0,
-            duration: 500
-        })
-        .setClassToggle('#navbarCBP', 'd-none')
-        .addTo(navbarCBPController);
-
     var welcomeCard1Controller = new ScrollMagic.Controller();
     var welcomeCard1 = new ScrollMagic.Scene({
             triggerElement: '#welcomeCard1',
