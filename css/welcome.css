@@ -165,3 +165,10 @@ body {
         margin-bottom: 0;
     }
 }
+
+@media (max-width:350px) {
+    .carousel-inner{
+        max-width: 40rem;
+        height: 12.5rem;
+    }
+}
