@@ -75,11 +75,14 @@ a>img:hover {
 }
 
 #greetingPic>img {
+    z-index: 2;
+    top: 375px;
     width: 30rem;
     height: 30rem;
     max-width: 40vmin;
     max-height: 40vmin;
-    position: static;
+    /* position: static; */
+    position: fixed;
     opacity: 0.25;
     border-radius: 50%;
     margin: -20rem 0 -12rem 5vw;
