@@ -1,10 +1,10 @@
-# <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***codeByPete*** **Portfolio** <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='25'>
+# <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***codeByPete*** | **Portfolio** <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='25'>
 
 >Please visit [www.codeByPete.com](https://www.codebypete.com) to join me, on ***myCodingJourney***.  
 
 <img src='https://www.codebypete.com/pics/about/html5_logo.gif' alt='HTML5 logo' height='45'> <img src='https://www.codebypete.com/pics/about/css3_logo.gif' alt='CSS3 logo' height='45'> <img src='https://www.codebypete.com/pics/about/javascript_logo.gif' alt='JavaScript logo' height='45'> <img src='https://www.codebypete.com/pics/about/bootstrap-logo.svg' alt='Bootstrap logo' height='35'> <img src='https://www.codebypete.com/pics/about/gitLogoOrangeRed.png' alt='VS Code logo' height='35'> <img src='https://www.codebypete.com/pics/about/vsCodeLogo.png' alt='VS Code logo' height='35'> <img src='https://www.codebypete.com/pics/about/jest_logo.gif' alt='Jest Logo' height='35'> <img src='https://www.codebypete.com/pics/about/mernStackTrans.png' alt='VS Code logo' height='45'> 
 
->*Mobile First | Responsive Design | Custom Animations*
+>*Mobile First* | *Responsive Design* | *Custom Animations*
 
 ## About
 Thanks for visiting my portfolio. This repository is intended to showcase my progression as a Full Stack Web Developer, and includes projects developed during my self-taught journey and MIT xPro Coding Bootcamp.
