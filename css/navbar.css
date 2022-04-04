@@ -53,14 +53,16 @@
 
 .navbar-toggler>img {
     animation: logoWiggle 5s infinite ease-in-out;
+    /* animation-iteration-count: infinite; */
+    /* transition: 0.5s ease-in-out; */
     width: 2.5rem;
     -webkit-filter: drop-shadow(2px 2px 2px black);
     filter: drop-shadow(2px 2px 2px black);
 }
 
-/* .navbar-toggler>img:hover {
+.navbar-toggler>img:hover {
     animation: spinFaster 2s ease-in-out infinite;
-} */
+}
 
 @keyframes logoWiggle {
     0% {
