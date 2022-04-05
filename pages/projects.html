@@ -66,7 +66,7 @@
             <h6>There is more in development, please visit again!</h6>
         </div>
 
-        <div id='myProjects' class="row container-fluid justify-content-center">
+        <div class="myProjects row container-fluid justify-content-center">
 
             <div class="card col-sm-4" style="width: 18rem;">
                 <img src="../pics/projects/busTracker.gif" class="card-img-top mx-auto pt-4" alt="Bus tracker project gif."
@@ -78,11 +78,9 @@
                     <p class="card-text">Custom styling and extra user interface functionality was added, see <a
                             href="../pages/blog.html#blog6Button">blog[6]</a>.</p>
                     <div class="btnContainer">
-                        <a id='busTrackerDemo' onclick="buttonEffect('busTrackerDemo')"
-                            href="https://codetracklift.github.io/bustracker/" class="btn btn-secondary"
+                        <a id='busTrackerDemo' href="https://codetracklift.github.io/bustracker/" class="btn btn-secondary"
                             target="_blank">Try Demo</a>
-                        <a id='busTrackerRepo' onclick="buttonEffect('busTrackerRepo')"
-                            href="https://github.com/codeTrackLift/bustracker" class="btn btn-secondary btnDark "
+                        <a id='busTrackerRepo' href="https://github.com/codeTrackLift/bustracker" class="btn btn-secondary btnDark "
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -98,11 +96,9 @@
                     <p class="card-text"><span>Custom CSS</span> 'aesthetics' and 'typewriter' text was added, see <a
                             href="../pages/blog.html#blog5Button">blog[5]</a>.</p>
                     <div class="btnContainer">
-                        <a id='animatedHeadDemo' onclick="buttonEffect('animatedHeadDemo')"
-                            href="https://codetracklift.github.io/eyemovement/" class="btn btn-secondary"
+                        <a id='animatedHeadDemo' href="https://codetracklift.github.io/eyemovement/" class="btn btn-secondary"
                             target="_blank">Try Demo</a>
-                        <a id='animatedHeadRepo' onclick="buttonEffect('animatedHeadRepo')"
-                            href="https://github.com/codeTrackLift/eyemovement" class="btn btn-secondary btnDark "
+                        <a id='animatedHeadRepo' href="https://github.com/codeTrackLift/eyemovement" class="btn btn-secondary btnDark "
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -118,11 +114,9 @@
                     <p class="card-text"><span>Custom features</span> include an 'Aqua' theme and <em>ZAP!</em> PacMan
                         button, see <a href="../pages/blog.html#blog5Button">blog[5]</a>.</p>
                     <div class="btnContainer">
-                        <a id='pacManFactoryDemo' onclick="buttonEffect('pacManFactoryDemo')"
-                            href="https://codetracklift.github.io/pacmen_factory/" class="btn btn-secondary"
+                        <a id='pacManFactoryDemo' href="https://codetracklift.github.io/pacmen_factory/" class="btn btn-secondary"
                             target="_blank">Try Demo</a>
-                        <a id='pacManFactoryRepo' onclick="buttonEffect('pacManFactoryRepo')"
-                            href="https://github.com/codeTrackLift/pacmen_factory" class="btn btn-secondary btnDark "
+                        <a id='pacManFactoryRepo' href="https://github.com/codeTrackLift/pacmen_factory" class="btn btn-secondary btnDark "
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -139,24 +133,33 @@
                     <p class="card-text">This is <span>fully responsive</span> and accepts keyboard, mouse, and mobile
                         screen inputs! See <a href='../pages/blog.html#blog3Button'>blog[3]</a>.</p>
                     <div class="btnContainer">
-                        <a id='pacManMiniGameDemo' onclick="buttonEffect('pacManMiniGameDemo')"
-                            href="https://codetracklift.github.io/pacman/" class="btn btn-secondary"
+                        <a id='pacManMiniGameDemo' href="https://codetracklift.github.io/pacman/" class="btn btn-secondary"
                             target="_blank">Play
                             Game</a>
-                        <a id='pacManMiniGameRepo' onclick="buttonEffect('pacManMiniGameRepo')"
-                            href="https://github.com/codeTrackLift/pacman" class="btn btn-secondary btnDark "
+                        <a id='pacManMiniGameRepo' href="https://github.com/codeTrackLift/pacman" class="btn btn-secondary btnDark "
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
             </div>
 
-        </div>
+        </div> <!-- row closind div -->
 
         <div class="container-fluid myArticles">
-            <h3>Self-Taught Progression Projects</h3>
+            <h3>Deployed Business Websites</h3>
         </div>
 
-        <div id="myProjects2" class="row container-fluid justify-content-center">
+        <div class="myProjects row container-fluid justify-content-center">
+
+            <div class="card col-sm-4" style="width: 18rem;">
+                <img src="../pics/projects/lenovaIncLogo.gif" class="card-img-top pt-4 mx-auto"
+                    alt="LeNova, Inc. animated logo" style="width:12rem;border-radius:0">
+                <div class="card-body">
+                    <h5 class="card-title">Engineering Business Website</h5>
+                    <p class="card-text">The <a href="https://www.lenovainc.com" target="_blank">LeNova, Inc.</a> website was developed in <span class="text-white">collaboration</span> with the <span class="text-white">owners</span> to support <span class="text-white">business expansion</span> initiatives.</p>
+                    <p class="card-text">This was project used vanilla HTML, CSS, and JavaScript and includes <span class="text-white">custom</span> CSS <span class="text-white">animations</span>.</p>
+                    <a id='lenovaincDemo' href="https://www.lenovainc.com/" class="btn btn-secondary mx-auto btnDark" target="_blank">Visit Site</a>
+                </div>
+            </div>
 
             <div class="card col-sm-4" style="width: 18rem;">
                 <img src="../pics/projects/mermaid_camera.gif" class="card-img-top pt-4 mx-auto"
@@ -170,15 +173,17 @@
                             target="_blank">Bootstrap</a> and <a href="https://scrollmagic.io/"
                             target="_blank">ScrollMagic</a>.</p>
                     <p class="card-text">Need a photography session in the Philadelphia / King of Prussia area?</p>
-                    <div class="btnContainer">
-                        <a id='lmnoPhotoDemo' onclick="buttonEffect('lmnoPhotoDemo')" href="https://www.lmnophoto.biz/"
-                            class="btn btn-secondary" target="_blank">Visit Site</a>
-                        <a id='lmnoPhotoRepo' onclick="buttonEffect('lmnoPhotoRepo')"
-                            href="https://github.com/codeTrackLift/lmnophoto" class="btn btn-secondary btnDark"
-                            target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
-                    </div>
+                    <a id='lmnoPhotoDemo' href="https://www.lmnophoto.biz/" class="mx-auto btn btn-secondary" target="_blank">Visit Site</a>
                 </div>
             </div>
+
+        </div> <!-- row closing div -->
+
+            <div class="container-fluid myArticles">
+                <h3>Self-Taught Progression Projects</h3>
+            </div>
+    
+        <div class="myProjects row container-fluid justify-content-center">
 
             <div class="card col-sm-4" style="width:18rem;">
                 <img src="../pics/projects/odin-calc.ico" class="card-img-top px-5 pt-2" alt="Calculator image"
@@ -191,12 +196,10 @@
                     </p>
                     <p class="card-text">Accepts mouse and key inputs, and makes drum sound effects!</p>
                     <div class="btnContainer">
-                        <a id='jsCalcDemo' onclick="buttonEffect('jsCalcDemo')"
-                            href="https://codetracklift.github.io/odin-calc/" class="btn btn-secondary"
+                        <a id='jsCalcDemo' href="https://codetracklift.github.io/odin-calc/" class="btn btn-secondary"
                             target="_blank">Try
                             Demo</a>
-                        <a id='jsCalcRepo' onclick="buttonEffect('jsCalcRepo')"
-                            href="https://github.com/codeTrackLift/odin-calc" class="btn btn-secondary btnDark"
+                        <a id='jsCalcRepo' href="https://github.com/codeTrackLift/odin-calc" class="btn btn-secondary btnDark"
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -213,11 +216,9 @@
                     </p>
                     <p class="card-text">Accepts mouse and key inputs, and the pixel resolution can be resized!</p>
                     <div class="btnContainer">
-                        <a id='etchASketchDemo' onclick="buttonEffect('etchASketchDemo')"
-                            href="https://codetracklift.github.io/etch-a-sketch/" class="btn btn-secondary"
+                        <a id='etchASketchDemo' href="https://codetracklift.github.io/etch-a-sketch/" class="btn btn-secondary"
                             target="_blank">Try Demo</a>
-                        <a id='etchASketchRepo' onclick="buttonEffect('etchASketchRepo')"
-                            href="https://github.com/codeTrackLift/etch-a-sketch" class="btn btn-secondary btnDark"
+                        <a id='etchASketchRepo' href="https://github.com/codeTrackLift/etch-a-sketch" class="btn btn-secondary btnDark"
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -234,11 +235,9 @@
                     </p>
                     <p class="card-text">Accepts text and mouse inputs with text validation and results tracking!</p>
                     <div class="btnContainer">
-                        <a id='rockPaperScissorsDemo' onclick="buttonEffect('rockPaperScissorsDemo')"
-                            href="https://codetracklift.github.io/rock-paper-scissors/" class="btn btn-secondary"
+                        <a id='rockPaperScissorsDemo' href="https://codetracklift.github.io/rock-paper-scissors/" class="btn btn-secondary"
                             target="'_blank">Play Game</a>
-                        <a id='rockPaperScissorsRepo' onclick="buttonEffect('rockPaperScissorsRepo')"
-                            href="https://github.com/codeTrackLift/rock-paper-scissors"
+                        <a id='rockPaperScissorsRepo' href="https://github.com/codeTrackLift/rock-paper-scissors"
                             class="btn btn-secondary btnDark" target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -258,11 +257,9 @@
                             Design course at <a href="https://www.freecodecamp.org/"
                             target="_blank">freeCodeCamp.org</a>.</p>
                     <div class="btnContainer">
-                        <a id='odinLandingpageDemo' onclick="buttonEffect('odinLandingpageDemo')"
-                            href="https://codetracklift.github.io/odin-landingpage/" class="btn btn-secondary"
+                        <a id='odinLandingpageDemo' href="https://codetracklift.github.io/odin-landingpage/" class="btn btn-secondary"
                             target="'_blank">Visit Site</a>
-                        <a id='odinLandingpageRepo' onclick="buttonEffect('odinLandingpageRepo')"
-                            href="https://github.com/codeTrackLift/odin-landingpage" class="btn btn-secondary btnDark"
+                        <a id='odinLandingpageRepo' href="https://github.com/codeTrackLift/odin-landingpage" class="btn btn-secondary btnDark"
                             target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> GitHub</a>
                     </div>
                 </div>
@@ -311,7 +308,6 @@
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
-    <script src="../js/cards.js"></script>
     <script src="../js/projects.js"></script>
     <script src="../js/footer.js"></script>
     <script>

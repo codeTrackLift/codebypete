@@ -62,6 +62,14 @@ var pacManMiniGameRepo = new ScrollMagic.Scene({
     .setClassToggle('#pacManMiniGameRepo', 'show')
     .addTo(pacManMiniGameRepoController);
 
+var lenovaincDemoController = new ScrollMagic.Controller();
+var lenovaincDemo = new ScrollMagic.Scene({
+    triggerElement: '#lenovaincDemo',
+    offset: -300
+})
+.setClassToggle('#lenovaincDemo', 'show')
+.addTo(lenovaincDemoController);
+
 var lmnoPhotoDemoController = new ScrollMagic.Controller();
 var lmnoPhotoDemo = new ScrollMagic.Scene({
     triggerElement: '#lmnoPhotoDemo',
@@ -70,13 +78,13 @@ var lmnoPhotoDemo = new ScrollMagic.Scene({
 .setClassToggle('#lmnoPhotoDemo', 'show')
 .addTo(lmnoPhotoDemoController);
 
-var lmnoPhotoRepoController = new ScrollMagic.Controller();
-var lmnoPhotoRepo = new ScrollMagic.Scene({
-        triggerElement: '#lmnoPhotoRepo',
-        offset: -300
-    })
-    .setClassToggle('#lmnoPhotoRepo', 'show')
-    .addTo(lmnoPhotoRepoController);
+// var lmnoPhotoRepoController = new ScrollMagic.Controller();
+// var lmnoPhotoRepo = new ScrollMagic.Scene({
+//         triggerElement: '#lmnoPhotoRepo',
+//         offset: -300
+//     })
+//     .setClassToggle('#lmnoPhotoRepo', 'show')
+//     .addTo(lmnoPhotoRepoController);
 
 var jsCalcDemoController = new ScrollMagic.Controller();
 var jsCalcDemo = new ScrollMagic.Scene({
