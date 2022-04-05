@@ -59,8 +59,8 @@
 }
 
 .navbar-toggler>img:hover {
-    animation: logoWiggle 5s infinite ease-in-out;
-    /* animation: spinFaster 2s ease-in-out infinite; */
+    /* animation: logoWiggle 5s infinite ease-in-out; */
+    animation: spinFaster 2s ease-in-out infinite;
 }
 
 @keyframes logoWiggle {
