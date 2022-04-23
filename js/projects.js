@@ -1,7 +1,7 @@
 var lenovaincDemoController = new ScrollMagic.Controller();
 var lenovaincDemo = new ScrollMagic.Scene({
         triggerElement: '#lenovaincDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#lenovaincDemo', 'show')
     .addTo(lenovaincDemoController);
@@ -9,15 +9,31 @@ var lenovaincDemo = new ScrollMagic.Scene({
 var lmnoPhotoDemoController = new ScrollMagic.Controller();
 var lmnoPhotoDemo = new ScrollMagic.Scene({
         triggerElement: '#lmnoPhotoDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#lmnoPhotoDemo', 'show')
     .addTo(lmnoPhotoDemoController);
 
+var todoDemoController = new ScrollMagic.Controller();
+var todoDemo = new ScrollMagic.Scene({
+        triggerElement: '#todoDemo',
+        offset: -200
+    })
+    .setClassToggle('#todoDemo', 'show')
+    .addTo(todoDemoController);
+
+var todoRepoController = new ScrollMagic.Controller();
+var todoRepo = new ScrollMagic.Scene({
+        triggerElement: '#todoRepo',
+        offset: -200
+    })
+    .setClassToggle('#todoRepo', 'show')
+    .addTo(todoRepoController);
+
 var busTrackerDemoController = new ScrollMagic.Controller();
 var busTrackerDemo = new ScrollMagic.Scene({
         triggerElement: '#busTrackerDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#busTrackerDemo', 'show')
     .addTo(busTrackerDemoController);
@@ -25,7 +41,7 @@ var busTrackerDemo = new ScrollMagic.Scene({
 var busTrackerRepoController = new ScrollMagic.Controller();
 var busTrackerRepo = new ScrollMagic.Scene({
         triggerElement: '#busTrackerRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#busTrackerRepo', 'show')
     .addTo(busTrackerRepoController);
@@ -33,7 +49,7 @@ var busTrackerRepo = new ScrollMagic.Scene({
 var animatedHeadDemoController = new ScrollMagic.Controller();
 var animatedHeadDemo = new ScrollMagic.Scene({
         triggerElement: '#animatedHeadDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#animatedHeadDemo', 'show')
     .addTo(animatedHeadDemoController);
@@ -41,7 +57,7 @@ var animatedHeadDemo = new ScrollMagic.Scene({
 var animatedHeadRepoController = new ScrollMagic.Controller();
 var animatedHeadRepo = new ScrollMagic.Scene({
         triggerElement: '#animatedHeadRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#animatedHeadRepo', 'show')
     .addTo(animatedHeadRepoController);
@@ -49,7 +65,7 @@ var animatedHeadRepo = new ScrollMagic.Scene({
 var pacManFactoryDemoController = new ScrollMagic.Controller();
 var pacManFactoryDemo = new ScrollMagic.Scene({
         triggerElement: '#pacManFactoryDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#pacManFactoryDemo', 'show')
     .addTo(pacManFactoryDemoController);
@@ -57,7 +73,7 @@ var pacManFactoryDemo = new ScrollMagic.Scene({
 var pacManFactoryRepoController = new ScrollMagic.Controller();
 var pacManFactoryRepo = new ScrollMagic.Scene({
         triggerElement: '#pacManFactoryRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#pacManFactoryRepo', 'show')
     .addTo(pacManFactoryRepoController);
@@ -65,7 +81,7 @@ var pacManFactoryRepo = new ScrollMagic.Scene({
 var pacManMiniGameDemoController = new ScrollMagic.Controller();
 var pacManMiniGameDemo = new ScrollMagic.Scene({
         triggerElement: '#pacManMiniGameDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#pacManMiniGameDemo', 'show')
     .addTo(pacManMiniGameDemoController);
@@ -73,7 +89,7 @@ var pacManMiniGameDemo = new ScrollMagic.Scene({
 var pacManMiniGameRepoController = new ScrollMagic.Controller();
 var pacManMiniGameRepo = new ScrollMagic.Scene({
         triggerElement: '#pacManMiniGameRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#pacManMiniGameRepo', 'show')
     .addTo(pacManMiniGameRepoController);
@@ -81,7 +97,7 @@ var pacManMiniGameRepo = new ScrollMagic.Scene({
 var pomodoroClockDemoController = new ScrollMagic.Controller();
 var pomodoroClockDemo = new ScrollMagic.Scene({
         triggerElement: '#pomodoroClockDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#pomodoroClockDemo', 'show')
     .addTo(pomodoroClockDemoController);
@@ -89,7 +105,7 @@ var pomodoroClockDemo = new ScrollMagic.Scene({
 var pomodoroClockRepoController = new ScrollMagic.Controller();
 var pomodoroClockRepo = new ScrollMagic.Scene({
         triggerElement: '#pomodoroClockRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#pomodoroClockRepo', 'show')
     .addTo(pomodoroClockRepoController);
@@ -97,7 +113,7 @@ var pomodoroClockRepo = new ScrollMagic.Scene({
 var markdownPreviewerDemoController = new ScrollMagic.Controller();
 var markdownPreviewerDemo = new ScrollMagic.Scene({
         triggerElement: '#markdownPreviewerDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#markdownPreviewerDemo', 'show')
     .addTo(markdownPreviewerDemoController);
@@ -105,7 +121,7 @@ var markdownPreviewerDemo = new ScrollMagic.Scene({
 var markdownPreviewerRepoController = new ScrollMagic.Controller();
 var markdownPreviewerRepo = new ScrollMagic.Scene({
         triggerElement: '#markdownPreviewerRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#markdownPreviewerRepo', 'show')
     .addTo(markdownPreviewerRepoController);
@@ -113,7 +129,7 @@ var markdownPreviewerRepo = new ScrollMagic.Scene({
 var jsCalcDemoController = new ScrollMagic.Controller();
 var jsCalcDemo = new ScrollMagic.Scene({
         triggerElement: '#jsCalcDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#jsCalcDemo', 'show')
     .addTo(jsCalcDemoController);
@@ -121,7 +137,7 @@ var jsCalcDemo = new ScrollMagic.Scene({
 var jsCalcRepoController = new ScrollMagic.Controller();
 var jsCalcRepo = new ScrollMagic.Scene({
         triggerElement: '#jsCalcRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#jsCalcRepo', 'show')
     .addTo(jsCalcRepoController);
@@ -129,7 +145,7 @@ var jsCalcRepo = new ScrollMagic.Scene({
 var etchASketchDemoController = new ScrollMagic.Controller();
 var etchASketchDemo = new ScrollMagic.Scene({
         triggerElement: '#etchASketchDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#etchASketchDemo', 'show')
     .addTo(etchASketchDemoController);
@@ -137,7 +153,7 @@ var etchASketchDemo = new ScrollMagic.Scene({
 var etchASketchRepoController = new ScrollMagic.Controller();
 var etchASketchRepo = new ScrollMagic.Scene({
         triggerElement: '#etchASketchRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#etchASketchRepo', 'show')
     .addTo(etchASketchRepoController);
@@ -145,7 +161,7 @@ var etchASketchRepo = new ScrollMagic.Scene({
 var rockPaperScissorsDemoController = new ScrollMagic.Controller();
 var rockPaperScissorsDemo = new ScrollMagic.Scene({
         triggerElement: '#rockPaperScissorsDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#rockPaperScissorsDemo', 'show')
     .addTo(rockPaperScissorsDemoController);
@@ -153,7 +169,7 @@ var rockPaperScissorsDemo = new ScrollMagic.Scene({
 var rockPaperScissorsRepoController = new ScrollMagic.Controller();
 var rockPaperScissorsRepo = new ScrollMagic.Scene({
         triggerElement: '#rockPaperScissorsRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#rockPaperScissorsRepo', 'show')
     .addTo(rockPaperScissorsRepoController);
@@ -161,7 +177,7 @@ var rockPaperScissorsRepo = new ScrollMagic.Scene({
 var odinLandingpageDemoController = new ScrollMagic.Controller();
 var odinLandingpageDemo = new ScrollMagic.Scene({
         triggerElement: '#odinLandingpageDemo',
-        offset: -300
+        offset: -200
     })
     .setClassToggle('#odinLandingpageDemo', 'show')
     .addTo(odinLandingpageDemoController);
@@ -169,7 +185,7 @@ var odinLandingpageDemo = new ScrollMagic.Scene({
 var odinLandingpageRepoController = new ScrollMagic.Controller();
 var odinLandingpageRepo = new ScrollMagic.Scene({
         triggerElement: '#odinLandingpageRepo',
-        offset: -250
+        offset: -200
     })
     .setClassToggle('#odinLandingpageRepo', 'show')
     .addTo(odinLandingpageRepoController);

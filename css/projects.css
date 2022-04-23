@@ -50,12 +50,17 @@ h5 {
   gap: 2rem;
 }
 
-.btn {
-    opacity: 0 !important;
+.card-body>.btnContainer>.btn,
+.card-body>.btn {
+    transform: translateX(2rem);
 }
 
+.card-body>.btnContainer>.btnDark,
+.card-body>.btnDark {
+    transform: translateX(-2rem);
+}
 
-
-.btn:hover, .show {
+.card-body>.btnContainer>.btn.show,.btn.show {
     opacity: 1 !important;
+    transform: translateX(0);
 }
