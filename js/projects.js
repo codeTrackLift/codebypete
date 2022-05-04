@@ -14,6 +14,22 @@ var lmnoPhotoDemo = new ScrollMagic.Scene({
     .setClassToggle('#lmnoPhotoDemo', 'show')
     .addTo(lmnoPhotoDemoController);
 
+var xChangeDemoController = new ScrollMagic.Controller();
+var xChangeDemo = new ScrollMagic.Scene({
+        triggerElement: '#xChangeDemo',
+        offset: -200
+    })
+    .setClassToggle('#xChangeDemo', 'show')
+    .addTo(xChangeDemoController);
+
+var xChangeRepoController = new ScrollMagic.Controller();
+var xChangeRepo = new ScrollMagic.Scene({
+        triggerElement: '#xChangeRepo',
+        offset: -200
+    })
+    .setClassToggle('#xChangeRepo', 'show')
+    .addTo(xChangeRepoController);
+
 var todoDemoController = new ScrollMagic.Controller();
 var todoDemo = new ScrollMagic.Scene({
         triggerElement: '#todoDemo',
