@@ -80,14 +80,6 @@ a:focus {
     transform: scale(1.05);
 }
 
-/* img {
-    transition: all 0.25s ease-in-out
-}
-
-img:hover{
-    transform: translateY(-0.25rem);
-} */
-
 #githubContributions {
     width: 100%;
     opacity: 0;
