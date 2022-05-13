@@ -9,6 +9,7 @@ function openAnchorAccordion() {
 openAnchorAccordion();
 
 // Blog div .accordion-collapse 
+const blog8 = document.getElementById('blog8');
 const blog7 = document.getElementById('blog7');
 const blog6 = document.getElementById('blog6');
 const blog5 = document.getElementById('blog5');
@@ -19,6 +20,7 @@ const blog1 = document.getElementById('blog1');
 const blog0 = document.getElementById('blog0');
 
 // Blog buttons
+const blog8Button = document.getElementById('blog8Button');
 const blog7Button = document.getElementById('blog7Button');
 const blog6Button = document.getElementById('blog6Button');
 const blog5Button = document.getElementById('blog5Button');
@@ -29,6 +31,7 @@ const blog1Button = document.getElementById('blog1Button');
 const blog0Button = document.getElementById('blog0Button');
 
 // Blog starting values, set to true IF starting open
+var blog8OpenStatus = false;
 var blog7OpenStatus = false;
 var blog6OpenStatus = false;
 var blog5OpenStatus = false;
@@ -39,6 +42,18 @@ var blog1OpenStatus = false;
 var blog0OpenStatus = false;
 
 // Blog button functions
+
+function blog8Open() {
+    if (!blog8OpenStatus) {
+        blog8OpenStatus = !blog8OpenStatus;
+        blog8.classList.add('show');
+        blog8Button.classList.remove('collapsed');
+        return
+    }
+    blog8OpenStatus = !blog8OpenStatus;
+    blog8.classList.remove('show');
+    blog8Button.classList.add('collapsed');
+}
 
 function blog7Open() {
     if (!blog7OpenStatus) {

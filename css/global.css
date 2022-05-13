@@ -77,7 +77,15 @@ a:visited {
 a:hover,
 a:focus {
     text-decoration: underline;
-    opacity: 0.75;
+    transform: scale(1.05);
+}
+
+img {
+    transition: all 0.25s ease-in-out
+}
+
+img:hover{
+    transform: translateY(-0.25rem);
 }
 
 #githubContributions {
