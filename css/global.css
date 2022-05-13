@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Menlo Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Menlo Regular'), url('../libraries/Menlo-Regular.woff') format('woff');
+    font-family: 'Menlo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Menlo Regular'), url('../libraries/Menlo-Regular.woff') format('woff');
 }
 
 .menloRegular {
@@ -45,21 +45,21 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
-  overflow-x: hidden;
-  width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
-  background-color: transparent;
-  align-items: center;
+    background-color: transparent;
+    align-items: center;
 }
 
 #mainContent {
@@ -69,9 +69,9 @@ body {
 a,
 a:link,
 a:visited {
-  color: lime;
-  text-decoration: none;
-  transition: all 0.25s ease-in-out;
+    color: lime;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
 }
 
 a:hover,
@@ -108,75 +108,75 @@ a:focus {
     z-index: 1;
     margin: 4rem 0 1rem 0;
     width: 100vw;
-    background-color: rgb(50,50,50);
+    background-color: rgb(50, 50, 50);
 }
 
 .carousel-inner {
     max-width: 50rem;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(50,50,50);
+    background-color: rgb(50, 50, 50);
 }
 
 @media (max-width:575px) {
-    .carousel-inner{
+    .carousel-inner {
         max-width: 30rem;
     }
 }
 
 @media (max-width:400px) {
-    .carousel-inner{
+    .carousel-inner {
         padding: 0;
         width: 100vw;
     }
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1rem;
-  color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
 }
 
 footer>a,
 footer>p {
-  margin: auto 0;
-  text-shadow: 1px 1px black;
+    margin: auto 0;
+    text-shadow: 1px 1px black;
 }
 
 footer>p>span {
-  font-style: italic;
+    font-style: italic;
 }
 
 footer>p>img {
-  animation: slowSpin 5s ease-in-out infinite;
-  -webkit-filter: drop-shadow(1px 1px 1px black);
-  filter: drop-shadow(1px 1px 1px black);
+    animation: slowSpin 5s ease-in-out infinite;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 @keyframes slowSpin {
-  0% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(1);
+    }
 
-  50% {
-    transform: scale(-1, 1);
-  }
+    50% {
+        transform: scale(-1, 1);
+    }
 
-  100% {
-    transform: scale(1);
-  }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .socialLogo {
-  max-height: 1.5rem;
-  transition: transform 0.5s ease-in-out;
-  -webkit-filter: drop-shadow(1px 1px 1px black);
-  filter: drop-shadow(1px 1px 1px black);
+    max-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .socialLogo:hover {
-  transform: scale(-1, 1) scale(1);
+    transform: scale(-1, 1) scale(1);
 }
