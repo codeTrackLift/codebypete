@@ -27,6 +27,28 @@ h5 {
   color: cornflowerblue;
 }
 
+.card>cite {
+    color: gray;
+    margin-top: -3rem;
+    padding-bottom: 1rem;
+    transition: all 0.25s ease-in-out;
+}
+
+.card>cite.hide {
+    opacity: 0;
+    transform: translateY(-5rem);
+}
+
+.card>cite.hideLeft {
+    opacity: 0;
+    transform: translateX(-5rem);
+}
+
+.card>cite.hideRight {
+    opacity: 0;
+    transform: translateX(5rem);
+}
+
 .myArticles {
   padding-top: 1rem;
   margin-bottom: -2rem;
