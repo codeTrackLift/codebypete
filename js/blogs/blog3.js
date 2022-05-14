@@ -83,11 +83,10 @@ const blog3Body = `
                 </h5>
                 <p>Thank you for visiting, and happy coding!</p>
             </div>
-            <div class="col-sm-6 my-auto">
-                <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style=>
-                <p style="text-align:end;font-style:italic;color:white;">-Pete</p>
-                <p style="text-align:end;font-style:italic;color:white;">Feb 27, 2022</p>
-                <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPRO</p>
+            <div class="text-end col-sm-6 my-auto">
+                <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
+                <p style="font-style:italic;color:white;">-Pete</p>
+                <p style="font-style:italic;color:white;">Feb 27, 2022</p>
             </div>
         </div>
     </div>

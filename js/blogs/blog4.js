@@ -97,10 +97,9 @@ const blog4Body = `
                             <p>Happy coding!</p>
                         </div>
                         <div class="my-auto">
-                            <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic">
+                            <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                             <p style="text-align:end;font-style:italic;color:white;">-Pete</p>
                             <p style="text-align:end;font-style:italic;color:white;">Mar 5, 2022</p>
-                            <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPRO</p>
                         </div>
                     </div>
                 </div>

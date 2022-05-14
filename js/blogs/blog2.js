@@ -81,9 +81,10 @@ const blog2Body = `
         <div class="m-auto" style="max-width: 640px;">
             <p>Please let me know with any suggestions, or comments. Thank you again for visiting, and happy coding!</p>
         </div>
-        <div>
-            <p style="text-align:end;font-style:italic;color:white;"><img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic"> -Pete, Feb 20, 2022</p>
-            <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPRO</p>
+        <div class='text-end'>
+            <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
+            <p style="font-style:italic;color:white;">-Pete</p>
+            <p style="font-style:italic;color:white;">Feb 20, 2022</p>
         </div>
     </div>
 `;

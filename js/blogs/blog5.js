@@ -24,12 +24,11 @@ const blog5Body = `
         <div class="'container-fluid row text-end">
             <div>
                 <p>Happy coding!</p>
-                <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-1rem)'>
+                <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
             </div>
             <div class="my-auto">
                 <p style="font-style:italic;color:white;">-Pete</p>
                 <p style="font-style:italic;color:white;">Mar 15, 2022</p>
-                <p style="font-style:italic;color:white;">Student @ MIT xPRO</p>
             </div>
         </div>
     </div>

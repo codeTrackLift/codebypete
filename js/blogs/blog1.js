@@ -28,10 +28,10 @@ const blog1Body = `
             </li>
         </ol>
         <p style="padding-top:-1rem; padding-bottom:2rem;">Please let me know with any suggestions, or comments. Thank you again for visiting my site, and happy coding!</p>
-        <div>
-            <p style="text-align:end;font-style:italic;color:white;"><img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic"> -Pete, Feb 16, 2022
-            </p>
-            <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPRO</p>
+        <div class='text-end'>
+            <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translate(-2rem)'>
+            <p style="font-style:italic;color:white;">-Pete</p>
+            <p style="font-style:italic;color:white;">Feb 16, 2022</p>
         </div>
     </div>
 `;

@@ -47,12 +47,10 @@ const blog8Body = `
             <div class="my-auto col-sm-6">
                 <div class="text-end">
                     <p>Happy coding!</p>
+                    <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                 </div>
-                <p style="text-align:end;font-style:italic;color:white;"><img
-                        src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic"> -
-                    Pete, May 13, 2022
-                </p>
-                <p style="text-align:end;font-style:italic;color:white;">Student @ MIT xPRO</p>
+                <p style="text-align:end;font-style:italic;color:white;">-Pete</p>
+                <p style="text-align:end;font-style:italic;color:white;">May 13, 2022</p>
             </div>
         </div>
     </div>    
