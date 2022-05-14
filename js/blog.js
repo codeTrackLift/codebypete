@@ -31,19 +31,20 @@ const blog1Button = document.getElementById('blog1Button');
 const blog0Button = document.getElementById('blog0Button');
 
 // Blog starting values, set to true IF starting open
-var blog8OpenStatus = false;
-var blog7OpenStatus = false;
-var blog6OpenStatus = false;
-var blog5OpenStatus = false;
-var blog4OpenStatus = false;
-var blog3OpenStatus = false;
-var blog2OpenStatus = false;
-var blog1OpenStatus = false;
-var blog0OpenStatus = false;
+let blog8OpenStatus = false;
+let blog7OpenStatus = false;
+let blog6OpenStatus = false;
+let blog5OpenStatus = false;
+let blog4OpenStatus = false;
+let blog3OpenStatus = false;
+let blog2OpenStatus = false;
+let blog1OpenStatus = false;
+let blog0OpenStatus = false;
 
 // Blog button functions
 
 function blog8Open() {
+    injectBlog8();
     if (!blog8OpenStatus) {
         blog8OpenStatus = !blog8OpenStatus;
         blog8.classList.add('show');
@@ -56,6 +57,7 @@ function blog8Open() {
 }
 
 function blog7Open() {
+    injectBlog7();
     if (!blog7OpenStatus) {
         blog7OpenStatus = !blog7OpenStatus;
         blog7.classList.add('show');
@@ -68,6 +70,7 @@ function blog7Open() {
 }
 
 function blog6Open() {
+    injectBlog6();
     if (!blog6OpenStatus) {
         blog6OpenStatus = !blog6OpenStatus;
         blog6.classList.add('show');
@@ -80,6 +83,7 @@ function blog6Open() {
 }
 
 function blog5Open() {
+    injectBlog5();
     if (!blog5OpenStatus) {
         blog5OpenStatus = !blog5OpenStatus;
         blog5.classList.add('show');
@@ -92,48 +96,46 @@ function blog5Open() {
 }
 
 function blog4Open() {
+    injectBlog4();
     if (!blog4OpenStatus) {
         blog4OpenStatus = !blog4OpenStatus;
         blog4.classList.add('show');
         blog4Button.classList.remove('collapsed');
-        // blog4Video.src = 'https://youtube.com/embed/YYzOL7NGuxM?&autoplay=1&mute=1';
         return
     }
     blog4OpenStatus = !blog4OpenStatus;
     blog4.classList.remove('show');
     blog4Button.classList.add('collapsed');
-    // blog4Video.src = 'https://youtube.com/embed/YYzOL7NGuxM';
 }
 
 function blog3Open() {
+    injectBlog3();
     if (!blog3OpenStatus) {
         blog3OpenStatus = !blog3OpenStatus;
         blog3.classList.add('show');
         blog3Button.classList.remove('collapsed');
-        // blog3Video.src = 'https://youtube.com/embed/iOKK8Q2unxE?&autoplay=1&mute=1';
         return
     }
     blog3OpenStatus = !blog3OpenStatus;
     blog3.classList.remove('show');
     blog3Button.classList.add('collapsed');
-    // blog3Video.src = 'https://youtube.com/embed/iOKK8Q2unxE';
 }
 
 function blog2Open() {
+    injectBlog2();
     if (!blog2OpenStatus) {
         blog2OpenStatus = !blog2OpenStatus;
         blog2.classList.add('show');
         blog2Button.classList.remove('collapsed');
-        // blog2Video.src = 'https://youtube.com/embed/f0mTQx5ATQI?&autoplay=1&mute=1';
         return
     }
     blog2OpenStatus = !blog2OpenStatus;
     blog2.classList.remove('show');
     blog2Button.classList.add('collapsed');
-    // blog2Video.src = 'https://youtube.com/embed/f0mTQx5ATQI';
 }
 
 function blog1Open() {
+    injectBlog1();
     if (!blog1OpenStatus) {
         blog1OpenStatus = !blog1OpenStatus;
         blog1.classList.add('show');
@@ -146,6 +148,7 @@ function blog1Open() {
 }
 
 function blog0Open() {
+    injectBlog0();
     if (!blog0OpenStatus) {
         blog0OpenStatus = !blog0OpenStatus;
         blog0.classList.add('show');
