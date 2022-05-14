@@ -36,7 +36,7 @@ const blog0Body = `
         <p style="text-align:end;font-style:italic;padding:0;color:white;"><img
                 src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic">Best
             Regards,</p>
-        <p style="text-align:end;font-style:italic;padding:0;color:white;">Pete Chu,<br> 9 Feb, 2022</p>
+        <p style="text-align:end;font-style:italic;padding:0;color:white;">Pete Chu,<br> Feb 9, 2022</p>
         <p style="text-align:end;font-style:italic;padding:0;color:white;">Student @ MIT xPRO</p>
     </div>
 `;
