@@ -4,7 +4,7 @@
 
 <img src='./pics/about/html5_logo.gif' alt='HTML5 logo' height='45'> <img src='./pics/about/css3_logo.gif' alt='CSS3 logo' height='45'> <img src='./pics/about/javascript_logo.gif' alt='JavaScript logo' height='45'> <img src='./pics/about/bootstrap-logo.svg' alt='Bootstrap logo' height='35'> <img src='./pics/about/gitLogoOrangeRed.png' alt='VS Code logo' height='35'> <img src='./pics/about/vsCodeLogo.png' alt='VS Code logo' height='35'> <img src='./pics/about/jest_logo.gif' alt='Jest Logo' height='35'> <img src='./pics/about/mernStackTrans.png' alt='VS Code logo' height='45'> 
 
->*Mobile First* | *Responsive Design* | *Custom Animations*
+>*Mobile First* | *Responsive Design* | *CSS Animations*
 
 <img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
 
@@ -26,7 +26,7 @@ This portfolio includes the following sections:
 - [x] Custom accordion functionality
 - [x] Refactor footer & navbar with JavaScript
 - [x] Add Scroll Magic effects
-- [ ] Refactor with React
+- [x] Refactor blog with JavaScript
 
 ## MIT License
 
