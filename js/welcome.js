@@ -62,6 +62,11 @@ const myWelcome = `
             <img class='img-fluid bg-black rounded m-auto' src="../pics/about/mernStackTrans.png" style='width:25rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
         </div>
 
+        <div class="myArticles container-fluid text-center mt-4 d-none d-sm-none d-md-block">
+            <h5 class="menloRegular text-gray textShadowBlack text-center mx-auto mb-4" style="max-width:860px;">Mobile First | Responsive Design</h5>
+            <img class='img-fluid m-auto' id='qrByPete' src="../pics/about/qrByPete_dark.png" style='width:10rem;' alt="codeByPete QR Code">
+        </div>
+
         <div id='bottomNav' class="container-fluid mt-5">
             <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Let me know you visited...</h5>
             <div class="container-fluid text-center mt-4" style="max-width:480px;">
@@ -112,6 +117,14 @@ const initScrollMagic = () => {
         })
         .setClassToggle('#welcomeCard2', 'shift')
         .addTo(welcomeCard2Controller);
+
+    var qrByPeteController = new ScrollMagic.Controller();
+    var qrByPete = new ScrollMagic.Scene({
+            triggerElement: '#qrByPete',
+            offset: -200
+        })
+        .setClassToggle('#qrByPete', 'shift')
+        .addTo(qrByPeteController);
 
     var githubContributionsController = new ScrollMagic.Controller();
     var githubContributions = new ScrollMagic.Scene({
