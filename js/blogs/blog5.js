@@ -2,7 +2,7 @@ const blog5Body = `
     <div class="accordion-body">
         <h4 class="text-center mb-4">Greetings!</h4>
         <div class='row'>
-            <p class="col-sm-4">Week 5 of <a href="https://xpro.mit.edu/" target="_blank">MIT xPRO</a><span class="text-white">Full Stack Coding Bootcamp</span> (full-time cohort), we were assigned two projects that would be graded towards our <span class="text-white">Professional Certificate</span>.</p>
+            <p class="col-sm-4">Week 5 of <a href="https://xpro.mit.edu/" target="_blank">MIT xPRO</a><span class="text-white"> Full Stack Coding Bootcamp</span> (full-time cohort), we were assigned two projects that would be graded towards our <span class="text-white">Professional Certificate</span>.</p>
             <p class="col-sm-4"><span class="chocolate menloRegular">PacMan Factory</span> <span class="text-white">Basic Requirements</span>: Create PacMen with 2D movement, images should alternate to simulate 'chomping' and horizontal direction change.</p>
             <p class="col-sm-4"><span class="chocolate menloRegular">Eye Movement</span> <span class="text-white">Basic Requirements</span>: Use 'onmousemove' event and array methods to simulate an 'pair of eyes' tracking the mouse cursor.</p>
         </div>
