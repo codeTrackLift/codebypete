@@ -36,17 +36,7 @@ h5 {
 
 .card>cite.hide {
     opacity: 0;
-    transform: translateY(-5rem);
-}
-
-.card>cite.hideLeft {
-    opacity: 0;
-    transform: translateX(-5rem);
-}
-
-.card>cite.hideRight {
-    opacity: 0;
-    transform: translateX(5rem);
+    transform: scale(0);
 }
 
 .myArticles {

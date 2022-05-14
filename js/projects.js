@@ -11,7 +11,7 @@ const lenovaIncCite = new ScrollMagic.Scene({
         triggerElement: '#lenovaIncDemo',
         offset: -200
     })
-    .setClassToggle('#lenovaIncCite', 'hideLeft')
+    .setClassToggle('#lenovaIncCite', 'hide')
     .addTo(lenovaIncCiteController);
 
 const lmnoPhotoDemoController = new ScrollMagic.Controller();
@@ -27,7 +27,7 @@ const lmnoPhotoCite = new ScrollMagic.Scene({
         triggerElement: '#lmnoPhotoDemo',
         offset: -200
     })
-    .setClassToggle('#lmnoPhotoCite', 'hideRight')
+    .setClassToggle('#lmnoPhotoCite', 'hide')
     .addTo(lmnoPhotoCiteController);
 
 const xChangeDemoController = new ScrollMagic.Controller();
