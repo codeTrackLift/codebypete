@@ -35,8 +35,7 @@ h5 {
 }
 
 .card>cite.hide {
-    opacity: 0;
-    transform: scale(0);
+    transform: scale(0.75) translateY(2.5rem);
 }
 
 .myArticles {
