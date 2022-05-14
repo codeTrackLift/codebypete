@@ -146,7 +146,7 @@ body {
 }
 
 #qrByPete.shift {
-    transform: translateY(0);
+    transform: translateY(1rem);
 }
 
 #carousel {

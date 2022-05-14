@@ -62,7 +62,7 @@ const myWelcome = `
             <img class='img-fluid bg-black rounded m-auto' src="../pics/about/mernStackTrans.png" style='width:25rem;' alt="Mongo DB Express NodeJS ReactJS technology stack.">
         </div>
 
-        <div class="myArticles container-fluid text-center mt-4 d-none d-sm-none d-md-block">
+        <div class="myArticles container-fluid text-center mt-4 d-none d-md-none d-lg-block">
             <h5 class="menloRegular text-gray textShadowBlack text-center mx-auto mb-4" style="max-width:860px;">Mobile First | Responsive Design</h5>
             <img class='img-fluid m-auto' id='qrByPete' src="../pics/about/qrByPete_dark.png" style='width:10rem;' alt="codeByPete QR Code">
         </div>
