@@ -16,12 +16,12 @@ const blog7Body = `
                 <p>The base version only required the ability to add and remove tasks. The customized version <span class="text-white">retains the tasks in local storage</span> and will persist in memory through a reload.</p>
                 <p>To make this React App a little more useful, the day of the week, date, and time is conveniently displayed.</p>
                 <p class="d-none d-md-block">The user can enter a 5-digit zip code to see their local temperature, which is fetched from a <span class="chocolate">weather API</span>.  This feature also includes <span class="text-white">entry validation</span> and <span class="text-white">error handling</span>.</p>
-                <p class="d-none d-md-block">Please see the <a href="../pages/projects.html">Projects</a> section of my portfolio to check out the <span class="text-white">deployed demo</span>, and let me know what you think.</p>
+                <p class="d-none d-md-block">Please see the <a href="../pages/projects.html#todoCard">Projects</a> section of my portfolio to check out the <span class="text-white">deployed demo</span>, and let me know what you think.</p>
             </div>
             <div class="col-sm-8 col-md-6 row">
                 <img src="../pics/projects/todoDashboard.gif" class="row img-fluid my-auto py-3" alt="To do list assignment animted gif.">
                 <p class="col-sm-6 d-md-none">The user can enter a 5-digit zip code to see their local temperature, which is fetched from a <span class="chocolate">weather API</span>.  This feature also includes <span class="text-white">entry validation</span> and <span class="text-white">error handling</span>.</p>
-                <p class="col-sm-6 d-md-none">Please see the <a href="../pages/projects.html">Projects</a> section of my portfolio to check out the <span class="text-white">deployed demo</span>, and let me know what you think.</p>
+                <p class="col-sm-6 d-md-none">Please see the <a href="../pages/projects.html#todoCard">Projects</a> section of my portfolio to check out the <span class="text-white">deployed demo</span>, and let me know what you think.</p>
             </div>
         </div>
         <div class="'container-fluid row">

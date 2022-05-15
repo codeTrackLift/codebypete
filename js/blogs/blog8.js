@@ -7,7 +7,7 @@ const blog8Body = `
         <div class="row">
             <div class="col-sm-6">
                 <p>
-                    <span class="text-white">Full Stack Coding Bootcamp</span> Week 14, our '<span class="menloRegular chocolate">BadBank</span>' project is coming due.  Starter files were supplied, but they utilized CDNs and were in React 17.  As such, I chose to build my project from scratch using '<a href="https://reactjs.org/docs/create-a-new-react-app.html" target="_blank">npx create-react-app</a>' and <span class="chocolate menloRegular">React 18</span>. 
+                    <span class="text-white">Full Stack Coding Bootcamp</span> Week 14, our '<span class="menloRegular chocolate">Bad Bank</span>' project is coming due.  Starter files were supplied, but they utilized CDNs and were in React 17.  As such, I chose to build my project from scratch using '<a href="https://reactjs.org/docs/create-a-new-react-app.html" target="_blank">npx create-react-app</a>' and <span class="chocolate menloRegular">React 18</span>. 
                 </p>
             </div>
             <div class="col-sm-6">
@@ -24,7 +24,7 @@ const blog8Body = `
             </div>
             <div class="col-md-5 col-sm-6">
                 <p>
-                    I used '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank">getBoundingClientRect</a>' to get control of the DOM area.  Then I used '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth" target="_blank">scrollWidth</a>', '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft" target="_blank">scrollLeft</a>', and '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo" target="_blank">scrollTo</a>' to implement movement of the scrollbar.  Check out the deployed demo on my <a href="../pages/projects.html">Projects</a> page and let me know what you think!
+                    I used '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank">getBoundingClientRect</a>' to get control of the DOM area.  Then I used '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth" target="_blank">scrollWidth</a>', '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft" target="_blank">scrollLeft</a>', and '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo" target="_blank">scrollTo</a>' to implement movement of the scrollbar.  Check out the deployed demo on my <a href="../pages/projects.html#xChangeCard">Projects</a> page and let me know what you think!
                 </p>
             </div>
             <div class="col-md-2 my-auto">

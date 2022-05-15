@@ -19,7 +19,7 @@ const blog5Body = `
         <div class="row">
             <p class="col-sm-4"><span class="cornflowerBlue">Customized Aqua-PacMan</span> to be contained within an <span class="text-white">animated aquarium</span>. The move button has been upgraded to a <span class="text-white">color-coded toggle button</span>. You can also <span class="text-white"><em>ZAP!</em></span> a PacMan if you made too many!</p>
             <p class="col-sm-4"><span class="cornflowerBlue">Customized <span class="text-silver">an</span> Animated Head</span> to '<span class="text-white">blink</span>' and '<span class="text-white">talk</span>' with mouse clicks or mobile touch inputs. Mr. Animated Head is also very <span class="text-white">passionate</span> about his <span class="text-white">bootcamp experience</span>!</p>
-            <p class="col-sm-4">Both projects are <span class="text-white menloRegular">fully responsive</span> and <span class="text-white menloRegular">mobile compatible</span>. Please check out the demos or view the GitHub Repositories from my <a href="../pages/projects.html">Projects</a> page.</p>
+            <p class="col-sm-4">Both projects are <span class="text-white menloRegular">fully responsive</span> and <span class="text-white menloRegular">mobile compatible</span>. Please check out the demos or view the GitHub Repositories from my <a href="../pages/projects.html#animatedHeadCard">Projects</a> page.</p>
         </div>
         <div class="'container-fluid row text-end">
             <div>
