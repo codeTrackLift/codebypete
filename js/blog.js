@@ -44,7 +44,7 @@ let blog0OpenStatus = false;
 // Blog button functions
 
 function blog8Open() {
-    injectBlog8();
+    setTimeout(injectBlog8,500);
     if (!blog8OpenStatus) {
         blog8OpenStatus = !blog8OpenStatus;
         blog8.classList.add('show');
@@ -57,7 +57,7 @@ function blog8Open() {
 }
 
 function blog7Open() {
-    injectBlog7();
+    setTimeout(injectBlog7,500);
     if (!blog7OpenStatus) {
         blog7OpenStatus = !blog7OpenStatus;
         blog7.classList.add('show');
@@ -70,7 +70,7 @@ function blog7Open() {
 }
 
 function blog6Open() {
-    injectBlog6();
+    setTimeout(injectBlog6,500);
     if (!blog6OpenStatus) {
         blog6OpenStatus = !blog6OpenStatus;
         blog6.classList.add('show');
@@ -83,7 +83,7 @@ function blog6Open() {
 }
 
 function blog5Open() {
-    injectBlog5();
+    setTimeout(injectBlog5,500);
     if (!blog5OpenStatus) {
         blog5OpenStatus = !blog5OpenStatus;
         blog5.classList.add('show');
@@ -96,7 +96,7 @@ function blog5Open() {
 }
 
 function blog4Open() {
-    injectBlog4();
+    setTimeout(injectBlog4,500);
     if (!blog4OpenStatus) {
         blog4OpenStatus = !blog4OpenStatus;
         blog4.classList.add('show');
@@ -109,7 +109,7 @@ function blog4Open() {
 }
 
 function blog3Open() {
-    injectBlog3();
+    setTimeout(injectBlog3,500);
     if (!blog3OpenStatus) {
         blog3OpenStatus = !blog3OpenStatus;
         blog3.classList.add('show');
@@ -122,7 +122,7 @@ function blog3Open() {
 }
 
 function blog2Open() {
-    injectBlog2();
+    setTimeout(injectBlog2,500);
     if (!blog2OpenStatus) {
         blog2OpenStatus = !blog2OpenStatus;
         blog2.classList.add('show');
@@ -135,7 +135,7 @@ function blog2Open() {
 }
 
 function blog1Open() {
-    injectBlog1();
+    setTimeout(injectBlog1,500);
     if (!blog1OpenStatus) {
         blog1OpenStatus = !blog1OpenStatus;
         blog1.classList.add('show');
@@ -148,7 +148,7 @@ function blog1Open() {
 }
 
 function blog0Open() {
-    injectBlog0();
+    setTimeout(injectBlog0,500);
     if (!blog0OpenStatus) {
         blog0OpenStatus = !blog0OpenStatus;
         blog0.classList.add('show');
