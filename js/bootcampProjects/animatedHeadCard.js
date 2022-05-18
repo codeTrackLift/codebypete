@@ -20,4 +20,31 @@ const animatedHeadCard = `
     </div>
 `;
 
-const injectAnimatedHeadCard = () => bootcampProjects.innerHTML += animatedHeadCard;
+const injectAnimatedHeadCard = () => {
+    bootcampProjects.innerHTML += animatedHeadCard;
+    setTimeout(() => {
+        const animatedHeadDemoController = new ScrollMagic.Controller();
+        const animatedHeadDemo = new ScrollMagic.Scene({
+                triggerElement: '#animatedHeadDemo',
+                offset: -200
+            })
+            .setClassToggle('#animatedHeadDemo', 'show')
+            .addTo(animatedHeadDemoController);
+    
+        const animatedHeadRepoController = new ScrollMagic.Controller();
+        const animatedHeadRepo = new ScrollMagic.Scene({
+                triggerElement: '#animatedHeadRepo',
+                offset: -200
+            })
+            .setClassToggle('#animatedHeadRepo', 'show')
+            .addTo(animatedHeadRepoController);
+    
+        const animatedHeadCiteController = new ScrollMagic.Controller();
+        const animatedHeadCite = new ScrollMagic.Scene({
+                triggerElement: '#animatedHeadRepo',
+                offset: -200
+            })
+            .setClassToggle('#animatedHeadCite', 'hide')
+            .addTo(animatedHeadCiteController);
+    })
+}

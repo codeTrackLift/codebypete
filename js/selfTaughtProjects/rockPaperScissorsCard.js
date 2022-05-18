@@ -21,4 +21,31 @@ const rockPaperScissorsCard = `
     </div>
 `;
 
-const injectRockPaperScissorsCard = () => selfTaughtProjects.innerHTML += rockPaperScissorsCard;
+const injectRockPaperScissorsCard = () => {
+    selfTaughtProjects.innerHTML += rockPaperScissorsCard;
+    setTimeout(() => {
+        const rockPaperScissorsDemoController = new ScrollMagic.Controller();
+        const rockPaperScissorsDemo = new ScrollMagic.Scene({
+                triggerElement: '#rockPaperScissorsDemo',
+                offset: -200
+            })
+            .setClassToggle('#rockPaperScissorsDemo', 'show')
+            .addTo(rockPaperScissorsDemoController);
+
+        const rockPaperScissorsRepoController = new ScrollMagic.Controller();
+        const rockPaperScissorsRepo = new ScrollMagic.Scene({
+                triggerElement: '#rockPaperScissorsRepo',
+                offset: -200
+            })
+            .setClassToggle('#rockPaperScissorsRepo', 'show')
+            .addTo(rockPaperScissorsRepoController);
+
+        const rockPaperScissorsCiteController = new ScrollMagic.Controller();
+        const rockPaperScissorsCite = new ScrollMagic.Scene({
+                triggerElement: '#rockPaperScissorsRepo',
+                offset: -200
+            })
+            .setClassToggle('#rockPaperScissorsCite', 'hide')
+            .addTo(rockPaperScissorsCiteController);
+    })
+}

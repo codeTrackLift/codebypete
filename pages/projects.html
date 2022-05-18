@@ -63,22 +63,9 @@
 
         <div class="container-fluid myArticles">
             <h6 class="menloRegular text-gray text-center mb-5">/* myCodingJourney started in Dec, 2021. Please visit again, more projects are in development... */</h6>
-            <h3>Deployed Business Websites</h3>
         </div>
-        <div id='businessProjects' class="myProjects row container-fluid justify-content-center">
-        </div> <!-- row closing div -->
 
-        <div class="container-fluid myArticles">
-            <h3>Bootcamp Projects</h3>
-        </div>
-        <div id='bootcampProjects' class="myProjects row container-fluid justify-content-center">
-        </div> <!-- row closind div -->
-
-        <div class="container-fluid myArticles">
-            <h3>Self-Taught Progression Projects</h3>
-        </div>
-        <div id='selfTaughtProjects' class="myProjects row container-fluid justify-content-center">
-        </div> <!-- Row closing div -->
+        <div id="projectsContainer"></div>
 
         <div id='bottomNav' class="container-fluid">
             <h5 class="menloRegular text-silver textShadowBlack text-center">Read blog articles, or see my <span
@@ -128,7 +115,7 @@
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
-    <script src="../js/projects.js" defer></script>
+    <script src="../js/projects.js"></script>
     <script src="../js/footer.js"></script>
 
     <script src="../js/businessProjects/lenovaIncCard.js"></script>
@@ -152,6 +139,7 @@
         injectMyNavbar();
         setActiveNavlink('navlinkProjects');
         injectMyFooter();
+        injectProjectsContainer();
 
         injectLenovaIncCard();
         injectLmnoPhotoCard();

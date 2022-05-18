@@ -22,4 +22,31 @@ const jsCalcCard = `
     </div>
 `;
 
-const injectJsCalcCard = () => selfTaughtProjects.innerHTML += jsCalcCard;
+const injectJsCalcCard = () => {
+    selfTaughtProjects.innerHTML += jsCalcCard;
+    setTimeout(() => {
+        const jsCalcDemoController = new ScrollMagic.Controller();
+        const jsCalcDemo = new ScrollMagic.Scene({
+                triggerElement: '#jsCalcDemo',
+                offset: -200
+            })
+            .setClassToggle('#jsCalcDemo', 'show')
+            .addTo(jsCalcDemoController);
+
+        const jsCalcRepoController = new ScrollMagic.Controller();
+        const jsCalcRepo = new ScrollMagic.Scene({
+                triggerElement: '#jsCalcRepo',
+                offset: -200
+            })
+            .setClassToggle('#jsCalcRepo', 'show')
+            .addTo(jsCalcRepoController);
+
+        const jsCalcCiteController = new ScrollMagic.Controller();
+        const jsCalcCite = new ScrollMagic.Scene({
+                triggerElement: '#jsCalcRepo',
+                offset: -200
+            })
+            .setClassToggle('#jsCalcCite', 'hide')
+            .addTo(jsCalcCiteController);
+    })
+}

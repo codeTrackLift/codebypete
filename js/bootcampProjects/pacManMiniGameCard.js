@@ -22,4 +22,31 @@ const pacManMiniGameCard = `
     </div>
 `;
 
-const injectPacManMiniGameCard = () => bootcampProjects.innerHTML += pacManMiniGameCard;
+const injectPacManMiniGameCard = () => {
+    bootcampProjects.innerHTML += pacManMiniGameCard;
+    setTimeout(() => {
+        const pacManMiniGameDemoController = new ScrollMagic.Controller();
+        const pacManMiniGameDemo = new ScrollMagic.Scene({
+                triggerElement: '#pacManMiniGameDemo',
+                offset: -200
+            })
+            .setClassToggle('#pacManMiniGameDemo', 'show')
+            .addTo(pacManMiniGameDemoController);
+    
+        const pacManMiniGameRepoController = new ScrollMagic.Controller();
+        const pacManMiniGameRepo = new ScrollMagic.Scene({
+                triggerElement: '#pacManMiniGameRepo',
+                offset: -200
+            })
+            .setClassToggle('#pacManMiniGameRepo', 'show')
+            .addTo(pacManMiniGameRepoController);
+    
+        const pacManMiniGameCiteController = new ScrollMagic.Controller();
+        const pacManMiniGameCite = new ScrollMagic.Scene({
+                triggerElement: '#pacManMiniGameRepo',
+                offset: -200
+            })
+            .setClassToggle('#pacManMiniGameCite', 'hide')
+            .addTo(pacManMiniGameCiteController);
+    })
+}

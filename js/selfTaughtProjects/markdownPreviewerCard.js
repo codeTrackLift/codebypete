@@ -22,4 +22,31 @@ const markdownPreviewerCard = `
     </div>
 `;
 
-const injectMarkdownPreviewerCard = () => selfTaughtProjects.innerHTML += markdownPreviewerCard;
+const injectMarkdownPreviewerCard = () => {
+    selfTaughtProjects.innerHTML += markdownPreviewerCard;
+    setTimeout(() => {
+        const markdownPreviewerDemoController = new ScrollMagic.Controller();
+        const markdownPreviewerDemo = new ScrollMagic.Scene({
+                triggerElement: '#markdownPreviewerDemo',
+                offset: -200
+            })
+            .setClassToggle('#markdownPreviewerDemo', 'show')
+            .addTo(markdownPreviewerDemoController);
+    
+        const markdownPreviewerRepoController = new ScrollMagic.Controller();
+        const markdownPreviewerRepo = new ScrollMagic.Scene({
+                triggerElement: '#markdownPreviewerRepo',
+                offset: -200
+            })
+            .setClassToggle('#markdownPreviewerRepo', 'show')
+            .addTo(markdownPreviewerRepoController);
+    
+        const markdownPreviewerCiteController = new ScrollMagic.Controller();
+        const markdownPreviewerCite = new ScrollMagic.Scene({
+                triggerElement: '#markdownPreviewerRepo',
+                offset: -200
+            })
+            .setClassToggle('#markdownPreviewerCite', 'hide')
+            .addTo(markdownPreviewerCiteController);
+    });
+}

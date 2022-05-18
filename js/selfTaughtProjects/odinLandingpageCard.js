@@ -24,4 +24,31 @@ const odinLandingpageCard = `
     </div>
 `;
 
-const injectOdinLandingpageCard = () => selfTaughtProjects.innerHTML += odinLandingpageCard;
+const injectOdinLandingpageCard = () => {    
+    selfTaughtProjects.innerHTML += odinLandingpageCard;
+    setTimeout(() => {
+        const odinLandingpageDemoController = new ScrollMagic.Controller();
+        const odinLandingpageDemo = new ScrollMagic.Scene({
+                triggerElement: '#odinLandingpageDemo',
+                offset: -200
+            })
+            .setClassToggle('#odinLandingpageDemo', 'show')
+            .addTo(odinLandingpageDemoController);
+
+        const odinLandingpageRepoController = new ScrollMagic.Controller();
+        const odinLandingpageRepo = new ScrollMagic.Scene({
+                triggerElement: '#odinLandingpageRepo',
+                offset: -200
+            })
+            .setClassToggle('#odinLandingpageRepo', 'show')
+            .addTo(odinLandingpageRepoController);
+
+        const odinLandingpageCiteController = new ScrollMagic.Controller();
+        const odinLandingpageCite = new ScrollMagic.Scene({
+                triggerElement: '#odinLandingpageRepo',
+                offset: -200
+            })
+            .setClassToggle('#odinLandingpageCite', 'hide')
+            .addTo(odinLandingpageCiteController);
+    })
+}

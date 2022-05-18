@@ -21,4 +21,31 @@ const etchASketchCard = `
     </div>
 `;
 
-const injectEtchASketchCard = () => selfTaughtProjects.innerHTML += etchASketchCard;
+const injectEtchASketchCard = () => {
+    selfTaughtProjects.innerHTML += etchASketchCard;
+    setTimeout(() => {
+        const etchASketchDemoController = new ScrollMagic.Controller();
+        const etchASketchDemo = new ScrollMagic.Scene({
+                triggerElement: '#etchASketchDemo',
+                offset: -200
+            })
+            .setClassToggle('#etchASketchDemo', 'show')
+            .addTo(etchASketchDemoController);
+
+        const etchASketchRepoController = new ScrollMagic.Controller();
+        const etchASketchRepo = new ScrollMagic.Scene({
+                triggerElement: '#etchASketchRepo',
+                offset: -200
+            })
+            .setClassToggle('#etchASketchRepo', 'show')
+            .addTo(etchASketchRepoController);
+
+        const etchASketchCiteController = new ScrollMagic.Controller();
+        const etchASketchCite = new ScrollMagic.Scene({
+                triggerElement: '#etchASketchRepo',
+                offset: -200
+            })
+            .setClassToggle('#etchASketchCite', 'hide')
+            .addTo(etchASketchCiteController);
+    })
+}

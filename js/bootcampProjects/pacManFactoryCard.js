@@ -20,4 +20,31 @@ const pacManFactoryCard = `
     </div>
 `;
 
-const injectPacManFactoryCard = () => bootcampProjects.innerHTML += pacManFactoryCard;
+const injectPacManFactoryCard = () => {
+    bootcampProjects.innerHTML += pacManFactoryCard;
+    setTimeout(() => {
+        const pacManFactoryDemoController = new ScrollMagic.Controller();
+        const pacManFactoryDemo = new ScrollMagic.Scene({
+                triggerElement: '#pacManFactoryDemo',
+                offset: -200
+            })
+            .setClassToggle('#pacManFactoryDemo', 'show')
+            .addTo(pacManFactoryDemoController);
+    
+        const pacManFactoryRepoController = new ScrollMagic.Controller();
+        const pacManFactoryRepo = new ScrollMagic.Scene({
+                triggerElement: '#pacManFactoryRepo',
+                offset: -200
+            })
+            .setClassToggle('#pacManFactoryRepo', 'show')
+            .addTo(pacManFactoryRepoController);
+    
+        const pacManFactoryCiteController = new ScrollMagic.Controller();
+        const pacManFactoryCite = new ScrollMagic.Scene({
+                triggerElement: '#pacManFactoryRepo',
+                offset: -200
+            })
+            .setClassToggle('#pacManFactoryCite', 'hide')
+            .addTo(pacManFactoryCiteController);
+    })
+}

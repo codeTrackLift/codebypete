@@ -22,4 +22,31 @@ const pomodoroCard = `
     </div>
 `;
 
-const injectPomodoroCard = () => selfTaughtProjects.innerHTML += pomodoroCard;
+const injectPomodoroCard = () => {
+    selfTaughtProjects.innerHTML += pomodoroCard;
+    setTimeout(() => {
+        const pomodoroClockDemoController = new ScrollMagic.Controller();
+        const pomodoroClockDemo = new ScrollMagic.Scene({
+                triggerElement: '#pomodoroClockDemo',
+                offset: -200
+            })
+            .setClassToggle('#pomodoroClockDemo', 'show')
+            .addTo(pomodoroClockDemoController);
+    
+        const pomodoroClockRepoController = new ScrollMagic.Controller();
+        const pomodoroClockRepo = new ScrollMagic.Scene({
+                triggerElement: '#pomodoroClockRepo',
+                offset: -200
+            })
+            .setClassToggle('#pomodoroClockRepo', 'show')
+            .addTo(pomodoroClockRepoController);
+    
+        const pomodoroClockCiteController = new ScrollMagic.Controller();
+        const pomodoroClockCite = new ScrollMagic.Scene({
+                triggerElement: '#pomodoroClockRepo',
+                offset: -200
+            })
+            .setClassToggle('#pomodoroClockCite', 'hide')
+            .addTo(pomodoroClockCiteController);
+    })
+}

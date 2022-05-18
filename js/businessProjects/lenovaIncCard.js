@@ -17,4 +17,23 @@ const lenovaIncCard = `
     </div>
 `;
 
-const injectLenovaIncCard = () => businessProjects.innerHTML += lenovaIncCard;
+const injectLenovaIncCard = () => {
+    businessProjects.innerHTML += lenovaIncCard;
+    setTimeout(() => {
+        const lenovaIncDemoController = new ScrollMagic.Controller();
+        const lenovaIncDemo = new ScrollMagic.Scene({
+            triggerElement: '#lenovaIncDemo',
+            offset: -200
+        })
+        .setClassToggle('#lenovaIncDemo', 'show')
+        .addTo(lenovaIncDemoController);
+    
+        const lenovaIncCiteController = new ScrollMagic.Controller();
+        const lenovaIncCite = new ScrollMagic.Scene({
+                triggerElement: '#lenovaIncDemo',
+                offset: -200
+            })
+            .setClassToggle('#lenovaIncCite', 'hide')
+            .addTo(lenovaIncCiteController);
+    });
+}

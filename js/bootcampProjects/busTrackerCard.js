@@ -20,4 +20,31 @@ const busTrackerCard = `
     </div>
 `;
 
-const injectBusTrackerCard = () => bootcampProjects.innerHTML += busTrackerCard;
+const injectBusTrackerCard = () => {
+    bootcampProjects.innerHTML += busTrackerCard;
+    setTimeout(() => {
+        const busTrackerDemoController = new ScrollMagic.Controller();
+        const busTrackerDemo = new ScrollMagic.Scene({
+                triggerElement: '#busTrackerDemo',
+                offset: -200
+            })
+            .setClassToggle('#busTrackerDemo', 'show')
+            .addTo(busTrackerDemoController);
+    
+        const busTrackerRepoController = new ScrollMagic.Controller();
+        const busTrackerRepo = new ScrollMagic.Scene({
+                triggerElement: '#busTrackerRepo',
+                offset: -200
+            })
+            .setClassToggle('#busTrackerRepo', 'show')
+            .addTo(busTrackerRepoController);
+    
+        const busTrackerCiteController = new ScrollMagic.Controller();
+        const busTrackerCite = new ScrollMagic.Scene({
+                triggerElement: '#busTrackerRepo',
+                offset: -200
+            })
+            .setClassToggle('#busTrackerCite', 'hide')
+            .addTo(busTrackerCiteController);
+    })
+}

@@ -18,4 +18,23 @@ const lmnoPhotoCard = `
     </div>
 `;
 
-const injectLmnoPhotoCard = () => businessProjects.innerHTML += lmnoPhotoCard;
+const injectLmnoPhotoCard = () => {
+    businessProjects.innerHTML += lmnoPhotoCard;
+    setTimeout(() => {
+        const lmnoPhotoDemoController = new ScrollMagic.Controller();
+        const lmnoPhotoDemo = new ScrollMagic.Scene({
+                triggerElement: '#lmnoPhotoDemo',
+                offset: -200
+            })
+            .setClassToggle('#lmnoPhotoDemo', 'show')
+            .addTo(lmnoPhotoDemoController);
+    
+        const lmnoPhotoCiteController = new ScrollMagic.Controller();
+        const lmnoPhotoCite = new ScrollMagic.Scene({
+                triggerElement: '#lmnoPhotoDemo',
+                offset: -200
+            })
+            .setClassToggle('#lmnoPhotoCite', 'hide')
+            .addTo(lmnoPhotoCiteController);
+    });
+}

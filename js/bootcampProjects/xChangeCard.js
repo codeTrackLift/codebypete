@@ -18,4 +18,31 @@ const xChangeCard = `
     </div>
 `;
 
-const injectxChangeCard = () => bootcampProjects.innerHTML += xChangeCard;
+const injectxChangeCard = () => {
+    bootcampProjects.innerHTML += xChangeCard;
+    setTimeout(() => {
+        const xChangeDemoController = new ScrollMagic.Controller();
+        const xChangeDemo = new ScrollMagic.Scene({
+                triggerElement: '#xChangeDemo',
+                offset: -200
+            })
+            .setClassToggle('#xChangeDemo', 'show')
+            .addTo(xChangeDemoController);
+    
+        const xChangeRepoController = new ScrollMagic.Controller();
+        const xChangeRepo = new ScrollMagic.Scene({
+                triggerElement: '#xChangeRepo',
+                offset: -200
+            })
+            .setClassToggle('#xChangeRepo', 'show')
+            .addTo(xChangeRepoController);
+            
+        const xChangeCiteController = new ScrollMagic.Controller();
+        const xChangeCite = new ScrollMagic.Scene({
+                triggerElement: '#xChangeRepo',
+                offset: -200
+            })
+            .setClassToggle('#xChangeCite', 'hide')
+            .addTo(xChangeCiteController);
+    });
+}

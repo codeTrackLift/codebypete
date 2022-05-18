@@ -21,4 +21,31 @@ const todoCard = `
     </div>
 `;
 
-const injectTodoCard = () => bootcampProjects.innerHTML += todoCard;
+const injectTodoCard = () => {
+    bootcampProjects.innerHTML += todoCard;
+    setTimeout(() => {
+        const todoDemoController = new ScrollMagic.Controller();
+        const todoDemo = new ScrollMagic.Scene({
+                triggerElement: '#todoDemo',
+                offset: -200
+            })
+            .setClassToggle('#todoDemo', 'show')
+            .addTo(todoDemoController);
+    
+        const todoRepoController = new ScrollMagic.Controller();
+        const todoRepo = new ScrollMagic.Scene({
+                triggerElement: '#todoRepo',
+                offset: -200
+            })
+            .setClassToggle('#todoRepo', 'show')
+            .addTo(todoRepoController);
+    
+        const todoCiteController = new ScrollMagic.Controller();
+        const todoCite = new ScrollMagic.Scene({
+                triggerElement: '#todoRepo',
+                offset: -200
+            })
+            .setClassToggle('#todoCite', 'hide')
+            .addTo(todoCiteController);
+    })
+}
