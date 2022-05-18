@@ -1,4 +1,4 @@
-# <img src='./pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***codeByPete*** | **Portfolio** <img src='./pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='25'>
+# <img src='./pics/about/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***codeByPete*** | Portfolio <img src='./pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='20'>
 
 >Please visit [codeByPete.com](https://www.codebypete.com) to join me, on ***myCodingJourney***.  
 
@@ -30,7 +30,7 @@ This portfolio includes the following sections:
 
 ## MIT License
 
-Copyright (c) 2022 Pete Chu <img src='./pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com)***
+Copyright (c) 2022 Pete Chu <img src='./pics/about/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com)***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
