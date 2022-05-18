@@ -1,3 +1,7 @@
+const businessProjects = document.getElementById('businessProjects');
+const bootcampProjects = document.getElementById('bootcampProjects');
+const selfTaughtProjects = document.getElementById('selfTaughtProjects');
+
 const lenovaIncDemoController = new ScrollMagic.Controller();
 const lenovaIncDemo = new ScrollMagic.Scene({
         triggerElement: '#lenovaIncDemo',
