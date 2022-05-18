@@ -22,8 +22,8 @@ const markdownPreviewerCard = `
     </div>
 `;
 
-const injectMarkdownPreviewerCard = () => {
-    selfTaughtProjects.innerHTML += markdownPreviewerCard;
+const injectMarkdownPreviewerCard = (section) => {
+    section.innerHTML += markdownPreviewerCard;
     setTimeout(() => {
         const markdownPreviewerDemoController = new ScrollMagic.Controller();
         const markdownPreviewerDemo = new ScrollMagic.Scene({

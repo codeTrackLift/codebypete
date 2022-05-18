@@ -22,8 +22,8 @@ const jsCalcCard = `
     </div>
 `;
 
-const injectJsCalcCard = () => {
-    selfTaughtProjects.innerHTML += jsCalcCard;
+const injectJsCalcCard = (section) => {
+    section.innerHTML += jsCalcCard;
     setTimeout(() => {
         const jsCalcDemoController = new ScrollMagic.Controller();
         const jsCalcDemo = new ScrollMagic.Scene({

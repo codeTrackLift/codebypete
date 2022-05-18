@@ -22,8 +22,8 @@ const pacManMiniGameCard = `
     </div>
 `;
 
-const injectPacManMiniGameCard = () => {
-    bootcampProjects.innerHTML += pacManMiniGameCard;
+const injectPacManMiniGameCard = (section) => {
+    section.innerHTML += pacManMiniGameCard;
     setTimeout(() => {
         const pacManMiniGameDemoController = new ScrollMagic.Controller();
         const pacManMiniGameDemo = new ScrollMagic.Scene({

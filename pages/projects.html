@@ -61,9 +61,16 @@
             </figure>
         </section>
 
-        <div class="container-fluid myArticles">
-            <h6 class="menloRegular text-gray text-center mb-5">/* myCodingJourney started in Dec, 2021. Please visit again, more projects are in development... */</h6>
+        <div class="container-fluid myArticles text-center">
+            <h6 class="menloRegular text-gray mb-5">/* myCodingJourney started in Dec, 2021. Please visit again, more projects are in development... */</h6>
+            <!-- <p>Project View</p>
+            <div class="mb-5">
+                <button onclick="injectProjectsDefault()">By Category</button>
+                <button onclick="injectProjectsChronological()">Chronological</button>
+            </div> -->
         </div>
+
+        <hr>
 
         <div id="projectsContainer"></div>
 
@@ -139,24 +146,7 @@
         injectMyNavbar();
         setActiveNavlink('navlinkProjects');
         injectMyFooter();
-        injectProjectsContainer();
-
-        injectLenovaIncCard();
-        injectLmnoPhotoCard();
-
-        injectxChangeCard();
-        injectTodoCard();
-        injectBusTrackerCard();
-        injectAnimatedHeadCard();
-        injectPacManFactoryCard();
-        injectPacManMiniGameCard();
-        
-        injectPomodoroCard();
-        injectMarkdownPreviewerCard();
-        injectJsCalcCard();
-        injectEtchASketchCard();
-        injectRockPaperScissorsCard();
-        injectOdinLandingpageCard();
+        injectProjectsDefault();
     </script>
 </body>
 

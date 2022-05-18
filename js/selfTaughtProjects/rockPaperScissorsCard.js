@@ -21,8 +21,8 @@ const rockPaperScissorsCard = `
     </div>
 `;
 
-const injectRockPaperScissorsCard = () => {
-    selfTaughtProjects.innerHTML += rockPaperScissorsCard;
+const injectRockPaperScissorsCard = (section) => {
+    section.innerHTML += rockPaperScissorsCard;
     setTimeout(() => {
         const rockPaperScissorsDemoController = new ScrollMagic.Controller();
         const rockPaperScissorsDemo = new ScrollMagic.Scene({

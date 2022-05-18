@@ -20,8 +20,8 @@ const busTrackerCard = `
     </div>
 `;
 
-const injectBusTrackerCard = () => {
-    bootcampProjects.innerHTML += busTrackerCard;
+const injectBusTrackerCard = (section) => {
+    section.innerHTML += busTrackerCard;
     setTimeout(() => {
         const busTrackerDemoController = new ScrollMagic.Controller();
         const busTrackerDemo = new ScrollMagic.Scene({

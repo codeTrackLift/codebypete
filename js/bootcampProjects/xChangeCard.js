@@ -18,8 +18,8 @@ const xChangeCard = `
     </div>
 `;
 
-const injectxChangeCard = () => {
-    bootcampProjects.innerHTML += xChangeCard;
+const injectxChangeCard = (section) => {
+    section.innerHTML += xChangeCard;
     setTimeout(() => {
         const xChangeDemoController = new ScrollMagic.Controller();
         const xChangeDemo = new ScrollMagic.Scene({

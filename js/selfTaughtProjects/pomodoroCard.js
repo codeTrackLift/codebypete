@@ -22,8 +22,8 @@ const pomodoroCard = `
     </div>
 `;
 
-const injectPomodoroCard = () => {
-    selfTaughtProjects.innerHTML += pomodoroCard;
+const injectPomodoroCard = (section) => {
+    section.innerHTML += pomodoroCard;
     setTimeout(() => {
         const pomodoroClockDemoController = new ScrollMagic.Controller();
         const pomodoroClockDemo = new ScrollMagic.Scene({

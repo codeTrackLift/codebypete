@@ -21,8 +21,8 @@ const todoCard = `
     </div>
 `;
 
-const injectTodoCard = () => {
-    bootcampProjects.innerHTML += todoCard;
+const injectTodoCard = (section) => {
+    section.innerHTML += todoCard;
     setTimeout(() => {
         const todoDemoController = new ScrollMagic.Controller();
         const todoDemo = new ScrollMagic.Scene({

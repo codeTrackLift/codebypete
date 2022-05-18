@@ -20,8 +20,8 @@ const animatedHeadCard = `
     </div>
 `;
 
-const injectAnimatedHeadCard = () => {
-    bootcampProjects.innerHTML += animatedHeadCard;
+const injectAnimatedHeadCard = (section) => {
+    section.innerHTML += animatedHeadCard;
     setTimeout(() => {
         const animatedHeadDemoController = new ScrollMagic.Controller();
         const animatedHeadDemo = new ScrollMagic.Scene({

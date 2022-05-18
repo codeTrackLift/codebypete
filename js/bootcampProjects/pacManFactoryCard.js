@@ -20,8 +20,8 @@ const pacManFactoryCard = `
     </div>
 `;
 
-const injectPacManFactoryCard = () => {
-    bootcampProjects.innerHTML += pacManFactoryCard;
+const injectPacManFactoryCard = (section) => {
+    section.innerHTML += pacManFactoryCard;
     setTimeout(() => {
         const pacManFactoryDemoController = new ScrollMagic.Controller();
         const pacManFactoryDemo = new ScrollMagic.Scene({

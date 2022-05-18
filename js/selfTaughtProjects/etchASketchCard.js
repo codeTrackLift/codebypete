@@ -21,8 +21,8 @@ const etchASketchCard = `
     </div>
 `;
 
-const injectEtchASketchCard = () => {
-    selfTaughtProjects.innerHTML += etchASketchCard;
+const injectEtchASketchCard = (section) => {
+    section.innerHTML += etchASketchCard;
     setTimeout(() => {
         const etchASketchDemoController = new ScrollMagic.Controller();
         const etchASketchDemo = new ScrollMagic.Scene({

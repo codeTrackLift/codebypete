@@ -24,8 +24,8 @@ const odinLandingpageCard = `
     </div>
 `;
 
-const injectOdinLandingpageCard = () => {    
-    selfTaughtProjects.innerHTML += odinLandingpageCard;
+const injectOdinLandingpageCard = (section) => {    
+    section.innerHTML += odinLandingpageCard;
     setTimeout(() => {
         const odinLandingpageDemoController = new ScrollMagic.Controller();
         const odinLandingpageDemo = new ScrollMagic.Scene({

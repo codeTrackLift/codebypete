@@ -24,15 +24,43 @@ const selfTaughtProjectsSection = `
     </div>
 `;
 
-const injectProjectsContainer = () => {
-    projectsContainer.innerHTML += businessProjectsSection;
+const chronologicalSection = `
+    <div class="container-fluid myArticles">
+        <h3>Projects in Reverse Chronology</h3>
+    </div>
+    <div id='chronologicalProjects' class="myProjects row container-fluid justify-content-center">
+    </div>
+`;
+
+const injectProjectsDefault = () => {
+    projectsContainer.innerHTML = businessProjectsSection;
     const businessProjects = document.getElementById('businessProjects');
+    injectLenovaIncCard(businessProjects);
+    injectLmnoPhotoCard(businessProjects);
     
     projectsContainer.innerHTML += bootcampProjectsSection;
     const bootcampProjects = document.getElementById('bootcampProjects');
+    injectxChangeCard(bootcampProjects);
+    injectTodoCard(bootcampProjects);
+    injectBusTrackerCard(bootcampProjects);
+    injectAnimatedHeadCard(bootcampProjects);
+    injectPacManFactoryCard(bootcampProjects);
+    injectPacManMiniGameCard(bootcampProjects);
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;
-    const selfTaughtProjects = document.getElementById('selfTaughtProjects');
+    const selfTaughtProjects = document.getElementById('selfTaughtProjects');    
+    injectPomodoroCard(selfTaughtProjects);
+    injectMarkdownPreviewerCard(selfTaughtProjects);
+    injectJsCalcCard(selfTaughtProjects);
+    injectEtchASketchCard(selfTaughtProjects);
+    injectRockPaperScissorsCard(selfTaughtProjects);
+    injectOdinLandingpageCard(selfTaughtProjects);
+}
+
+const injectProjectsChronological = () => {
+    projectsContainer.innerHTML = chronologicalSection;
+    injectxChangeCard(chronologicalProjects);
+    injectTodoCard(chronologicalProjects);
 }
 
 const buttonBlogController = new ScrollMagic.Controller();

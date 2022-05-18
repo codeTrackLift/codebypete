@@ -17,8 +17,8 @@ const lenovaIncCard = `
     </div>
 `;
 
-const injectLenovaIncCard = () => {
-    businessProjects.innerHTML += lenovaIncCard;
+const injectLenovaIncCard = (section) => {
+    section.innerHTML += lenovaIncCard;
     setTimeout(() => {
         const lenovaIncDemoController = new ScrollMagic.Controller();
         const lenovaIncDemo = new ScrollMagic.Scene({

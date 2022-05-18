@@ -18,8 +18,8 @@ const lmnoPhotoCard = `
     </div>
 `;
 
-const injectLmnoPhotoCard = () => {
-    businessProjects.innerHTML += lmnoPhotoCard;
+const injectLmnoPhotoCard = (section) => {
+    section.innerHTML += lmnoPhotoCard;
     setTimeout(() => {
         const lmnoPhotoDemoController = new ScrollMagic.Controller();
         const lmnoPhotoDemo = new ScrollMagic.Scene({
