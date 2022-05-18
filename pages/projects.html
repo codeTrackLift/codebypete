@@ -66,15 +66,13 @@
         </div>
 
         <div class="container-fluid myArticles text-center" id="sortBox">
-            <p class="cornflowerBlue textShadowBlack fw-bold">Sort Projects By</p>
-            <div class="" id="sortButtons">
-                <button id='categoryButton' onclick="injectProjectsCategory()">Category</button> &#8226;
-                <button id='newestButton' onclick="injectProjectsNewest()">Newest</button> &#8226;
+            <h6 class="text-silver">Sort Projects By:</h6>
+            <div class="text-gray" id="sortButtons">
+                <button id='categoryButton' onclick="injectProjectsCategory()">Category</button><span class="fs-4 fw-bolder"> &#8226; </span>
+                <button id='newestButton' onclick="injectProjectsNewest()">Newest</button><span class="fs-4 fw-bolder"> &#8226; </span>
                 <button id='oldestButton' onclick="injectProjectsOldest()">Oldest</button>
             </div>
         </div>
-
-        <hr>
 
         <div id="projectsContainer"></div>
 
