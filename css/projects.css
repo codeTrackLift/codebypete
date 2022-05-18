@@ -28,16 +28,18 @@ h5 {
 }
 
 #sortBox {
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     width: fit-content;
     padding: 1rem;
 }
 
 #sortButtons>button {
+    margin: 0.5rem auto;
     border-radius: 2px;
     transition: all 0.25s ease-in-out;
     background-color: transparent;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0;
+    width: 6rem;
     border: none;
     color: gray;
     border: 1px solid transparent;
