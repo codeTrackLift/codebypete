@@ -27,6 +27,7 @@ This portfolio includes the following sections:
 - [x] Refactor footer & navbar with JavaScript
 - [x] Add Scroll Magic effects
 - [x] Refactor blog with JavaScript
+- [x] Refactor projects cards with JavaScript
 
 ## MIT License
 

@@ -61,13 +61,17 @@
             </figure>
         </section>
 
-        <div class="container-fluid myArticles text-center">
+        <div class="container-fluid myArticles text-center mb-4">
             <h6 class="menloRegular text-gray mb-5">/* myCodingJourney started in Dec, 2021. Please visit again, more projects are in development... */</h6>
-            <!-- <p>Project View</p>
-            <div class="mb-5">
-                <button onclick="injectProjectsDefault()">By Category</button>
-                <button onclick="injectProjectsChronological()">Chronological</button>
-            </div> -->
+        </div>
+
+        <div class="container-fluid myArticles text-center" id="sortBox">
+            <p class="cornflowerBlue textShadowBlack fw-bold">Sort Projects By</p>
+            <div class="" id="sortButtons">
+                <button id='categoryButton' onclick="injectProjectsCategory()">Category</button> &#8226;
+                <button id='newestButton' onclick="injectProjectsNewest()">Newest</button> &#8226;
+                <button id='oldestButton' onclick="injectProjectsOldest()">Oldest</button>
+            </div>
         </div>
 
         <hr>
@@ -146,7 +150,7 @@
         injectMyNavbar();
         setActiveNavlink('navlinkProjects');
         injectMyFooter();
-        injectProjectsDefault();
+        injectProjectsCategory();
     </script>
 </body>
 

@@ -27,6 +27,30 @@ h5 {
   color: cornflowerblue;
 }
 
+#sortBox {
+    margin: 1rem auto;
+    width: fit-content;
+    padding: 1rem;
+}
+
+#sortButtons>button {
+    border-radius: 2px;
+    transition: all 0.25s ease-in-out;
+    background-color: transparent;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    color: silver;
+    border: 1px solid transparent;
+    text-shadow: 1px 1px 1px black;
+}
+
+#sortButtons>button:hover,
+#sortButtons>button.active {
+    color: lime;  
+    text-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .card>cite {
     color: gray;
     margin-top: -3rem;

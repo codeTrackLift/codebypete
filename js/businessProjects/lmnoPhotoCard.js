@@ -1,6 +1,6 @@
 const lmnoPhotoCard = `
     <div id='lmnoPhotoCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/projects/mermaid_camera.gif" class="card-img-top pt-4 mx-auto"
+        <img src="../pics/projects/mermaid_camera.gif" class="card-img-top img-fluid pt-4 mx-auto"
             alt="Mermaid camera logo" style="width:12rem;">
         <div class="card-body">
             <h5 class="card-title">Photographer Landingpage</h5>

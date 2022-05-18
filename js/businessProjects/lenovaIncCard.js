@@ -1,6 +1,6 @@
 const lenovaIncCard = `
     <div id='lenovaIncCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/projects/lenovaIncLogo.gif" class="card-img-top pt-4 mx-auto"
+        <img src="../pics/projects/lenovaIncLogo.gif" class="card-img-top img-fluid pt-4 mx-auto"
             alt="LeNova, Inc. animated logo" style="width:12rem;border-radius:0">
         <div class="card-body">
             <h5 class="card-title">Engineering Firm Website</h5>
