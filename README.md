@@ -4,7 +4,7 @@
 
 <img src='./pics/about/html5_logo.gif' alt='HTML5 logo' height='45'> <img src='./pics/about/css3_logo.gif' alt='CSS3 logo' height='45'> <img src='./pics/about/javascript_logo.gif' alt='JavaScript logo' height='45'> <img src='./pics/about/bootstrap-logo.svg' alt='Bootstrap logo' height='35'> <img src='./pics/about/gitLogoOrangeRed.png' alt='VS Code logo' height='35'> <img src='./pics/about/vsCodeLogo.png' alt='VS Code logo' height='35'> <img src='./pics/about/jest_logo.gif' alt='Jest Logo' height='35'> <img src='./pics/about/mernStackTrans.png' alt='VS Code logo' height='45'> 
 
->*Mobile First* | *Responsive Design* | *CSS Animations*
+>*CSS Animations* | *Mobile First* | *Responsive Design*
 
 <img src='./pics/projects/giphycBP.gif' alt='VS Code logo' height='90'> <img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
 
