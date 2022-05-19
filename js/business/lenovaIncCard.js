@@ -3,8 +3,8 @@ const lenovaIncCard = `
         <img src="../pics/projects/lenovaIncLogo.gif" class="card-img-top img-fluid pt-4 mx-auto"
             alt="LeNova, Inc. animated logo" style="width:12rem;border-radius:0">
         <div class="card-body">
-            <h5 class="card-title">Engineering Firm Website</h5>
-            <p class="card-text">The <a href="https://www.lenovainc.com" target="_blank">lenovainc.com</a> website was developed in <span class="text-white">collaboration</span> with the <span class="text-white">owners</span> to support <span class="text-white">business expansion</span> initiatives.</p>
+            <h5 class="card-title">lenovainc.com</h5>
+            <p class="card-text">This website was developed for an <span class="text-white">engineering firm</span>. It was a <span class="text-white">collaborative effort</span> with the <span class="text-white">owners</span> to support <span class="text-white">business expansion</span> initiatives.</p>
             <p class="card-text">This project used HTML, CSS, JavaScript, Bootstrap, and includes <span class="text-white">custom</span> CSS <span class="text-white">animations</span>.</p>
             <a id='lenovaIncDemo' href="https://www.lenovainc.com/" class="btn btn-secondary mx-auto btnDark" target="_blank">Visit Site</a>
         </div>
