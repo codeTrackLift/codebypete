@@ -5,7 +5,7 @@ const oldestButton = document.getElementById('oldestButton');
 
 const businessProjectsSection = `
     <div class="container-fluid myArticles">
-        <h3>Deployed Business Websites</h3>
+        <h3>Business Websites</h3>
     </div>
     <div id='businessProjects' class="myProjects row container-fluid justify-content-center">
     </div>
@@ -21,7 +21,7 @@ const bootcampProjectsSection = `
 
 const selfTaughtProjectsSection = `
     <div class="container-fluid myArticles">
-        <h3>Self-Taught Progression Projects</h3>
+        <h3>Self-Taught Projects</h3>
     </div>
     <div id='selfTaughtProjects' class="myProjects row container-fluid justify-content-center">
     </div>
