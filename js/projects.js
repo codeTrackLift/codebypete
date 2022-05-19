@@ -121,38 +121,18 @@ const injectProjectsCategory = () => {
 
 const injectProjectsNewest = () => {
     projectsContainer.innerHTML = newestSection;
-    injectxChangeCard(newestProjects);
-    injectTodoCard(newestProjects);
-    injectPomodoroCard(newestProjects);
-    injectMarkdownPreviewerCard(newestProjects);
-    injectLenovaIncCard(newestProjects);
-    injectBusTrackerCard(newestProjects);
-    injectAnimatedHeadCard(newestProjects);
-    injectPacManFactoryCard(newestProjects);
-    injectPacManMiniGameCard(newestProjects);
-    injectLmnoPhotoCard(newestProjects);
-    injectJsCalcCard(newestProjects);
-    injectEtchASketchCard(newestProjects);
-    injectRockPaperScissorsCard(newestProjects);
-    injectOdinLandingpageCard(newestProjects);
+    
+    for( let i = 0; i < projectsList.length; i++ ) {
+        projectsList[i](newestProjects)
+    }
 }
 
 const injectProjectsOldest = () => {
     projectsContainer.innerHTML = oldestSection;
-    injectOdinLandingpageCard(oldestProjects);
-    injectRockPaperScissorsCard(oldestProjects);
-    injectEtchASketchCard(oldestProjects);
-    injectJsCalcCard(oldestProjects);
-    injectLmnoPhotoCard(oldestProjects);
-    injectPacManMiniGameCard(oldestProjects);
-    injectPacManFactoryCard(oldestProjects);
-    injectAnimatedHeadCard(oldestProjects);
-    injectBusTrackerCard(oldestProjects);
-    injectLenovaIncCard(oldestProjects);
-    injectMarkdownPreviewerCard(oldestProjects);
-    injectPomodoroCard(oldestProjects);
-    injectTodoCard(oldestProjects);
-    injectxChangeCard(oldestProjects);
+    
+    for( let i = projectsList.length; i > 0; i-- ) {
+        projectsList[i - 1](oldestProjects)
+    }
 }
 
 const buttonBlogController = new ScrollMagic.Controller();
