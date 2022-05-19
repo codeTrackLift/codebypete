@@ -68,9 +68,9 @@
         <div class="container-fluid myArticles text-center" id="sortBox">
             <h6 class="text-silver">Sort Projects By</h6>
             <div class="text-gray" id="sortButtons">
-                <button id='categoryButton' onclick="injectProjectsCategory()">Category</button><span class="fs-4 fw-bolder"> &#8226; </span>
-                <button id='newestButton' onclick="injectProjectsNewest()">Newest</button><span class="fs-4 fw-bolder"> &#8226; </span>
-                <button id='oldestButton' onclick="injectProjectsOldest()">Oldest</button>
+                <button id='categoryButton' onclick="injectLoading();changeCategoryButton();setTimeout(injectProjectsCategory,500)">Category</button>
+                <button id='newestButton' onclick="injectLoading();changeNewestButton();setTimeout(injectProjectsNewest,500)">Newest</button>
+                <button id='oldestButton' onclick="injectLoading();changeOldestButton();setTimeout(injectProjectsOldest,500)">Oldest</button>
             </div>
         </div>
 
@@ -127,28 +127,29 @@
     <script src="../js/projects.js"></script>
     <script src="../js/footer.js"></script>
 
-    <script src="../js/businessProjects/lenovaIncCard.js"></script>
-    <script src="../js/businessProjects/lmnoPhotoCard.js"></script>
+    <script src="../js/business/lenovaIncCard.js"></script>
+    <script src="../js/business/lmnoPhotoCard.js"></script>
 
-    <script src="../js/bootcampProjects/xChangeCard.js"></script>
-    <script src="../js/bootcampProjects/todoCard.js"></script>
-    <script src="../js/bootcampProjects/busTrackerCard.js"></script>
-    <script src="../js/bootcampProjects/animatedHeadCard.js"></script>
-    <script src="../js/bootcampProjects/pacManFactoryCard.js"></script>
-    <script src="../js/bootcampProjects/pacManMiniGameCard.js"></script>
+    <script src="../js/bootcamp/xChangeCard.js"></script>
+    <script src="../js/bootcamp/todoCard.js"></script>
+    <script src="../js/bootcamp/busTrackerCard.js"></script>
+    <script src="../js/bootcamp/animatedHeadCard.js"></script>
+    <script src="../js/bootcamp/pacManFactoryCard.js"></script>
+    <script src="../js/bootcamp/pacManMiniGameCard.js"></script>
 
-    <script src="../js/selfTaughtProjects/pomodoroCard.js"></script>
-    <script src="../js/selfTaughtProjects/markdownPreviewerCard.js"></script>
-    <script src="../js/selfTaughtProjects/jsCalcCard.js"></script>
-    <script src="../js/selfTaughtProjects/etchASketchCard.js"></script>
-    <script src="../js/selfTaughtProjects/rockPaperScissorsCard.js"></script>
-    <script src="../js/selfTaughtProjects/odinLandingpageCard.js"></script>
+    <script src="../js/selfTaught/pomodoroCard.js"></script>
+    <script src="../js/selfTaught/markdownPreviewerCard.js"></script>
+    <script src="../js/selfTaught/jsCalcCard.js"></script>
+    <script src="../js/selfTaught/etchASketchCard.js"></script>
+    <script src="../js/selfTaught/rockPaperScissorsCard.js"></script>
+    <script src="../js/selfTaught/odinLandingpageCard.js"></script>
 
     <script>
         injectMyNavbar();
         setActiveNavlink('navlinkProjects');
         injectMyFooter();
         injectProjectsCategory();
+        changeCategoryButton();
     </script>
 </body>
 

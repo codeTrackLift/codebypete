@@ -1,6 +1,6 @@
 const rockPaperScissorsCard = `
     <div id='rockPaperScissorsCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/projects/rock-paper-scissors.png" class="card-img-top mx-auto"
+        <img src="../pics/projects/rock-paper-scissors.png" class="card-img-top img-fluid mx-auto"
             alt="Screenshot of a Rock, Paper, Scissors project." style="width:12rem;">
         <div class="card-body">
             <h5 class="card-title">Rock, Paper, Scissors</h5>

@@ -43,16 +43,34 @@ const oldestSection = `
     </div>
 `;
 
+const injectLoading = () => {
+    projectsContainer.innerHTML = `
+        <div class="text-center my-5 text-silver"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
+    `;
+}
+
 const clearSortButtons = () => {
     categoryButton.classList.remove('active');
     newestButton.classList.remove('active');
     oldestButton.classList.remove('active');
 }
 
-const injectProjectsCategory = () => {
+const changeCategoryButton = () => {
     clearSortButtons();
     categoryButton.classList.add('active');
+}
 
+const changeNewestButton = () => {
+    clearSortButtons();
+    newestButton.classList.add('active');
+}
+
+const changeOldestButton = () => {
+    clearSortButtons();
+    oldestButton.classList.add('active');
+}
+
+const injectProjectsCategory = () => {
     projectsContainer.innerHTML = businessProjectsSection;
     const businessProjects = document.getElementById('businessProjects');
     injectLenovaIncCard(businessProjects);
@@ -78,9 +96,6 @@ const injectProjectsCategory = () => {
 }
 
 const injectProjectsNewest = () => {
-    clearSortButtons();
-    newestButton.classList.add('active');
-
     projectsContainer.innerHTML = newestSection;
     injectxChangeCard(newestProjects);
     injectTodoCard(newestProjects);
@@ -99,9 +114,6 @@ const injectProjectsNewest = () => {
 }
 
 const injectProjectsOldest = () => {
-    clearSortButtons();
-    oldestButton.classList.add('active');
-
     projectsContainer.innerHTML = oldestSection;
     injectOdinLandingpageCard(oldestProjects);
     injectRockPaperScissorsCard(oldestProjects);

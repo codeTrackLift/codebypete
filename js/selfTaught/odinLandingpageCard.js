@@ -1,6 +1,6 @@
 const odinLandingpageCard = `
     <div id='odinLandingpageCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/projects/odin-landingpage.jpg" class="card-img-top mx-auto pt-4"
+        <img src="../pics/projects/odin-landingpage.jpg" class="card-img-top img-fluid mx-auto pt-4"
             alt="Screenshot of a landingpage project." style="width:12rem;">
         <div class="card-body">
             <h5 class="card-title">Landingpage Project</h5>
