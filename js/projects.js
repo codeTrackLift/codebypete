@@ -1,7 +1,7 @@
 // Projects sections
 const projectsContainer = document.getElementById('projectsContainer');
 const categoryButton = document.getElementById('categoryButton');
-const newestButton = document.getElementById('newestButton');
+const featuredButton = document.getElementById('featuredButton');
 const oldestButton = document.getElementById('oldestButton');
 
 const businessProjectsSection = `
@@ -28,11 +28,19 @@ const selfTaughtProjectsSection = `
     </div>
 `;
 
-const newestSection = `
+const topProjectsSection = `
     <div class="container-fluid myArticles">
-        <h3>Newest to Oldest</h3>
+        <h3>Top Projects</h3>
     </div>
-    <div id='newestProjects' class="myProjects row container-fluid justify-content-center">
+    <div id='topProjects' class="myProjects row container-fluid justify-content-center">
+    </div>
+`;
+
+const progressionSection = `
+    <div class="container-fluid myArticles">
+        <h3>Progression Projects | Newest to Oldest</h3>
+    </div>
+    <div id='progressionProjects' class="myProjects row container-fluid justify-content-center">
     </div>
 `;
 

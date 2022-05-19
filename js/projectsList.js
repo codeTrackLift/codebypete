@@ -1,20 +1,20 @@
-// List projects newest to oldest
+// List projects oldest to newest
 const projectsList = [];
-projectsList.push(injectxChangeCard);
-projectsList.push(injectTodoCard);
-projectsList.push(injectPomodoroCard);
-projectsList.push(injectMarkdownPreviewerCard);
-projectsList.push(injectLenovaIncCard);
-projectsList.push(injectBusTrackerCard);
-projectsList.push(injectAnimatedHeadCard);
-projectsList.push(injectPacManFactoryCard);
-projectsList.push(injectcBPCard);
-projectsList.push(injectPacManMiniGameCard);
-projectsList.push(injectLmnoPhotoCard);
-projectsList.push(injectJsCalcCard);
-projectsList.push(injectEtchASketchCard);
-projectsList.push(injectRockPaperScissorsCard);
 projectsList.push(injectOdinLandingpageCard);
+projectsList.push(injectPomodoroCard);
+projectsList.push(injectRockPaperScissorsCard);
+projectsList.push(injectEtchASketchCard);
+projectsList.push(injectJsCalcCard);
+projectsList.push(injectLmnoPhotoCard);
+projectsList.push(injectPacManMiniGameCard);
+projectsList.push(injectcBPCard);
+projectsList.push(injectPacManFactoryCard);
+projectsList.push(injectAnimatedHeadCard);
+projectsList.push(injectBusTrackerCard);
+projectsList.push(injectLenovaIncCard);
+projectsList.push(injectMarkdownPreviewerCard);
+projectsList.push(injectTodoCard);
+projectsList.push(injectxChangeCard);
 
 const injectLoading = () => {
     projectsContainer.innerHTML = `
@@ -25,7 +25,7 @@ const injectLoading = () => {
 // Remove active class from all sort buttons
 const clearSortButtons = () => {
     categoryButton.classList.remove('active');
-    newestButton.classList.remove('active');
+    featuredButton.classList.remove('active');
     oldestButton.classList.remove('active');
 }
 
@@ -36,16 +36,24 @@ const onclickSortButtons = () => {
         changeCategoryButton();
         setTimeout(injectProjectsCategory,500);
     `);
-    newestButton.setAttribute('onclick', `
+    featuredButton.setAttribute('onclick', `
         injectLoading();
-        changeNewestButton();
-        setTimeout(injectProjectsNewest,500);
+        changeFeaturedButton();
+        setTimeout(injectProjectsFeatured,500);
     `);
     oldestButton.setAttribute('onclick', `
         injectLoading();
         changeOldestButton();
         setTimeout(injectProjectsOldest,500);
     `);
+}
+
+
+const changeFeaturedButton = () => {
+    clearSortButtons();
+    onclickSortButtons();
+    featuredButton.classList.add('active');
+    featuredButton.setAttribute('onclick', '');
 }
 
 const changeCategoryButton = () => {
@@ -55,13 +63,6 @@ const changeCategoryButton = () => {
     categoryButton.classList.add('active');
 }
 
-const changeNewestButton = () => {
-    clearSortButtons();
-    onclickSortButtons();
-    newestButton.classList.add('active');
-    newestButton.setAttribute('onclick', '');
-}
-
 const changeOldestButton = () => {
     clearSortButtons();
     onclickSortButtons();
@@ -69,7 +70,29 @@ const changeOldestButton = () => {
     oldestButton.setAttribute('onclick', '');
 }
 
+
 // Project sort injection functions
+const injectProjectsFeatured = () => {
+    projectsContainer.innerHTML = topProjectsSection;
+    injectxChangeCard(topProjects);
+    injectLenovaIncCard(topProjects);
+    injectcBPCard(topProjects);
+    
+    projectsContainer.innerHTML += progressionSection;
+    injectTodoCard(progressionProjects);
+    injectPomodoroCard(progressionProjects);
+    injectMarkdownPreviewerCard(progressionProjects);
+    injectBusTrackerCard(progressionProjects);
+    injectAnimatedHeadCard(progressionProjects);
+    injectPacManFactoryCard(progressionProjects);
+    injectPacManMiniGameCard(progressionProjects);
+    injectLmnoPhotoCard(progressionProjects);
+    injectJsCalcCard(progressionProjects);
+    injectEtchASketchCard(progressionProjects);
+    injectRockPaperScissorsCard(progressionProjects);
+    injectOdinLandingpageCard(progressionProjects);
+}
+
 const injectProjectsCategory = () => {
     projectsContainer.innerHTML = businessProjectsSection;
     const businessProjects = document.getElementById('businessProjects');
@@ -96,18 +119,10 @@ const injectProjectsCategory = () => {
     injectOdinLandingpageCard(selfTaughtProjects);
 }
 
-const injectProjectsNewest = () => {
-    projectsContainer.innerHTML = newestSection;
-    
-    for( let i = 0; i < projectsList.length; i++ ) {
-        projectsList[i](newestProjects)
-    }
-}
-
 const injectProjectsOldest = () => {
     projectsContainer.innerHTML = oldestSection;
     
-    for( let i = projectsList.length; i > 0; i-- ) {
-        projectsList[i - 1](oldestProjects)
+    for( let i = 0; i < projectsList.length; i++ ) {
+        projectsList[i](oldestProjects)
     }
 }
