@@ -1,13 +1,3 @@
-// Open Anchor Accordion
-function openAnchorAccordion() {
-    if (window.location.hash) {
-        hash = `${window.location.hash}Open()`;
-        hash = hash.replace('#','').replace('Button','');
-        setTimeout(hash,50);
-    }
-}
-openAnchorAccordion();
-
 // Blog div .accordion-collapse 
 const blog8 = document.getElementById('blog8');
 const blog7 = document.getElementById('blog7');
@@ -160,16 +150,24 @@ function blog0Open() {
     blog0Button.classList.add('collapsed');
 }
 
-var buttonAboutController = new ScrollMagic.Controller();
-var buttonAbout = new ScrollMagic.Scene({
+// Open Anchor Accordion
+if (window.location.hash) {
+    hash = `${window.location.hash}Open()`;
+    hash = hash.replace('#','').replace('Button','');
+    setTimeout(hash);
+}
+
+// Bottom nav buttons
+const buttonAboutController = new ScrollMagic.Controller();
+const buttonAbout = new ScrollMagic.Scene({
     triggerElement: '#buttonAbout',
     offset: -350
 })
 .setClassToggle('#buttonAbout', 'show')
 .addTo(buttonAboutController);
 
-var buttonProjectsController = new ScrollMagic.Controller();
-var buttonProjects = new ScrollMagic.Scene({
+const buttonProjectsController = new ScrollMagic.Controller();
+const buttonProjects = new ScrollMagic.Scene({
         triggerElement: '#buttonProjects',
         offset: -350
     })
