@@ -36,7 +36,8 @@
     background-color: rgb(50, 50, 50) !important;
 }
 
-.btnDark>img {
+.btnDark>img,
+.btn.btn-secondary>img {
     margin-top: -0.125rem;
     margin-bottom: 0.125rem;
     height: 1rem;

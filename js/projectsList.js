@@ -8,6 +8,7 @@ projectsList.push(injectLenovaIncCard);
 projectsList.push(injectBusTrackerCard);
 projectsList.push(injectAnimatedHeadCard);
 projectsList.push(injectPacManFactoryCard);
+projectsList.push(injectcBPCard);
 projectsList.push(injectPacManMiniGameCard);
 projectsList.push(injectLmnoPhotoCard);
 projectsList.push(injectJsCalcCard);
@@ -82,6 +83,7 @@ const injectProjectsCategory = () => {
     injectBusTrackerCard(bootcampProjects);
     injectAnimatedHeadCard(bootcampProjects);
     injectPacManFactoryCard(bootcampProjects);
+    injectcBPCard(bootcampProjects);
     injectPacManMiniGameCard(bootcampProjects);
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;

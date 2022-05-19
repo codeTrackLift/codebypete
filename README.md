@@ -6,7 +6,7 @@
 
 >*Mobile First* | *Responsive Design* | *CSS Animations*
 
-<img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
+<img src='./pics/projects/giphycBP.gif' alt='VS Code logo' height='90'> <img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
 
 ## About
 Thanks for visiting my portfolio. This repository is intended to showcase my progression as a Full Stack Web Developer, and includes projects developed during my self-taught journey and MIT xPro Coding Bootcamp.
