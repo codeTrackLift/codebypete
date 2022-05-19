@@ -55,19 +55,43 @@ const clearSortButtons = () => {
     oldestButton.classList.remove('active');
 }
 
+const onclickSortButtons = () => {
+    categoryButton.setAttribute('onclick', `
+        injectLoading();
+        changeCategoryButton();
+        setTimeout(injectProjectsCategory,500);
+    `);
+    newestButton.setAttribute('onclick', `
+        injectLoading();
+        changeNewestButton();
+        setTimeout(injectProjectsNewest,500);
+    `);
+    oldestButton.setAttribute('onclick', `
+        injectLoading();
+        changeOldestButton();
+        setTimeout(injectProjectsOldest,500);
+    `);
+}
+
 const changeCategoryButton = () => {
     clearSortButtons();
+    onclickSortButtons();
+    categoryButton.setAttribute('onclick', '');
     categoryButton.classList.add('active');
 }
 
 const changeNewestButton = () => {
     clearSortButtons();
+    onclickSortButtons();
     newestButton.classList.add('active');
+    newestButton.setAttribute('onclick', '');
 }
 
 const changeOldestButton = () => {
     clearSortButtons();
+    onclickSortButtons();
     oldestButton.classList.add('active');
+    oldestButton.setAttribute('onclick', '');
 }
 
 const injectProjectsCategory = () => {
