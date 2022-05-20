@@ -15,6 +15,7 @@ projectsList.push(injectLenovaIncCard);
 projectsList.push(injectMarkdownPreviewerCard);
 projectsList.push(injectTodoCard);
 projectsList.push(injectxChangeCard);
+projectsList.push(injectMernGoalsCard);
 
 const injectLoading = () => {
     projectsContainer.innerHTML = `
@@ -73,12 +74,13 @@ const changeOldestButton = () => {
 
 // Project sort injection functions
 const injectProjectsFeatured = () => {
-    projectsContainer.innerHTML = topProjectsSection;
-    injectxChangeCard(topProjects);
-    injectLenovaIncCard(topProjects);
-    injectcBPCard(topProjects);
+    projectsContainer.innerHTML = featuredProjectsSection;
+    injectxChangeCard(featuredProjects);
+    injectLenovaIncCard(featuredProjects);
+    injectcBPCard(featuredProjects);
     
     projectsContainer.innerHTML += progressionSection;
+    injectMernGoalsCard(progressionProjects);
     injectTodoCard(progressionProjects);
     injectPomodoroCard(progressionProjects);
     injectMarkdownPreviewerCard(progressionProjects);
@@ -110,7 +112,8 @@ const injectProjectsCategory = () => {
     injectPacManMiniGameCard(bootcampProjects);
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;
-    const selfTaughtProjects = document.getElementById('selfTaughtProjects');    
+    const selfTaughtProjects = document.getElementById('selfTaughtProjects');
+    injectMernGoalsCard(selfTaughtProjects);
     injectPomodoroCard(selfTaughtProjects);
     injectMarkdownPreviewerCard(selfTaughtProjects);
     injectJsCalcCard(selfTaughtProjects);

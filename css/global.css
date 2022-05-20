@@ -42,6 +42,11 @@
     filter: drop-shadow(1px 1px 1px black);
 }
 
+.dropShadowWhite {
+    -webkit-filter: drop-shadow(1px 1px 1px white);
+    filter: drop-shadow(1px 1px 1px white);
+}
+
 *,
 *::before,
 *::after {

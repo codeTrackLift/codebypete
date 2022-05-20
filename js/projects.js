@@ -28,11 +28,11 @@ const selfTaughtProjectsSection = `
     </div>
 `;
 
-const topProjectsSection = `
+const featuredProjectsSection = `
     <div class="container-fluid myArticles">
-        <h3>Top Projects</h3>
+        <h3>Featured Projects</h3>
     </div>
-    <div id='topProjects' class="myProjects row container-fluid justify-content-center">
+    <div id='featuredProjects' class="myProjects row container-fluid justify-content-center">
     </div>
 `;
 
