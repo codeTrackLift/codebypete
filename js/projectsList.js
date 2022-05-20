@@ -1,7 +1,6 @@
 // List projects oldest to newest
 const projectsList = [];
 projectsList.push(injectOdinLandingpageCard);
-projectsList.push(injectPomodoroCard);
 projectsList.push(injectRockPaperScissorsCard);
 projectsList.push(injectEtchASketchCard);
 projectsList.push(injectJsCalcCard);
@@ -13,6 +12,7 @@ projectsList.push(injectAnimatedHeadCard);
 projectsList.push(injectBusTrackerCard);
 projectsList.push(injectLenovaIncCard);
 projectsList.push(injectMarkdownPreviewerCard);
+projectsList.push(injectPomodoroCard);
 projectsList.push(injectTodoCard);
 projectsList.push(injectxChangeCard);
 projectsList.push(injectMernGoalsCard);
