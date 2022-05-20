@@ -1,25 +1,9 @@
-// List projects oldest to newest
-const projectsList = [];
-projectsList.push(injectOdinLandingpageCard);
-projectsList.push(injectRockPaperScissorsCard);
-projectsList.push(injectEtchASketchCard);
-projectsList.push(injectJsCalcCard);
-projectsList.push(injectLmnoPhotoCard);
-projectsList.push(injectPacManMiniGameCard);
-projectsList.push(injectcBPCard);
-projectsList.push(injectPacManFactoryCard);
-projectsList.push(injectAnimatedHeadCard);
-projectsList.push(injectBusTrackerCard);
-projectsList.push(injectLenovaIncCard);
-projectsList.push(injectMarkdownPreviewerCard);
-projectsList.push(injectPomodoroCard);
-projectsList.push(injectTodoCard);
-projectsList.push(injectxChangeCard);
-projectsList.push(injectMernGoalsCard);
-
 const injectLoading = () => {
     projectsContainer.innerHTML = `
-        <div class="text-center my-5 text-silver"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
+        <div class="text-center my-5 text-silver">
+            <span class="spinner-border" role="status"></span>
+            <p>Loading...</p>
+        </div>
     `;
 }
 
@@ -124,8 +108,21 @@ const injectProjectsCategory = () => {
 
 const injectProjectsOldest = () => {
     projectsContainer.innerHTML = oldestSection;
-    
-    for( let i = 0; i < projectsList.length; i++ ) {
-        projectsList[i](oldestProjects)
-    }
+
+    injectOdinLandingpageCard(oldestProjects);
+    injectRockPaperScissorsCard(oldestProjects);
+    injectEtchASketchCard(oldestProjects);
+    injectJsCalcCard(oldestProjects);
+    injectLmnoPhotoCard(oldestProjects);
+    injectPacManMiniGameCard(oldestProjects);
+    injectcBPCard(oldestProjects);
+    injectPacManFactoryCard(oldestProjects);
+    injectAnimatedHeadCard(oldestProjects);
+    injectBusTrackerCard(oldestProjects);
+    injectLenovaIncCard(oldestProjects);
+    injectMarkdownPreviewerCard(oldestProjects);
+    injectPomodoroCard(oldestProjects);
+    injectTodoCard(oldestProjects);
+    injectxChangeCard(oldestProjects);
+    injectMernGoalsCard(oldestProjects);
 }
