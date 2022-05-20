@@ -1,7 +1,7 @@
 const socials = document.getElementById('socials');
 
 const socialLogos = `
-    <div id='socials'>
+    <div id='socialsContainer'>
         <a href="https://github.com/codeTrackLift/" target="_blank" rel='noreferrer'>
             <img src='../pics/contact/GitHub-Mark-Light-64px.png' id='gitHubLogo' class='socialLogo' alt="GitHub Icon">
         </a>
@@ -20,5 +20,5 @@ const socialLogos = `
 
 const injectSocials = () => {
     socials.innerHTML = socialLogos;
-    socials.style.paddingBlock = '1rem';
+    document.getElementById('socialsContainer').style.paddingBlock = '1rem';
 }

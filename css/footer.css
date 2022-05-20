@@ -1,26 +1,26 @@
-#socials {
+#socialsContainer {
     display: flex;
     justify-content: center;
     gap: 3rem;
 }
 
-#socials>a>img {
+#socialsContainer>a>img {
     max-height: 3rem;
     margin: 1rem auto;
     opacity: 0.5;
 }
 
 @media (max-width:450px) {
-    #socials {
+    #socialsContainer {
         gap: 2rem;
     }
 }
 
 @media (max-width:350px) {
-    #socials {
+    #socialsContainer {
         gap: 1rem;
     }
-    #socials>a>img {
+    #socialsContainer>a>img {
         max-height: 2rem;
     }
 }
