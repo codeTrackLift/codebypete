@@ -4,7 +4,7 @@ const mernGoalsCard = `
         <div class="card-body">
             <h5 class="card-title">Full Stack Goal Setter App</h5>
             <p class="card-text">My first <span class='text-white'>full stack</span> application using <span class='text-white'>MongoDB</span>, <span class='text-white'>Express</span>, <span class='text-white'>React</span>, and <span class='text-white'>Node</span>.</p>
-            <p class="card-text">This was developed following an online tutorial and is deployed on <span class='text-white'>Heroku</span> (may take a min to spin up). See readme for more details.</p>
+            <p class="card-text">Dependencies include: <span class='text-white'>JSON Web Tokens</span>, <span class='text-white'>Mongoose</span>, <span class='text-white'>Redux</span>, and <span class='text-white'>Axios</span>.  This app is deployed on <span class='text-white'>Heroku</span> and may take a min to spin up.</p>
             <div class="btnContainer">
                 <a id='mernGoalsDemo' href="https://goalsbypete.herokuapp.com/" class="btn btn-secondary" target="_blank">Try Demo</a>
                 <a id='mernGoalsRepo' href="https://github.com/codeTrackLift/goals#readme" class="btn btn-secondary btnDark" target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> Readme</a>
