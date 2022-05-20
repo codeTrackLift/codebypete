@@ -1,0 +1,116 @@
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#socials>a>img {
+    max-height: 3rem;
+    margin: 1rem auto;
+    opacity: 0.5;
+}
+
+@media (max-width:450px) {
+    #socials {
+        gap: 2rem;
+    }
+}
+
+@media (max-width:350px) {
+    #socials {
+        gap: 1rem;
+    }
+    #socials>a>img {
+        max-height: 2rem;
+    }
+}
+
+.socialLogo:hover {
+    background-color: lime;
+}
+
+#gitHubLogo {
+    border-radius: 50%;
+    animation: 4s wiggle infinite;
+}
+
+#twitterLogo {
+    border-radius: 50%;
+    animation: 4s wiggle infinite 1s;
+}
+
+#linkedInLogo {
+    border-radius: 4px;
+    animation: 4s wiggle infinite 2s;
+}
+
+#youTubeLogo {
+    border-radius: 12px;
+    animation: 4s wiggle infinite 3s;
+}
+
+@keyframes wiggle {
+    4% {
+        transform: rotateZ(0deg);
+        opacity: 0.5;
+    }
+    5% {
+        transform: rotateZ(10deg);
+        opacity: 0.5;
+    }
+    10% {
+        transform: rotateZ(-10deg);
+        opacity: 0.5;
+    }
+    11% {
+        transform: rotateZ(0deg);
+        opacity: 0.5;
+    }
+    16% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    21% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
+}
+
+footer>a,
+footer>p {
+    margin: auto 0;
+    text-shadow: 1px 1px black;
+}
+
+footer>p>span {
+    font-style: italic;
+}
+
+footer>p>img {
+    animation: slowSpin 5s ease-in-out infinite;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+@keyframes slowSpin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(-1, 1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
