@@ -1,6 +1,6 @@
 const mernGoalsCard = `
     <div id='mernGoalsCard' class="card col-sm-4" style="width:18rem;">
-        <img src="../pics/projects/mernGoals.png" style='width:12rem;' class="card-img-top img-fluid mx-auto dropShadowWhite" alt="Pomodoro Clock React App">
+        <img src="../pics/projects/mernGoals.png" style='width:12rem;' class="card-img-top img-fluid mx-auto dropShadowSilver" alt="Pomodoro Clock React App">
         <div class="card-body">
             <h5 class="card-title">Full Stack Goal Setter App</h5>
             <p class="card-text">My first <span class='text-white'>full stack</span> application using <span class='text-white'>MongoDB</span>, <span class='text-white'>Express</span>, <span class='text-white'>React</span>, and <span class='text-white'>Node</span>.</p>
