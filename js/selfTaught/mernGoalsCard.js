@@ -2,7 +2,7 @@ const mernGoalsCard = `
     <div id='mernGoalsCard' class="card col-sm-4" style="width:18rem;">
         <img src="../pics/projects/mernGoals.png" style='width:12rem;' class="card-img-top img-fluid mx-auto dropShadowSilver" alt="Pomodoro Clock React App">
         <div class="card-body">
-            <h5 class="card-title">Full Stack Goal Setter App</h5>
+            <h5 class="card-title">GoalSetter MERN CRUD App</h5>
             <p class="card-text">My first <span class='text-white'>full stack</span> application using <span class='text-white'>MongoDB</span>, <span class='text-white'>Express</span>, <span class='text-white'>React</span>, and <span class='text-white'>Node</span>.</p>
             <p class="card-text">Dependencies include: <span class='text-white'>JSON Web Tokens</span>, <span class='text-white'>Mongoose</span>, <span class='text-white'>Redux</span>, and <span class='text-white'>Axios</span>.  This app is deployed on <span class='text-white'>Heroku</span> and may take a min to spin up.</p>
             <div class="btnContainer">
