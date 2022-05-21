@@ -34,18 +34,18 @@
     animation: 4s wiggle infinite;
 }
 
-#twitterLogo {
-    border-radius: 50%;
-    animation: 4s wiggle infinite 1s;
-}
-
 #linkedInLogo {
     border-radius: 4px;
-    animation: 4s wiggle infinite 2s;
+    animation: 4s wiggle infinite 1s;
 }
 
 #youTubeLogo {
     border-radius: 12px;
+    animation: 4s wiggle infinite 2s;
+}
+
+#twitterLogo {
+    border-radius: 50%;
     animation: 4s wiggle infinite 3s;
 }
 
