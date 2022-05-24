@@ -1,6 +1,6 @@
 const xChangeMernCard = `
     <div id='xChangeMernCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/xchange/xchmern.jpg" class="card-img-top m-auto px-5 pt-2 img-fluid" alt="MIT xChangeMern animated gif with stock ticker.">
+        <img src="../pics/xchange/xchmern.jpg" class="card-img-top m-auto img-fluid" style='width: 10rem;' alt="MIT xChangeMern animated gif with stock ticker.">
         <div class="card-body">
             <h5 class="card-title">Full Stack Bank App</h5>
             <p class="card-text"><a href='#xChangeCard'>Bad Bank</a> was upgraded into a full stack MERN app using <span className='text-white'>MongoDB</span>, <span className='text-white'>Mongoose</span>, <span className='text-white'>Express</span>, <span className='text-white'>React</span>, and <span className='text-white'>Redux</span>.</p>
