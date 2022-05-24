@@ -60,12 +60,12 @@ const changeOldestButton = () => {
 const injectProjectsFeatured = () => {
     projectsContainer.innerHTML = featuredProjectsSection;
     injectxChangeMernCard(featuredProjects);
-    injectxChangeCard(featuredProjects);
     injectLenovaIncCard(featuredProjects);
     injectcBPCard(featuredProjects);
     
     projectsContainer.innerHTML += progressionSection;
     injectMernGoalsCard(progressionProjects);
+    injectxChangeCard(progressionProjects);
     injectTodoCard(progressionProjects);
     injectPomodoroCard(progressionProjects);
     injectMarkdownPreviewerCard(progressionProjects);
