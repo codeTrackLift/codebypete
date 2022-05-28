@@ -88,6 +88,7 @@ const injectProjectsCategory = () => {
     
     projectsContainer.innerHTML += bootcampProjectsSection;
     const bootcampProjects = document.getElementById('bootcampProjects');
+    injectxChangeMernCard(bootcampProjects);
     injectxChangeCard(bootcampProjects);
     injectTodoCard(bootcampProjects);
     injectBusTrackerCard(bootcampProjects);
@@ -98,7 +99,6 @@ const injectProjectsCategory = () => {
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;
     const selfTaughtProjects = document.getElementById('selfTaughtProjects');
-    injectxChangeMernCard(selfTaughtProjects);
     injectMernGoalsCard(selfTaughtProjects);
     injectPomodoroCard(selfTaughtProjects);
     injectMarkdownPreviewerCard(selfTaughtProjects);

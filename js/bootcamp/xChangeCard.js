@@ -2,8 +2,8 @@ const xChangeCard = `
     <div id='xChangeCard' class="card col-sm-4" style="width: 18rem;">
         <img src="../pics/xchange/giphyxChangeStockTicker.gif" class="card-img-top m-auto" alt="MIT xChange animated gif with stock ticker.">
         <div class="card-body">
-            <h5 class="card-title">Currency Exchange Bad Bank</h5>
-            <p class="card-text">This React App includes a 'mock'<span className="text-white"> database</span> with <span class="text-white">input validation</span>.</p>
+            <h5 class="card-title">Front End Bank App</h5>
+            <p class="card-text">This React App includes a <span className="text-white">'mock' database</span> with input validation and a <span className="text-white">currency calculator</span>.</p>
             <p class="card-text">Data is<span className="text-white"> fetched </span>from an <span className="text-white">API</span> and <span className="text-white">rendered</span> in an animated <span className="text-white">stock ticker</span>, see <a href="../pages/blog.html#blog8Button">blog[8]</a>.</p>
             <div class="btnContainer">
                 <a id='xChangeDemo' href="https://codetracklift.github.io/xchange/" class="btn btn-secondary" target="_blank">Try Demo</a>
