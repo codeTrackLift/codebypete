@@ -35,3 +35,16 @@ const blog5Body = `
 `;
 
 const injectBlog5 = () => blog5.innerHTML = blog5Body;
+
+function blog5Open() {
+    setTimeout(injectBlog5,500);
+    if (!blog5OpenStatus) {
+        blog5OpenStatus = !blog5OpenStatus;
+        blog5.classList.add('show');
+        blog5Button.classList.remove('collapsed');
+        return
+    }
+    blog5OpenStatus = !blog5OpenStatus;
+    blog5.classList.remove('show');
+    blog5Button.classList.add('collapsed');
+}

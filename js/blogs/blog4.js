@@ -109,3 +109,16 @@ const blog4Body = `
 `;
 
 const injectBlog4 = () => blog4.innerHTML = blog4Body;
+
+function blog4Open() {
+    setTimeout(injectBlog4,500);
+    if (!blog4OpenStatus) {
+        blog4OpenStatus = !blog4OpenStatus;
+        blog4.classList.add('show');
+        blog4Button.classList.remove('collapsed');
+        return
+    }
+    blog4OpenStatus = !blog4OpenStatus;
+    blog4.classList.remove('show');
+    blog4Button.classList.add('collapsed');
+}

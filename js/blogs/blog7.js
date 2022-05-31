@@ -38,3 +38,16 @@ const blog7Body = `
 `;
 
 const injectBlog7 = () => blog7.innerHTML = blog7Body;
+
+function blog7Open() {
+    setTimeout(injectBlog7,500);
+    if (!blog7OpenStatus) {
+        blog7OpenStatus = !blog7OpenStatus;
+        blog7.classList.add('show');
+        blog7Button.classList.remove('collapsed');
+        return
+    }
+    blog7OpenStatus = !blog7OpenStatus;
+    blog7.classList.remove('show');
+    blog7Button.classList.add('collapsed');
+}
