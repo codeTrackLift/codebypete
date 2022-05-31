@@ -1,3 +1,7 @@
+let blog5OpenStatus = false;
+const blog5Button = document.getElementById('blog5Button');
+const blog5 = document.getElementById('blog5');
+
 const blog5Body = `
     <div class="accordion-body">
         <h4 class="text-center mb-4">Greetings!</h4>

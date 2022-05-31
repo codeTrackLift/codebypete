@@ -1,3 +1,7 @@
+let blog8OpenStatus = false;
+const blog8Button = document.getElementById('blog8Button');
+const blog8 = document.getElementById('blog8');
+
 const blog8Body = `
     <div class="accordion-body">
         <div class="d-flex justify-content-evenly">

@@ -1,3 +1,7 @@
+let blog4OpenStatus = false;
+const blog4Button = document.getElementById('blog4Button');
+const blog4 = document.getElementById('blog4');
+
 const blog4Body = `
     <div class="accordion-body">
         <div class="'container-fluid row">
