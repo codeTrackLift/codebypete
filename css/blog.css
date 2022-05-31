@@ -85,6 +85,19 @@ ol {
     box-shadow: lime 0px 5px 15px;
 }
 
+#blog9ReactLogo {
+    animation: slowspin 20s infinite linear;
+}
+
+@keyframes slowspin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 /* Blog CSS Below */
 .myBlog {
   margin: 1rem;
