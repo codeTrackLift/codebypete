@@ -50,7 +50,7 @@ const myWelcome = `
                 <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
                 <p class="card-text">University Degree in Biological Sciences</p>
                 <p class="card-text">20 year Pharmaceutical Professional</p>
-                <p class="card-text">Full Stack Coding Bootcamp<span style="color:gray"> (in progress, Jul 2022)</span></p>
+                <p class="card-text">Full Stack Coding Bootcamp, MERN Development</p>
                 <div class="btnContainer mt-3">
                     <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
                     <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
@@ -145,7 +145,9 @@ const initScrollMagic = () => {
 
 const unhideCarousel = () => {
     const carousel = document.getElementById('carousel');
+    const carouselWrapper = document.getElementById('carouselWrapper');
     carousel.style.transform = 'scale(1)';
     carousel.style.padding = '1rem 0';
     carousel.style.margin = '0';
+    carouselWrapper.style.backgroundColor = 'rgb(50,50,50)';
 }
