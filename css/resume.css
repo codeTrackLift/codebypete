@@ -107,7 +107,7 @@ a>.img-fluid:hover {
     }
 }
 
-.myArticles>div>div>h3>img {
+.myArticles>div>div>h3>a>img {
     width: 20vw;
     min-width: 5rem;
     max-width: 10rem;

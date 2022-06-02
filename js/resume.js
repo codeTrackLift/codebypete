@@ -1,7 +1,7 @@
 var yodaJimController = new ScrollMagic.Controller();
 var yodaJim = new ScrollMagic.Scene({
         triggerElement: '#yodaJim',
-        offset: -100
+        offset: -200
     })
     .setClassToggle('#yodaJim', 'show')
     .addTo(yodaJimController);
