@@ -146,3 +146,7 @@ a:focus {
         width: 100vw;
     }
 }
+
+.carousel-item {
+    margin-bottom: -1px;
+}
