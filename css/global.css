@@ -91,21 +91,21 @@ a:visited {
 
 a:hover,
 a:focus {
-    /* text-decoration: underline; */
     color: cornflowerblue;
 }
 
-#githubContributions {
+#githubContributionsWrapper {
     width: 100%;
     opacity: 0;
     transition: all 0.25s ease-in-out;
     transform: scale(0.5);
 }
 
-#githubContributions>a>img {
+#githubContributionsWrapper>button>img {
     margin: 1rem 0;
     width: 90vw;
     max-width: 960px;
+    transition: all 0.25s ease-in-out;
 }
 
 .show {
@@ -114,8 +114,8 @@ a:focus {
     z-index: 1;
 }
 
-#githubContributions>a:hover,
-#githubContributions>a>img:hover {
+#githubContributionsWrapper>button:hover,
+#githubContributionsWrapper>button>img:hover {
     opacity: 1;
 }
 

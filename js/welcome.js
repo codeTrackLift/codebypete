@@ -76,10 +76,10 @@ const myWelcome = `
 
     </div>
 
-    <div id='githubContributions' class="container-fluid text-center">
-        <a href="https://skyline.github.com/codeTrackLift/2022" target="_blank">
-            <img src="../pics/about/githubContributions.png" alt="GitHub contribution">
-        </a>
+    <div id='githubContributionsWrapper' class="container-fluid text-center">
+        <button style="border:none;background-color:transparent;" onclick="viewContributions()">
+            <img src="../pics/about/githubContributions.png" alt="GitHub contribution" id='githubContributions'>
+        </button>
     </div>
 
     </section>
@@ -126,13 +126,13 @@ const initScrollMagic = () => {
         .setClassToggle('#qrByPete', 'shift')
         .addTo(qrByPeteController);
 
-    var githubContributionsController = new ScrollMagic.Controller();
-    var githubContributions = new ScrollMagic.Scene({
-            triggerElement: '#githubContributions',
+    var githubContributionsWrapperController = new ScrollMagic.Controller();
+    var githubContributionsWrapper = new ScrollMagic.Scene({
+            triggerElement: '#githubContributionsWrapper',
             offset: -200
         })
-        .setClassToggle('#githubContributions', 'show')
-        .addTo(githubContributionsController);
+        .setClassToggle('#githubContributionsWrapper', 'show')
+        .addTo(githubContributionsWrapperController);
 
     var buttonContactController = new ScrollMagic.Controller();
     var buttonContact = new ScrollMagic.Scene({
@@ -150,4 +150,24 @@ const unhideCarousel = () => {
     carousel.style.padding = '1rem 0';
     carousel.style.margin = '0';
     carouselWrapper.style.backgroundColor = 'rgb(50,50,50)';
+}
+
+let contribute100 = false;
+const viewContributions = () => {
+    const contributions = document.getElementById('githubContributions');
+    if(contribute100) {
+        contributions.style.opacity = 0;
+        setTimeout(() => {
+            contributions.src = '../pics/about/githubContributions.png';
+            contributions.style.opacity = 1;
+        }, 300);
+        contribute100 = false;
+        return
+    }
+    contributions.style.opacity = 0;
+        setTimeout(() => {
+            contributions.src = '../pics/about/githubContributions_100Days.jpg';
+            contributions.style.opacity = 1;
+        }, 300);
+    contribute100 = true;
 }
