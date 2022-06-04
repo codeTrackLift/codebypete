@@ -58,7 +58,10 @@ h5 {
     }
 }
 
-#sortButtons>button:hover,
+#sortButtons>button:hover {
+    color: lime;
+}
+
 #sortButtons>button.active {
     color: lime;  
     background-color: transparent;
