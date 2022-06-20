@@ -45,7 +45,7 @@ const blog9Body = `
                 <p class="fs-5 text-end d-none d-sm-none d-md-block">MIT xCHANGE MERN is still on mobile!</p>
             </div>
         </div>
-        <div class="'container-fluid row">
+        <div class="row">
         <div class="col-sm-6 my-3">
             <img src="../pics/xchange/xChangeMern.gif" alt="MIT xCHANGE MERN Logo." class="img-fluid dropShadowSilverBig my-auto">
         </div>
