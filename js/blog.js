@@ -2,8 +2,8 @@ const blogArticles = `
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button id='blog10Button' onclick="blog10Open()" class="accordion-button collapsed bg-transparent"
-                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight"
-                aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen"
+                aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
                 <h6 class="my-auto">blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">10</span><span
                         style='color:dodgerblue'>]</span></h6>
                 <h5 class="w-100 my-auto" style="margin-left:-0.5rem;">Capstone Videos</h5>
@@ -12,7 +12,7 @@ const blogArticles = `
                 </div>
             </button>
         </h2>
-        <div id="blog10" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+        <div id="blog10" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
     </div>
@@ -20,8 +20,8 @@ const blogArticles = `
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button id='blog9Button' onclick="blog9Open()" class="accordion-button collapsed bg-transparent"
-                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight"
-                aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine"
+                aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
                 <h6 class="my-auto">blog<span style='color:dodgerblue'>[</span><span style="color:cornflowerblue">9</span><span
                         style='color:dodgerblue'>]</span></h6>
                 <h5 class="w-100 my-auto">Front End Architecture</h5>
@@ -30,7 +30,7 @@ const blogArticles = `
                 </div>
             </button>
         </h2>
-        <div id="blog9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+        <div id="blog9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
     </div>
