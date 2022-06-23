@@ -15,7 +15,7 @@ const blogArticles = `
         <div id="blog10" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -33,7 +33,7 @@ const blogArticles = `
         <div id="blog9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -51,7 +51,7 @@ const blogArticles = `
         <div id="blog8" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -69,7 +69,7 @@ const blogArticles = `
         <div id="blog7" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -87,7 +87,7 @@ const blogArticles = `
         <div id="blog6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -105,7 +105,7 @@ const blogArticles = `
         <div id="blog5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -123,7 +123,7 @@ const blogArticles = `
         <div id="blog4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -141,7 +141,7 @@ const blogArticles = `
         <div id="blog3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -159,7 +159,7 @@ const blogArticles = `
         <div id="blog2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -177,7 +177,7 @@ const blogArticles = `
         <div id="blog1" class="accordion-collapse collapse bg-transparent" aria-labelledby="panelsStayOpen-headingOne">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div> <!-- accodion-item closing div -->
+    </div>
 
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -195,7 +195,7 @@ const blogArticles = `
         <div id="blog0" class="accordion-collapse collapse bg-transparent" aria-labelledby="panelsStayOpen-headingZero">
             <div class="text-center my-5"><span class="spinner-border" role="status"></span><p>Loading...</p></div>
         </div>
-    </div><!-- accodion-item closing div -->
+    </div>
 `;
 
 const injectBlogArticles = () => {
