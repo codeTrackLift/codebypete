@@ -1,5 +1,6 @@
 // Defining global blog variables
 const accordionContainer = document.getElementById('accordionContainer');
+
 let blog11OpenStatus = false;
 let blog10OpenStatus = false;
 let blog9OpenStatus = false;
@@ -138,6 +139,12 @@ const changeOldestButton = () => {
     oldestButton.setAttribute('onclick', '');
 }
 
+const resetAccordion = () => {
+    accordionContainer.innerHTML = ``;
+    accordionContainer.style.backgroundColor = `black`;
+    accordionContainer.style.boxShadow = `box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px`;
+}
+
 const injectAccordion = (id, number, title, date) => {
     let twoDigits = ``;
     if (id >= 10) {
@@ -165,9 +172,7 @@ const injectAccordion = (id, number, title, date) => {
 };
 
 const injectBlogArticlesNewest = () => {
-    accordionContainer.innerHTML = ``;
-    accordionContainer.style.backgroundColor = `black`;
-    accordionContainer.style.boxShadow = `box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px`;
+    resetAccordion();
     for (let i = 0; i < blogIndex.length; i++) {
         accordionContainer.innerHTML += injectAccordion(
             blogIndex[i].id, 
@@ -179,9 +184,7 @@ const injectBlogArticlesNewest = () => {
 };
     
 const injectBlogArticlesOldest = () => {
-    accordionContainer.innerHTML = ``;
-    accordionContainer.style.backgroundColor = `black`;
-    accordionContainer.style.boxShadow = `box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px`;
+    resetAccordion();
     for (let i = blogIndex.length - 1; i >= 0; i--) {
         accordionContainer.innerHTML += injectAccordion(
             blogIndex[i].id, 
