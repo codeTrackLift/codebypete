@@ -1,6 +1,4 @@
 let blog10OpenStatus = false;
-const blog10Button = document.getElementById('blog10Button');
-const blog10 = document.getElementById('blog10');
 
 const blog10Body = `
     <div class="accordion-body">
@@ -62,6 +60,8 @@ const blog10Body = `
 const injectBlog10 = () => blog10.innerHTML = blog10Body;
 
 function blog10Open() {
+    const blog10Button = document.getElementById('blog10Button');
+    const blog10 = document.getElementById('blog10');
     setTimeout(injectBlog10,500);
     if (!blog10OpenStatus) {
         blog10OpenStatus = !blog10OpenStatus;

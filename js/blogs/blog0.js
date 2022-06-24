@@ -1,6 +1,4 @@
 let blog0OpenStatus = false;
-const blog0Button = document.getElementById('blog0Button');
-const blog0 = document.getElementById('blog0');
 
 const blog0Body = `
     <div class="accordion-body">
@@ -19,6 +17,8 @@ const blog0Body = `
 const injectBlog0 = () => blog0.innerHTML = blog0Body;
 
 function blog0Open() {
+    const blog0Button = document.getElementById('blog0Button');
+    const blog0 = document.getElementById('blog0');
     setTimeout(injectBlog0,500);
     if (!blog0OpenStatus) {
         blog0OpenStatus = !blog0OpenStatus;

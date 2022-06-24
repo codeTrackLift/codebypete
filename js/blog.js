@@ -1,4 +1,12 @@
+const accordionContainer = document.getElementById('accordionContainer');
+
 const blogIndex = [
+    // {
+    //     id: 11,
+    //     number: 'Eleven',
+    //     title: 'Intern for 120 Hours',
+    //     date: 'Jun 25, 2022'
+    // },
     {
         id: 10,
         number: 'Ten',
@@ -67,6 +75,52 @@ const blogIndex = [
     },
 ]
 
+// Add loading animation
+const injectLoading = () => {
+    accordionContainer.style.backgroundColor = `transparent`;
+    accordionContainer.style.boxShadow = `none`;
+    accordionContainer.innerHTML = `
+        <div class="text-center my-5 text-silver">
+            <span class="spinner-border" role="status"></span>
+            <p>Loading...</p>
+        </div>
+    `;
+}
+
+// Remove active class from all sort buttons
+const clearSortButtons = () => {
+    newestButton.classList.remove('active');
+    oldestButton.classList.remove('active');
+}
+
+// Add onclick to add sort buttons
+const onclickSortButtons = () => {
+    newestButton.setAttribute('onclick', `
+        injectLoading();
+        changeNewestButton();
+        setTimeout(injectBlogArticlesNewest, 500);
+    `);
+    oldestButton.setAttribute('onclick', `
+        injectLoading();
+        changeOldestButton();
+        setTimeout(injectBlogArticlesOldest, 500);
+    `);
+}
+
+const changeNewestButton = () => {
+    clearSortButtons();
+    onclickSortButtons();
+    newestButton.setAttribute('onclick', '');
+    newestButton.classList.add('active');
+}
+
+const changeOldestButton = () => {
+    clearSortButtons();
+    onclickSortButtons();
+    oldestButton.classList.add('active');
+    oldestButton.setAttribute('onclick', '');
+}
+
 const injectAccordion = (id, number, title, date) => {
     let twoDigits = ``;
     if (id >= 10) {
@@ -94,9 +148,25 @@ const injectAccordion = (id, number, title, date) => {
     `;
 };
 
-const injectBlogArticles = () => {
-    const accordionContainer = document.getElementById('accordionContainer');
+const injectBlogArticlesNewest = () => {
+    accordionContainer.innerHTML = ``;
+    accordionContainer.style.backgroundColor = `black`;
+    accordionContainer.style.boxShadow = `box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px`;
     for (let i = 0; i < blogIndex.length; i++) {
+        accordionContainer.innerHTML += injectAccordion(
+            blogIndex[i].id, 
+            blogIndex[i].number, 
+            blogIndex[i].title, 
+            blogIndex[i].date
+        );
+    };
+};
+    
+const injectBlogArticlesOldest = () => {
+    accordionContainer.innerHTML = ``;
+    accordionContainer.style.backgroundColor = `black`;
+    accordionContainer.style.boxShadow = `box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px`;
+    for (let i = blogIndex.length - 1; i >= 0; i--) {
         accordionContainer.innerHTML += injectAccordion(
             blogIndex[i].id, 
             blogIndex[i].number, 

@@ -1,6 +1,4 @@
 let blog9OpenStatus = false;
-const blog9Button = document.getElementById('blog9Button');
-const blog9 = document.getElementById('blog9');
 
 const blog9Body = `
     <div class="accordion-body">
@@ -77,6 +75,8 @@ const handleReactComponent = () => {
 const injectBlog9 = () => blog9.innerHTML = blog9Body;
 
 function blog9Open() {
+    const blog9Button = document.getElementById('blog9Button');
+    const blog9 = document.getElementById('blog9');
     setTimeout(injectBlog9,500);
     if (!blog9OpenStatus) {
         blog9OpenStatus = !blog9OpenStatus;

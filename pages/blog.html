@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/sortBox.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
@@ -69,14 +70,19 @@
         <div class="container-fluid myArticles">
             <div class="row">
                 <div class="col-3 m-auto">
-                    <a href="https://xpro.mit.edu/" target="_blank"><img id='mitLogo'
-                            src="../pics/about/mitxPro_logoStacked.jpg" class="img-fluid" alt="MIT xPRO Logo."></a>
+                    <a href="https://xpro.mit.edu/" target="_blank"><img id='mitLogo' src="../pics/about/mitxPro_logoStacked.jpg" class="img-fluid" alt="MIT xPRO Logo."></a>
                 </div>
                 <div class="col-9 m-auto">
-                    <h3 class="text-center textShadowBlack" style="color:gray;">These are reflections of my experience
-                        during the MIT xPRO
-                        Coding Bootcamp.</h3>
+                    <h3 class="text-center textShadowBlack" style="color:gray;">These are reflections of my experience during the MIT xPRO Coding Bootcamp.</h3>
                 </div>
+            </div>
+        </div>
+
+        <div class="container-fluid myArticles text-center" id="sortBox">
+            <h6 class="text-silver">Sort Articles By</h6>
+            <div class="text-gray" id="sortButtons">
+                <button id='newestButton'>Newest</button>
+                <button id='oldestButton'>Oldest</button>
             </div>
         </div>
 
@@ -130,10 +136,12 @@
     <script>
         injectMyNavbar();
         setActiveNavlink('navlinkBlog');
-        injectBlogArticles();
+        injectBlogArticlesNewest();
+        changeNewestButton();
         injectSocials();
         injectMyFooter();
     </script>
+    <script src='../js/blogs/blog11.js'></script>
     <script src='../js/blogs/blog10.js'></script>
     <script src='../js/blogs/blog9.js'></script>
     <script src='../js/blogs/blog8.js'></script>

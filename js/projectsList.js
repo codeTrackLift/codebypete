@@ -33,7 +33,6 @@ const onclickSortButtons = () => {
     `);
 }
 
-
 const changeFeaturedButton = () => {
     clearSortButtons();
     onclickSortButtons();
@@ -54,7 +53,6 @@ const changeOldestButton = () => {
     oldestButton.classList.add('active');
     oldestButton.setAttribute('onclick', '');
 }
-
 
 // Project sort injection functions
 const injectProjectsFeatured = () => {
