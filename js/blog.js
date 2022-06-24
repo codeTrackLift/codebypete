@@ -124,8 +124,8 @@ const buttonAbout = new ScrollMagic.Scene({
 
 const buttonProjectsController = new ScrollMagic.Controller();
 const buttonProjects = new ScrollMagic.Scene({
-        triggerElement: '#buttonProjects',
-        offset: -350
-    })
-    .setClassToggle('#buttonProjects', 'show')
-    .addTo(buttonProjectsController);
+    triggerElement: '#buttonProjects',
+    offset: -350
+})
+.setClassToggle('#buttonProjects', 'show')
+.addTo(buttonProjectsController);
