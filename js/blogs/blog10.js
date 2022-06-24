@@ -40,7 +40,7 @@ const blog10Body = `
             </iframe>
             <span>Deployment, hosting, troubleshooting, and reflections.</span>
         </div>
-        <div class="col-sm-6 my-5">
+        <div class="col-sm-6 my-3">
             Check out the deployed demo on my <a href="../pages/projects.html#xChangeMernCard">Projects</a> page and let me know what you think!
         </div>
         <div class="row">
