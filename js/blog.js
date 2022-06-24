@@ -50,7 +50,7 @@ const blogIndex = [
     {
         id: 2,
         number: 'Two',
-        title: 'PacMan Mini-Game',
+        title: 'Magic Ball Challenge',
         date: 'Feb 20, 2022'
     },
     {
