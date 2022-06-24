@@ -1,3 +1,4 @@
+// Defining global blog variables
 const accordionContainer = document.getElementById('accordionContainer');
 let blog11OpenStatus = false;
 let blog10OpenStatus = false;
@@ -11,6 +12,21 @@ let blog3OpenStatus = false;
 let blog2OpenStatus = false;
 let blog1OpenStatus = false;
 let blog0OpenStatus = false;
+
+const resetBlogOpenStatus = () => {
+    blog11OpenStatus = false;
+    blog10OpenStatus = false;
+    blog9OpenStatus = false;
+    blog8OpenStatus = false;
+    blog7OpenStatus = false;
+    blog6OpenStatus = false;
+    blog5OpenStatus = false;
+    blog4OpenStatus = false;
+    blog3OpenStatus = false;
+    blog2OpenStatus = false;
+    blog1OpenStatus = false;
+    blog0OpenStatus = false;
+}
 
 const blogIndex = [
     // {
@@ -87,26 +103,9 @@ const blogIndex = [
     },
 ]
 
-// Remove active class from all sort buttons
-const clearSortButtons = () => {
-    newestButton.classList.remove('active');
-    oldestButton.classList.remove('active');
-    blog11OpenStatus = false;
-    blog10OpenStatus = false;
-    blog9OpenStatus = false;
-    blog8OpenStatus = false;
-    blog7OpenStatus = false;
-    blog6OpenStatus = false;
-    blog5OpenStatus = false;
-    blog4OpenStatus = false;
-    blog3OpenStatus = false;
-    blog2OpenStatus = false;
-    blog1OpenStatus = false;
-    blog0OpenStatus = false;
-}
-
 // Add loading animation
 const injectLoading = () => {
+    resetBlogOpenStatus();
     accordionContainer.style.backgroundColor = `transparent`;
     accordionContainer.style.boxShadow = `none`;
     accordionContainer.innerHTML = `
@@ -117,30 +116,24 @@ const injectLoading = () => {
     `;
 }
 
-// Add onclick to add sort buttons
-const onclickSortButtons = () => {
-    newestButton.setAttribute('onclick', `
-        injectLoading();
-        changeNewestButton();
-        setTimeout(injectBlogArticlesNewest, 500);
-    `);
+const changeNewestButton = () => {
+    oldestButton.classList.remove('active');
     oldestButton.setAttribute('onclick', `
         injectLoading();
         changeOldestButton();
         setTimeout(injectBlogArticlesOldest, 500);
     `);
-}
-
-const changeNewestButton = () => {
-    clearSortButtons();
-    onclickSortButtons();
     newestButton.setAttribute('onclick', '');
     newestButton.classList.add('active');
 }
 
 const changeOldestButton = () => {
-    clearSortButtons();
-    onclickSortButtons();
+    newestButton.classList.remove('active');
+    newestButton.setAttribute('onclick', `
+        injectLoading();
+        changeNewestButton();
+        setTimeout(injectBlogArticlesNewest, 500);
+    `);
     oldestButton.classList.add('active');
     oldestButton.setAttribute('onclick', '');
 }
@@ -150,7 +143,6 @@ const injectAccordion = (id, number, title, date) => {
     if (id >= 10) {
         twoDigits = ` style="margin-left:-0.5rem;"`;
     }
-
     return `
         <div class="accordion-item">
             <h2 class="accordion-header">
