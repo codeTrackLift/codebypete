@@ -8,16 +8,15 @@ const myWelcome = `
         </div>
 
         <div id='welcomeCard1' class="card col-sm-4" style="width: 18rem;">
-            <iframe class='container-fluid ratio ratio-1x1 pt-4' src="https://youtube.com/embed/L2MLboXUkUA" frameborder="0" allowfullscreen>
-            </iframe>
+            <img src="../pics/about/crushItApple.jpg" class="card-img-top mx-auto" alt="Pac Man image" style="width:10rem;">
             <div class="card-body">
-                <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
-                <p class="card-text">Demo projects and see my progression.</p>
-                <p class="card-text">View source code or my documentation on GitHub.</p>
-                <p class="card-text">Read blog articles about my Coding Bootcamp experience.</p>
+                <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
+                <p class="card-text">University of Delaware, Degree in Biological Sciences</p>
+                <p class="card-text">20 year pharmaceutical professional</p>
+                <p class="card-text">Read blog articles about my coding bootcamp experience</p>
                 <div class="btnContainer mt-3">
-                    <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                    <a href="../pages/blog.html" class="btn btn-secondary btnDark">Blog</a>
+                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
+                    <a href="../pages/blog.html" class="btn btn-secondary">Blog</a>
                 </div>
             </div>
         </div>
@@ -44,18 +43,20 @@ const myWelcome = `
         </div>
 
         <div id='welcomeCard2' class="card col-sm-4" style="width: 18rem;">
-            <img src="../pics/about/crushItApple.jpg" class="card-img-top mx-auto" alt="Pac Man image"
-                style="width:10rem;">
+            <iframe class='container-fluid ratio ratio-1x1 pt-4' src="https://youtube.com/embed/L2MLboXUkUA" frameborder="0" allowfullscreen>
+            </iframe>
             <div class="card-body">
-                <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
-                <p class="card-text">University Degree in Biological Sciences</p>
-                <p class="card-text">20 year Pharmaceutical Professional</p>
-                <p class="card-text">Full Stack Coding Bootcamp, MERN Development</p>
+                <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
+                <p class="card-text">Demo projects and see my progression</p>
+                <p class="card-text">View my source code or documentation on GitHub</p>
+                <p class="card-text">Review my qualificaton and work experience</p>
                 <div class="btnContainer mt-3">
-                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
-                    <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
+                    <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
+                    <a href="../pages/resume.html" class="btn btn-secondary btnDark">Resume</a>
+                    
                 </div>
             </div>
+            
         </div>
 
         <div class="myArticles container-fluid text-center mt-4">
