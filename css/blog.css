@@ -66,12 +66,6 @@ ol {
     text-shadow: 1px 1px black;
 }
 
-@media (max-width:1400px) {
-  .myArticles {
-    margin: 1rem auto;
-  }
-}
-
 #mitLogo {
     opacity: 0.75;
     box-shadow: silver 0px 5px 15px;
