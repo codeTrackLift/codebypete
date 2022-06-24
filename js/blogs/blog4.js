@@ -1,5 +1,3 @@
-let blog4OpenStatus = false;
-
 const blog4Body = `
     <div class="accordion-body">
         <div class="'container-fluid row">

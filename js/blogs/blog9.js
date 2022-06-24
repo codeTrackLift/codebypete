@@ -1,5 +1,3 @@
-let blog9OpenStatus = false;
-
 const blog9Body = `
     <div class="accordion-body">
         <div class="d-flex justify-content-evenly">

@@ -1,5 +1,3 @@
-let blog1OpenStatus = false;
-
 const blog1Body = `
     <div class="accordion-body">
         <h4>Hello World!</h4>
