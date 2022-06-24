@@ -117,8 +117,7 @@ ol {
 
 @media (max-width:540px) {
 
-  .narrowText,
-  ol>li {
+  .narrowText {
     margin-left: -2rem;
     margin-right: -3rem;
   }
