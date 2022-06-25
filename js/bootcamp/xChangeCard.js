@@ -4,7 +4,7 @@ const xChangeCard = `
         <div class="card-body">
             <h5 class="card-title">Front End Bad Bank</h5>
             <p class="card-text">This React App includes a <span className="text-white">'mock' database</span> with input validation and a <span className="text-white">currency calculator</span>.</p>
-            <p class="card-text">Data is<span className="text-white"> fetched </span>from an <span className="text-white">API</span> and <span className="text-white">rendered</span> in an animated <span className="text-white">stock ticker</span>, see <a href="../pages/blog.html#blog8Button">blog[8]</a>.</p>
+            <p class="card-text">Data is<span className="text-white"> fetched </span>from an <span className="text-white">API</span> and <span className="text-white">rendered</span> in an animated <span className="text-white">stock ticker</span>, see <a href="../pages/blog.html#blog8">blog[8]</a>.</p>
             <div class="btnContainer">
                 <a id='xChangeDemo' href="https://codetracklift.github.io/xchange/" class="btn btn-secondary" target="_blank">Try Demo</a>
                 <a id='xChangeRepo' href="https://github.com/codeTrackLift/xchange#readme" class="btn btn-secondary btnDark" target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> Readme</a>

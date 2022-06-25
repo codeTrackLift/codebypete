@@ -4,7 +4,7 @@ const busTrackerCard = `
         <div class="card-body">
             <h5 class="card-title">Real-Time Bus Tracker</h5>
             <p class="card-text">This <a href="https://xpro.mit.edu/" target="_blank">MIT xPRO</a><span> Bootcamp Project</span> uses asynchronous JavaScript functions to <span class='text-white'>fetch API data</span>.</p>
-            <p class="card-text">Custom styling and extra user interface functionality was added, see <a href="../pages/blog.html#blog6Button">blog[6]</a>.</p>
+            <p class="card-text">Custom styling and extra user interface functionality was added, see <a href="../pages/blog.html#blog6">blog[6]</a>.</p>
             <div class="btnContainer">
                 <a id='busTrackerDemo' href="https://codetracklift.github.io/bustracker/" class="btn btn-secondary" target="_blank">Try Demo</a>
                 <a id='busTrackerRepo' href="https://github.com/codeTrackLift/bustracker#readme" class="btn btn-secondary btnDark " target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> Readme</a>

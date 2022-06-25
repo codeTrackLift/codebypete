@@ -100,16 +100,14 @@ if (window.location.hash) {
     hash = `${window.location.hash}Open()`;
     hash = hash.replace('#','').replace('Button','');
 
-    // Remove after adding blog11
-    if (hash === 'blog11Open()') {
-        blogIndex.unshift({
-            id: 11,
-            number: 'Eleven',
-            title: '3 Week Intern Recap',
-            date: 'Jun 26, 2022'
-        })
-    }
-    // Remove after adding blog11
-
     setTimeout(hash);
+}
+
+if (window.location.hash === '#blog11') {
+    blogIndex.unshift({
+        id: 11,
+        number: 'Eleven',
+        title: '3 Week Intern Recap',
+        date: 'Jun 26, 2022'
+    })
 }
