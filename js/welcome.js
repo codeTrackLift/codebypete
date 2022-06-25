@@ -49,7 +49,7 @@ const myWelcome = `
                 <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
                 <p class="card-text">Demo projects and see my progression</p>
                 <p class="card-text">View my source code or documentation on GitHub</p>
-                <p class="card-text">Review my qualificaton and work experience</p>
+                <p class="card-text">Review my qualificatons and work experience</p>
                 <div class="btnContainer mt-3">
                     <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
                     <a href="../pages/resume.html" class="btn btn-secondary btnDark">Resume</a>
