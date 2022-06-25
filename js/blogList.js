@@ -28,6 +28,12 @@ const resetBlogOpenStatus = () => {
 
 const blogIndex = [
     {
+        id: 11,
+        number: 'Eleven',
+        title: '3 Week Intern Recap',
+        date: 'Jun 25, 2022'
+    },
+    {
         id: 10,
         number: 'Ten',
         title: 'Capstone Videos',
@@ -101,13 +107,4 @@ if (window.location.hash) {
     hash = hash.replace('#','').replace('Button','');
 
     setTimeout(hash);
-}
-
-if (window.location.hash === '#blog11') {
-    blogIndex.unshift({
-        id: 11,
-        number: 'Eleven',
-        title: '3 Week Intern Recap',
-        date: 'Jun 26, 2022'
-    })
 }
