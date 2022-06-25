@@ -106,7 +106,7 @@ if (window.location.hash) {
             id: 11,
             number: 'Eleven',
             title: '3 Week Intern Recap',
-            date: 'Jun 25, 2022'
+            date: 'Jun 26, 2022'
         })
     }
     // Remove after adding blog11
