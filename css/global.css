@@ -101,6 +101,15 @@ a:focus {
     transform: scale(0.5);
 }
 
+#githubContributionsWrapper>button {
+    border: none;
+    background-color: transparent;
+    background-image: url('../pics/about/forbesJoin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: clamp(10rem, 50rem, 90vw);
+}
+
 #githubContributionsWrapper>button>img {
     margin: 1rem 0;
     width: 90vw;
@@ -112,11 +121,6 @@ a:focus {
     opacity: 1 !important;
     transform: scale(1) !important;
     z-index: 1;
-}
-
-#githubContributionsWrapper>button:hover,
-#githubContributionsWrapper>button>img:hover {
-    opacity: 1;
 }
 
 #carousel {

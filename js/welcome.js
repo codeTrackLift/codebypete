@@ -161,7 +161,7 @@ const viewContributions = () => {
         setTimeout(() => {
             contributions.src = '../pics/about/githubContributions.png';
             contributions.style.opacity = 1;
-        }, 300);
+        }, 750);
         contribute100 = false;
         return
     }
@@ -169,6 +169,6 @@ const viewContributions = () => {
         setTimeout(() => {
             contributions.src = '../pics/about/githubContributions_100Days.jpg';
             contributions.style.opacity = 1;
-        }, 300);
+        }, 750);
     contribute100 = true;
 }
