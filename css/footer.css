@@ -8,6 +8,8 @@
     max-height: 3rem;
     margin: 1rem auto;
     opacity: 0.5;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 @media (max-width:450px) {
