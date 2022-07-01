@@ -1,3 +1,4 @@
+let blog12OpenStatus = false;
 let blog11OpenStatus = false;
 let blog10OpenStatus = false;
 let blog9OpenStatus = false;
@@ -12,6 +13,7 @@ let blog1OpenStatus = false;
 let blog0OpenStatus = false;
 
 const resetBlogOpenStatus = () => {
+    blog12OpenStatus = false;
     blog11OpenStatus = false;
     blog10OpenStatus = false;
     blog9OpenStatus = false;
@@ -107,4 +109,15 @@ if (window.location.hash) {
     hash = hash.replace('#','').replace('Button','');
 
     setTimeout(hash);
+}
+
+if (window.location.hash === '#blog12') {
+    blogIndex.unshift(
+        {
+            id: 12,
+            number: 'Twelve',
+            title: 'Bootcamp Prepper (2022)',
+            date: 'Jul 4, 2022'
+        }
+    )
 }
