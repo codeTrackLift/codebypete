@@ -26,7 +26,7 @@
 }
 
 .socialLogo:hover {
-    background-color: lime;
+    opacity: 1 !important;
 }
 
 #gitHubLogo {
@@ -52,27 +52,24 @@
 @keyframes wiggle {
     4% {
         transform: rotateZ(0deg);
-        /* opacity: 0.5; */
     }
     5% {
         transform: rotateZ(10deg);
-        /* opacity: 0.5; */
     }
     10% {
         transform: rotateZ(-10deg);
-        /* opacity: 0.5; */
     }
     11% {
         transform: rotateZ(0deg);
-        /* opacity: 0.5; */
+        background-color: transparent;
     }
     16% {
         transform: scale(1.1);
-        /* opacity: 1; */
+        background-color: lime;
     }
     21% {
         transform: scale(1);
-        /* opacity: 0.5; */
+        background-color: transparent;
     }
 }
 
