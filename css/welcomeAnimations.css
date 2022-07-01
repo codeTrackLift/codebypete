@@ -359,7 +359,7 @@
     width: 100vw;
     background: black;
     animation: write 1.5s steps(24) 0.5s forwards;
-    animation-delay: 7s;
+    animation-delay: 7.25s;
 }
 
 #typeWriter3::after {
@@ -367,5 +367,5 @@
     width: 0.15em;
     background: black;
     animation: write 1.5s steps(24) 0.5s forwards, blink 0.75s reverse steps(24) infinite;
-    animation-delay: 7s;
+    animation-delay: 7.25s;
 }
