@@ -247,7 +247,7 @@
     width: 100vw;
     background: black;
     animation: write 1s steps(22) 0.5s forwards;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 
 #typeWriter1::after {
@@ -255,7 +255,7 @@
     width: 0.15em;
     background: black;
     animation: write 1s steps(22) 0.5s forwards, blink 0.75s reverse steps(22) 2;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 
 @keyframes write {
@@ -319,7 +319,7 @@
     width: 100vw;
     background: black;
     animation: write 1.5s steps(28) 0.5s forwards;
-    animation-delay: 5.5s;
+    animation-delay: 5.25s;
 }
 
 #typeWriter2::after {
@@ -327,7 +327,7 @@
     width: 0.15em;
     background: black;
     animation: write 1.5s steps(28) 0.5s forwards, blink 0.75s reverse steps(28) 3;
-    animation-delay: 5.5s;
+    animation-delay: 5.25s;
 }
 
 #typeWriter3 {
@@ -359,7 +359,7 @@
     width: 100vw;
     background: black;
     animation: write 1.5s steps(24) 0.5s forwards;
-    animation-delay: 7.5s;
+    animation-delay: 7s;
 }
 
 #typeWriter3::after {
@@ -367,5 +367,5 @@
     width: 0.15em;
     background: black;
     animation: write 1.5s steps(24) 0.5s forwards, blink 0.75s reverse steps(24) infinite;
-    animation-delay: 7.5s;
+    animation-delay: 7s;
 }
