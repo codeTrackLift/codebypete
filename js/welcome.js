@@ -13,7 +13,7 @@ const myWelcome = `
                 <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
                 <p class="card-text">University of Delaware, Degree in Biological Sciences</p>
                 <p class="card-text">20 year pharmaceutical professional</p>
-                <p class="card-text">Read blog articles about my coding bootcamp experience</p>
+                <p class="card-text">Investing in myself to pursue a childhood passion</p>
                 <div class="btnContainer mt-3">
                     <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
                     <a href="../pages/blog.html" class="btn btn-secondary">Blog</a>
