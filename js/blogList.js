@@ -30,6 +30,12 @@ const resetBlogOpenStatus = () => {
 
 const blogIndex = [
     {
+        id: 12,
+        number: 'Twelve',
+        title: 'Bootcamp Prepper (2022)',
+        date: 'Jul 2, 2022'
+    },
+    {
         id: 11,
         number: 'Eleven',
         title: '3 Week Intern Recap',
@@ -111,13 +117,8 @@ if (window.location.hash) {
     setTimeout(hash);
 }
 
-if (window.location.hash === '#blog12') {
-    blogIndex.unshift(
-        {
-            id: 12,
-            number: 'Twelve',
-            title: 'Bootcamp Prepper (2022)',
-            date: 'Jul 4, 2022'
-        }
-    )
-}
+// if (window.location.hash === '#blog13') {
+//     blogIndex.unshift(
+
+//     )
+// }

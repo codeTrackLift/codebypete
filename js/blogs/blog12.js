@@ -16,11 +16,11 @@ const blog12Body = `
                 Below is a recap of how I prepared, for <span class='text-white menloRegular'>myCodingJourney</span>...
             </p>
             <hr class='mt-3'>
-            <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
+            <img src='../pics/blog/giphy_bootcampPrepper.gif' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
         </div>
         <div class='row'>
             <div class='col-md-6 m-auto text-center d-none d-sm-none d-md-block'>
-                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='max-width:20rem'>
+                <img src='../pics/blog/giphy_bootcampPrepper.gif' class='img-fluid mx-auto my-3' style='max-width:20rem'>
             </div>
             <div class='col-md-6 p-1 my-auto'>
                 <span class='menloRegular chocolate px-4'>TLDR</span>
@@ -53,7 +53,10 @@ const blog12Body = `
                 Everything starts out fine.  You learn to define variables and do some arithmetic; <span class='text-white'>it's kinda fun</span>! That all changes once you dive into array methods and objects... ever heard of the phrase '<a href='https://english.stackexchange.com/questions/217400/usage-of-the-phrase-make-ones-eyes-bleed' target='_blank'>making your eyes bleed</a>’?  😢
             </p>
             <p style='margin: 0.5rem auto;'>
-                While I was wiping the bloody tears from my eyes, or otherwise had screen fatigue, I shifted my efforts to <span class='text-white'>learning how to learn</span>.  I picked up an audiobook called <a href='https://www.audible.com/pd/Ultralearning-Audiobook/0062945149?qid=1656715826&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=9PNQ8G63C3JN37SX16RF' target='_blank'>Ultralearning</a> (available in hardcopy too) and scoured the <a href='https://www.youtube.com/channel/UCVDOFoM5NXYrPoC02lbNJ-Q' target='_blank'>YouTubes</a> for any and all bootcamp related videos.  My takeaways:
+                While I was wiping the bloody tears from my eyes, or otherwise had screen fatigue, I shifted my efforts to <span class='text-white'>learning how to learn</span>.  I picked up an audiobook called <a href='https://www.audible.com/pd/Ultralearning-Audiobook/0062945149?qid=1656715826&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=9PNQ8G63C3JN37SX16RF' target='_blank'>Ultralearning</a> (available in hardcopy too) and scoured the <a href='https://www.youtube.com/channel/UCVDOFoM5NXYrPoC02lbNJ-Q' target='_blank'>YouTubes</a> for any and all bootcamp related videos.
+            </p>
+            <p class='cornflowerBlue menloRegular' style='margin: 0.5rem auto;'>
+                My takeaways:
             </p>
             <ol style='margin: -0.75rem 0rem -0.25rem 1.25rem;'>
                 <li><a href='https://www.forbes.com/sites/forbesbusinessdevelopmentcouncil/2021/08/03/building-a-mindset-for-success/?sh=734ab01977f8' target='_blank'>growth mindest</a> vs fixed mindset</li>
@@ -78,8 +81,8 @@ const blog12Body = `
             <img src='../pics/blog/giphy_bricks.gif' class='img-fluid mx-auto my-3 d-md-none' style='max-width:12rem' alt='Animated gif of an octopus laying bricks'>
             <div class='row'>
                 <div class='col-md-8'>
-                    <p style='margin: 0.5rem auto;'>
-                        The <span class='text-white'>teaching techniques</span> included:
+                    <p class='cornflowerBlue menloRegular' style='margin: 0.5rem auto;'>
+                        Teaching techniques included:
                     </p>
                     <ol style='margin: -0.75rem -1.5rem -0.25rem -0.25rem;'>
                         <li>code-along videos with the aforementioned professors</li>
@@ -101,8 +104,11 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 This is where I learned to read <a href='https://jestjs.io/' target='_blank'>Jest</a> unit-tests.  At first these cryptic statements were mystifying to look at.  However, once I found the Jest <span class='text-white'>documentation</span>, I was able to figure out the <span class='text-white'>patterns</span> and determine that the test wanted me to use a specific id tag (for example).
             </p>
+            <p class='cornflowerBlue menloRegular' style='margin: 0.5rem auto;'>
+                Closing out the first trimester...
+            </p>
             <p style='margin: 0.5rem auto;'>
-                To close out the first trimester, we were assigned a <span class='text-white'>portfolio project</span> (see <a href='#blog4Button'>blog[4]</a>), and three mini-projects (see <a href='#blog5Button'>blog[5]</a> and <a href='#blog6Button'>blog[6]</a>).  These mini-projects demonstrate our ability to manipulate the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction' target='_blank'>DOM</a> with JavaScript, and interact with an <a href='https://en.wikipedia.org/wiki/API' target='_blank'>API</a> to dynamically render data to our web application.  It also provided an opportunity to showcase our individual creativity by developing custom styling, additional features, and functionality.
+                We were assigned a <span class='text-white'>portfolio project</span> (see <a href='#blog4Button'>blog[4]</a>), and three mini-projects (see <a href='#blog5Button'>blog[5]</a> and <a href='#blog6Button'>blog[6]</a>).  These mini-projects demonstrate our ability to manipulate the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction' target='_blank'>DOM</a> with JavaScript, and interact with an <a href='https://en.wikipedia.org/wiki/API' target='_blank'>API</a> to dynamically render data to our web application.  It also provided an opportunity to showcase our individual creativity by developing custom styling, additional features, and functionality.
             </p>
             <p style='margin: 0.5rem auto;'>
                 More reflections coming up on <a href='./projects.html#bootcamp'>bootcamp projects</a> in general, as well as a recap of the second and third trimesters, where we cover <a href='https://reactjs.org/' target='_blank'>React</a> and back-end development (respectively).
@@ -120,7 +126,7 @@ const blog12Body = `
                     <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                 </div>
                 <p style="text-align:end;font-style:italic;color:white;">-Pete</p>
-                <p style="text-align:end;font-style:italic;color:white;">Jul 4, 2022</p>
+                <p style="text-align:end;font-style:italic;color:white;">Jul 2, 2022</p>
             </div>
         </div>
     </div>    
