@@ -160,6 +160,17 @@
         injectMyFooter();
         injectProjectsFeatured();
         changeFeaturedButton();
+
+        if (window.location.hash === '#bootcamp') {
+            changeCategoryButton();
+            injectProjectsCategory();
+            document.getElementById('bootcampProjects').scrollIntoView();
+        }
+
+        if (window.location.hash === '#oldest') {
+            changeOldestButton();
+            injectProjectsOldest();
+        }
     </script>
 </body>
 
