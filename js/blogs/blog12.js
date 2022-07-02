@@ -115,7 +115,7 @@ const blog12Body = `
                 More reflections coming up on <a href='./projects.html#bootcamp'>bootcamp projects</a> in general, as well as a recap of the second and third trimesters, where we cover <a href='https://reactjs.org/' target='_blank'>React</a> and back-end development (respectively).
             </p>
             <p style='margin: 0.5rem auto;'>
-                <span class='text-white'>Happy holiday weekend</span>, and <span class='text-white'>happy coding</span>!
+                <span class='text-white'>Happy Independence Day</span>, and <span class='text-white'>happy coding</span>!
             </p>
         </div>
         <div class="row">
