@@ -79,9 +79,9 @@ const blog12Body = `
                     <p style='margin: 0.5rem auto;'>
                         The <span class='text-white'>teaching techniques</span> included:
                     </p>
-                    <ol style='margin: -0.75rem 0rem -0.25rem -0.25rem;'>
+                    <ol style='margin: -0.75rem -1.5rem -0.25rem -0.25rem;'>
                         <li>code-along videos with the aforementioned professors</li>
-                        <li>reading material/documentation</li>
+                        <li>reading material / documentation</li>
                         <li><a href='https://next.tech/' target='_blank'>Next Tech</a> learning platform (<a href='https://en.wikipedia.org/wiki/Integrated_development_environment' target='_blank'>IDE</a> with auto-grader)</li>
                         <li>office hours with learning facilitators</li>
                     </ol>
