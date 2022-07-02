@@ -103,7 +103,7 @@ const blog12Body = `
             </p>
             <img src='../pics/about/jest_logo.gif' class='img-fluid mx-auto' style='max-width:6rem' alt='Jest logo'>
             <p style='margin: 0.5rem auto;'>
-                This is where I learned to read <a href='https://jestjs.io/' target='_blank'>Jest</a> unit-tests.  At first these cryptic statements were mystifying to look at.  However, once I found the Jest <span class='text-white'>documentation</span>, I was able to figure out the <span class='text-white'>patterns</span> and determine that the test wanted me to use a specific id tag (for example).
+                This is where I learned to read <a href='https://jestjs.io/' target='_blank'>Jest</a> <span class='text-white'>unit-tests</span>.  At first these cryptic statements were mystifying to look at.  However, once I found the Jest <span class='text-white'>documentation</span>, I was able to figure out the <span class='text-white'>patterns</span> and determine that the test wanted me to use a specific id tag (for example).
             </p>
             <p class='cornflowerBlue menloRegular' style='margin: 0.5rem auto;'>
                 Closing out the first trimester...
@@ -115,7 +115,7 @@ const blog12Body = `
                 More reflections coming up on <a href='./projects.html#bootcamp'>bootcamp projects</a> in general, as well as a recap of the second and third trimesters, where we cover <a href='https://reactjs.org/' target='_blank'>React</a> and back-end development (respectively).
             </p>
             <p style='margin: 0.5rem auto;'>
-                <span class='text-white'>Happy holiday weekend</span> and <span class='text-white'>happy coding</span>!
+                <span class='text-white'>Happy holiday weekend</span>, and <span class='text-white'>happy coding</span>!
             </p>
         </div>
         <div class="row">
