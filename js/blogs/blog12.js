@@ -15,6 +15,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 Below is a recap of how I prepared, for <span class='text-white menloRegular'>myCodingJourney</span>...
             </p>
+            <hr class='mt-3'>
             <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
         </div>
         <div class='row'>
@@ -33,6 +34,7 @@ const blog12Body = `
                 </ol>
             </div>
         </div>
+        <hr>
         <div class="row">
             <p style='margin: 0.5rem auto;'>
                 In Dec of 2021, I enrolled in a <span class='text-white'>full-time</span> full stack coding bootcamp at <a href='https://xpro.mit.edu/' target='_blank'>MIT xPRO</a>, where I would learn to develop and deploy web applications using the <a href='https://xpro.mit.edu/programs/program-v1:xPRO+PCCFTx/' target='_blank'>MERN stack</a>.  Classes started on Wed Feb 9, 2022.  This gave me about <span class='text-white'>6 weeks of preparation</span> time to position myself for success.
