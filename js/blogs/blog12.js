@@ -101,6 +101,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 The Next Tech learning platform reminded me of the freeCodeCamp IDE, except without ‘<a href='https://www.freecodecamp.org/news/freecodecamp-july-2021-summit/' target='_blank'>campfire</a>’ mode (I miss those <span class='text-white'>acoustic guitar keystrokes</span>!).  There were occasions where I thought I had completed the assignment as described in the procedure, but the auto-grader would not give me the green checkmark to proceed.
             </p>
+            <img src='../pics/about/jest_logo.gif' class='img-fluid mx-auto' style='max-width:6rem' alt='Jest logo'>
             <p style='margin: 0.5rem auto;'>
                 This is where I learned to read <a href='https://jestjs.io/' target='_blank'>Jest</a> unit-tests.  At first these cryptic statements were mystifying to look at.  However, once I found the Jest <span class='text-white'>documentation</span>, I was able to figure out the <span class='text-white'>patterns</span> and determine that the test wanted me to use a specific id tag (for example).
             </p>
