@@ -16,11 +16,11 @@ const blog12Body = `
                 Below is a recap of how I prepared, for <span class='text-white menloRegular'>myCodingJourney</span>...
             </p>
             <hr class='mt-3'>
-            <img src='../pics/blog/giphy_bootcampPrepper.gif' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
+            <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
         </div>
         <div class='row'>
             <div class='col-md-6 m-auto text-center d-none d-sm-none d-md-block'>
-                <img src='../pics/blog/giphy_bootcampPrepper.gif' class='img-fluid mx-auto my-3' style='max-width:20rem'>
+                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='max-width:20rem'>
             </div>
             <div class='col-md-6 p-1 my-auto'>
                 <span class='menloRegular chocolate px-4'>TLDR</span>
