@@ -162,6 +162,16 @@ h6 {
     opacity: 0.75;
 }
 
+.linkLogo {
+    transition: all 0.25s ease-in-out;
+    opacity: 0.75;
+}
+
+.linkLogo:hover {
+    opacity: 1;
+    background-color: lime;
+}
+
 /* typeWriter below */
 #typeWriter {
     margin: 0 auto;
