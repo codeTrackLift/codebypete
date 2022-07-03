@@ -15,12 +15,11 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 Below is a recap of how I prepared, for <span class='text-white menloRegular'>myCodingJourney</span>...
             </p>
-            <hr class='mt-3'>
-            <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3 d-md-none' style='max-width:20rem'>
         </div>
         <div class='row'>
-            <div class='col-md-6 m-auto text-center d-none d-sm-none d-md-block'>
-                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='max-width:20rem'>
+            <hr class='mt-3'>
+            <div class='col-md-6 m-auto text-center'>
+                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='width:20rem'>
             </div>
             <div class='col-md-6 p-1 my-auto'>
                 <span class='menloRegular chocolate px-4'>TLDR</span>
@@ -45,7 +44,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
             At that point, I didn't even know what the <a href='https://javascript.plainenglish.io/why-using-the-mern-stack-is-a-popular-start-up-app-idea-87a4a0e8ebbf' target='_blank'>MERN stack</a> was.  So, it seemed logical to start with understanding the curriculum.  After reviewing the available documentation and a bit of time on <a href='https://www.youtube.com/channel/UCVDOFoM5NXYrPoC02lbNJ-Q' target='_blank'>YouTube</a>, I came to understand that the MERN stack consisted of <a href='https://mongodb.com/' target='_blank'>MongoDB</a>, <a href='https://expressjs.com/' target='_blank'>Express</a>, <a href='https://expressjs.com/' target='_blank'>React</a>, and <a href='https://nodejs.org/en/' target='_blank'>Node</a>.  All of which use <a href='https://www.javascript.com/' target='_blank'>JavaScript</a>.  
             </p>
-            <img src='../pics/about/mernStackTrans.png'class='img-fluid mx-auto' style='max-width:20rem'>
+            <img src='../pics/about/mernStackTrans.png'class='img-fluid mx-auto' style='width:20rem'>
             <p style='margin: 0.5rem auto;'>
                 Since I had already dabbled with <a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp</a> (and since <span class='text-white'>it is free</span>), I decided to target completion of the <a href='https://www.freecodecamp.org/learn/2022/responsive-web-design/' target='_blank'>Responsive Web Design</a> and <a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/' target='_blank'>JavaScript Algorithms and Data Structures</a> certificates before bootcamp began.  HTML and CSS were a ton of fun and I burned through that in about 2 weeks.  <span class='text-white'>JavaScript</span> was a <span class='text-white'>completely different beast</span>…
             </p>
@@ -78,7 +77,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 Since this wasn’t my first time with these <span class='text-white'>fundamentals</span>, I was able to focus on polishing and refining what I had already learned.  But <span class='text-white'>more importantly</span>, this made it easier to pick up on new methods as I had an existing <span class='text-white'>foundation</span> to build upon.
             </p>
-            <img src='../pics/blog/giphy_bricks.gif' class='img-fluid mx-auto my-3 d-md-none' style='max-width:12rem' alt='Animated gif of an octopus laying bricks'>
+            <img src='../pics/blog/giphy_bricks.gif' class='img-fluid mx-auto my-3 d-md-none' style='width:12rem' alt='Animated gif of an octopus laying bricks'>
             <div class='row'>
                 <div class='col-md-8'>
                     <p class='cornflowerBlue menloRegular' style='margin: 0.5rem auto;'>
@@ -92,7 +91,7 @@ const blog12Body = `
                     </ol>
                 </div>
                 <div class='col-md-4 m-auto text-center d-none d-sm-none d-md-block'>
-                    <img src='../pics/blog/giphy_bricks.gif' class='img-fluid mx-auto my-3' style='max-width:12rem' alt='Animated gif of an octopus laying bricks'>
+                    <img src='../pics/blog/giphy_bricks.gif' class='img-fluid mx-auto my-3' style='width:12rem' alt='Animated gif of an octopus laying bricks'>
                 </div>
             </div>
             <p style='margin: 0.5rem auto;'>
@@ -101,7 +100,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
                 The Next Tech learning platform reminded me of the freeCodeCamp IDE, except without ‘<a href='https://www.freecodecamp.org/news/freecodecamp-july-2021-summit/' target='_blank'>campfire</a>’ mode (I miss those <span class='text-white'>acoustic guitar keystrokes</span>!).  There were occasions where I thought I had completed the assignment as described in the procedure, but the auto-grader would not give me the green checkmark to proceed.
             </p>
-            <img src='../pics/about/jest_logo.gif' class='img-fluid mx-auto' style='max-width:6rem' alt='Jest logo'>
+            <img src='../pics/about/jest_logo.gif' class='img-fluid mx-auto' style='width:6rem' alt='Jest logo'>
             <p style='margin: 0.5rem auto;'>
                 This is where I learned to read <a href='https://jestjs.io/' target='_blank'>Jest</a> <span class='text-white'>unit-tests</span>.  At first these cryptic statements were mystifying to look at.  However, once I found the Jest <span class='text-white'>documentation</span>, I was able to figure out the <span class='text-white'>patterns</span> and determine that the test wanted me to use a specific id tag (for example).
             </p>
@@ -120,15 +119,15 @@ const blog12Body = `
         </div>
         <div class="row">
             <div class='col-sm-6'>
-                <img src="../pics/about/crushItApple.jpg" alt="Apple logo with CrushIt sticker" class="img-fluid mt-2" style='opacity:0.75; max-width:6rem;border-radius:100vw;'>
+                <img src="../pics/about/crushItApple.jpg" alt="Apple logo with CrushIt sticker" class="img-fluid mt-2" style='opacity:0.75; width:6rem;border-radius:100vw;'>
             </div>
             <div class="my-auto text-end col-sm-6">
                 <div class="text-end">
                 <a href="https://www.linkedin.com/posts/codebypete_reactjs-nextjs-sass-activity-6949117987429785600-4QwH" target="_blank" rel='noreferrer'>
-                    <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6.5rem) translateY(-1rem);border-radius:4px;'>
+                    <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='width:2rem;transform:translateX(6.5rem) translateY(-1rem);border-radius:4px;'>
                 </a>
                 <a href="https://twitter.com/codeTrackLift/status/1543354561749999619?s=20&t=zop7IT83PRTde6FuEslvag" target="_blank" rel='noreferrer'>
-                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(7.5rem) translateY(-1rem);'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='width:2rem;border-radius:50%;transform:translateX(7.5rem) translateY(-1rem);'>
                 </a>
                     <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                 </div>
