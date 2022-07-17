@@ -125,7 +125,7 @@ const blog13Body = `
                     <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='max-width:2rem;transform:translateX(-1rem) translateY(1rem);border-radius:4px;'>
                 </a>
                 <a href="https://twitter.com/codeTrackLift/status/1548782086252859392?s=20&t=0LHVGpfEEEF2sDIUjrvrRw" target="_blank" rel='noreferrer'>
-                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(0.5rem) translateY(1rem);'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateY(1rem);'>
                 </a>
                 <div class="text-end">
                     <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
