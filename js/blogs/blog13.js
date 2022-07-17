@@ -13,7 +13,7 @@ const blog13Body = `
                 Did you ever <span class='text-white'>discover something</span> about yourself that was <span class='text-white'>unexpected</span>?
             </p>
             <p style='margin: 0.5rem auto;'>
-                This is what happened when I had the opportunity to make, a "<span class='text-white'>User Interface Experiment</span>"...
+                This is what happened when I had the opportunity to make, a '<span class='text-white'>User Interface Experiment</span>'...
             </p>
         </div>
         <div class='row'>
@@ -47,7 +47,7 @@ const blog13Body = `
                 <img src='../pics/blog/pullShark.gif' class='img-fluid dropShadow' alt='Pull shark badge'>
             </a>
             <p style='margin: 0.5rem auto;'>
-                Nonetheless... the thought of creating something that may be "<span class='text-white'>showcased</span>" at <a href='https://www.forbes.com/' target='_blank'>Forbes Media</a>... well, that was still <span class='text-white'>rather intimidating</span>. 😅
+                Nonetheless... the thought of creating something that may be '<span class='text-white'>showcased</span>' at <a href='https://www.forbes.com/' target='_blank'>Forbes Media</a>... well, that was still <span class='text-white'>rather intimidating</span>. 😅
             </p>
             <p style='margin: 0.5rem auto;'>
                 With an opportunity to contribute to the UI Showcase, I decided to try something new and learn a different library for React Animations.
@@ -56,10 +56,10 @@ const blog13Body = `
                 What do I make?
             </p>
             <p style='margin: 0.5rem auto;'>
-                My mind was an empty cup, which can work great for learning and a "student-mentality."  For creativity... Not so much.
+                My mind was an empty cup, which can work great for learning and a 'student-mentality.'  For creativity... Not so much.
             </p>
             <p style='margin: 0.5rem auto;'>
-                So, <span class='text-white'>I started by establishing an objective</span>.  The "<span class='text-white'>purpose</span>" of my UI Experiment, would be to re-imagine an existing feature from <a href='https://www.forbes.com' target='_blank'>Forbes.com</a>.
+                So, <span class='text-white'>I started by establishing an objective</span>.  The '<span class='text-white'>purpose</span>' of my UI Experiment, would be to re-imagine an existing feature from <a href='https://www.forbes.com' target='_blank'>Forbes.com</a>.
             </p>
             <p style='margin: 0.5rem auto;'>
                 I decided to target image carousels, and used my previous '<a href='#blog8Button'>stock-ticker</a>' project component as a starting point.  The first draft was functional, but looked like a website from the early 2000's. 😆

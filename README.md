@@ -14,11 +14,12 @@ Thanks for visiting my portfolio. This repository is intended to showcase my pro
 ## How to Run
 
 This portfolio includes the following sections:
-1. About Me
-2. My Blog
-3. Projects
-4. Resume
-5. Contact Form
+1. Welcome
+2. About Me
+3. My Blog
+4. Projects
+5. Resume
+6. Contact Form
 
 ## Future Roadmap
 - [x] Refactor with Bootstrap
