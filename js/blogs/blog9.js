@@ -48,6 +48,12 @@ const blog9Body = `
         <div class="my-auto col-sm-6">
             <div class="text-end">
                 <p>Happy coding!</p>
+                <a href="https://www.linkedin.com/posts/codebypete_reactjs-mongodb-expressjs-activity-6937446443842494465-pce6" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6.5rem) translateY(-1rem);border-radius:4px;'>
+                </a>
+                <a href="https://twitter.com/codeTrackLift/status/1531682636141297664?s=20&t=lPZhgtVkhQGGVO50Pf7F6w" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(7.5rem) translateY(-1rem);'>
+                </a>
                 <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
             </div>
             <p style="text-align:end;font-style:italic;color:white;">-Pete</p>

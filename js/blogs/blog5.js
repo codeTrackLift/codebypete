@@ -26,8 +26,14 @@ const blog5Body = `
             <p ${blog5pStyle} class="col-sm-4">Both projects are <span class="text-white menloRegular">fully responsive</span> and <span class="text-white menloRegular">mobile compatible</span>. Please check out the demos or view the GitHub Repositories from my <a href="../pages/projects.html#animatedHeadCard">Projects</a> page.</p>
         </div>
         <div class="'container-fluid row text-end">
-            <div>
+            <div class="text-end">
                 <p>Happy coding!</p>
+                <a href="https://twitter.com/codeTrackLift/status/1503785308030181379?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6.5rem) translateY(-1rem);border-radius:50%;'>
+                </a>
+                <a href="https://twitter.com/codeTrackLift/status/1502726102091022340?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(7.5rem) translateY(-1rem) rotateY(180deg);'>
+                </a>
                 <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
             </div>
             <div class="my-auto">

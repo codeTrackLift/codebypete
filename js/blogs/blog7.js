@@ -27,6 +27,12 @@ const blog7Body = `
         <div class="'container-fluid row">
             <div class="text-end">
                 <p>Happy coding!</p>
+                <a href="https://www.linkedin.com/posts/codebypete_reactjs-javascript-html5-activity-6923407311520595968-1P-A" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6.5rem) translateY(-1rem);border-radius:4px;'>
+                </a>
+                <a href="https://twitter.com/codeTrackLift/status/1517640153182912519?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(7.5rem) translateY(-1rem);'>
+                </a>
                 <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
             </div>
             <div class="my-auto">

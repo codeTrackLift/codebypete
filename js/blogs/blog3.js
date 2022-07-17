@@ -84,6 +84,9 @@ const blog3Body = `
                 <p>Thank you for visiting, and happy coding!</p>
             </div>
             <div class="text-end col-sm-6 my-auto">
+                <a href="https://twitter.com/codeTrackLift/status/1498447060634320897?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6rem) translateY(-0.5rem);border-radius:50%;'>
+                </a>
                 <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                 <p style="font-style:italic;color:white;">-Pete</p>
                 <p style="font-style:italic;color:white;">Feb 27, 2022</p>

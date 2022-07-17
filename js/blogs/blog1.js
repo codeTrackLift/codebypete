@@ -29,6 +29,9 @@ const blog1Body = `
         </ol>
         <p style="padding-top:-1rem; padding-bottom:2rem;">Please let me know with any suggestions, or comments. Thank you again for visiting my site, and happy coding!</p>
         <div class='text-end'>
+            <a href="https://twitter.com/codeTrackLift/status/1494052840129667077?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;transform:translateX(6rem) translateY(-0.5rem);border-radius:50%;'>
+            </a>
             <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translate(-2rem)'>
             <p style="font-style:italic;color:white;">-Pete</p>
             <p style="font-style:italic;color:white;">Feb 16, 2022</p>

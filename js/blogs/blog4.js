@@ -96,6 +96,9 @@ const blog4Body = `
                         <div class="text-end">
                             <p>Happy coding!</p>
                         </div>
+                        <a href="https://twitter.com/codeTrackLift/status/1500199864084348936?s=20&t=Uo-Gd9kScpktmz4XdxwiqA" target="_blank" rel='noreferrer'>
+                            <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;transform:translateX(5rem) translateY(1rem);border-radius:50%;'>
+                        </a>
                         <div class="my-auto">
                             <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                             <p style="text-align:end;font-style:italic;color:white;">-Pete</p>
