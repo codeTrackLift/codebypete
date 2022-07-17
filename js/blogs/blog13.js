@@ -49,9 +49,6 @@ const blog13Body = `
             <p style='margin: 0.5rem auto;'>
                 Nonetheless... the thought of creating something that may be '<span class='text-white'>showcased</span>' at <a href='https://www.forbes.com/' target='_blank'>Forbes Media</a>... well, that was still <span class='text-white'>rather intimidating</span>. 😅
             </p>
-            <p style='margin: 0.5rem auto;'>
-                With an opportunity to contribute to the UI Showcase, I decided to try something new and learn a different library for React Animations.
-            </p>
             <p style='margin: 0.5rem auto;' class='menloRegular cornflowerBlue'>
                 What do I make?
             </p>
