@@ -83,7 +83,8 @@ ol {
     border: 1px solid transparent;
 }
 
-#blog9ReactLogo {
+#blog9ReactLogo,
+#blog13ReactLogo {
     animation: slowspin 20s infinite linear;
 }
 

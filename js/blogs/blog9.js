@@ -1,7 +1,7 @@
 const blog9Body = `
     <div class="accordion-body">
         <div class="d-flex justify-content-evenly">
-            <img id='blog9ReactLogo' src="../pics/about/reactLogo.svg" class="img-fluid p-3 w-25" alt="MIT xCHANGE Logo" style="max-width:8rem;">
+            <img id='blog9ReactLogo' src="../pics/about/reactLogo.svg" class="img-fluid p-3 w-25" alt="React Logo" style="max-width:8rem;">
             <h4 class="text-center my-auto">Greetings!</h4>
         </div>
         <div class="row">
