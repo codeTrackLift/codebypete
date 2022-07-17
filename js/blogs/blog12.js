@@ -19,7 +19,7 @@ const blog12Body = `
         <div class='row'>
             <hr class='mt-3'>
             <div class='col-md-6 m-auto text-center'>
-                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='width:20rem'>
+                <img src='../pics/blog/bootcampPrepper.jpg' class='img-fluid mx-auto my-3' style='width:20rem' alt='Bootcamp prepper, camping on mountain top'>
             </div>
             <div class='col-md-6 p-1 my-auto'>
                 <span class='menloRegular chocolate px-4'>TLDR</span>
@@ -44,7 +44,7 @@ const blog12Body = `
             <p style='margin: 0.5rem auto;'>
             At that point, I didn't even know what the <a href='https://javascript.plainenglish.io/why-using-the-mern-stack-is-a-popular-start-up-app-idea-87a4a0e8ebbf' target='_blank'>MERN stack</a> was.  So, it seemed logical to start with understanding the curriculum.  After reviewing the available documentation and a bit of time on <a href='https://www.youtube.com/channel/UCVDOFoM5NXYrPoC02lbNJ-Q' target='_blank'>YouTube</a>, I came to understand that the MERN stack consisted of <a href='https://mongodb.com/' target='_blank'>MongoDB</a>, <a href='https://expressjs.com/' target='_blank'>Express</a>, <a href='https://expressjs.com/' target='_blank'>React</a>, and <a href='https://nodejs.org/en/' target='_blank'>Node</a>.  All of which use <a href='https://www.javascript.com/' target='_blank'>JavaScript</a>.  
             </p>
-            <img src='../pics/about/mernStackTrans.png'class='img-fluid mx-auto' style='width:20rem'>
+            <img src='../pics/about/mernStackTrans.png'class='img-fluid mx-auto' style='width:20rem' alt='MERN stack logo'>
             <p style='margin: 0.5rem auto;'>
                 Since I had already dabbled with <a href='https://www.freecodecamp.org/' target='_blank'>freeCodeCamp</a> (and since <span class='text-white'>it is free</span>), I decided to target completion of the <a href='https://www.freecodecamp.org/learn/2022/responsive-web-design/' target='_blank'>Responsive Web Design</a> and <a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/' target='_blank'>JavaScript Algorithms and Data Structures</a> certificates before bootcamp began.  HTML and CSS were a ton of fun and I burned through that in about 2 weeks.  <span class='text-white'>JavaScript</span> was a <span class='text-white'>completely different beast</span>…
             </p>
