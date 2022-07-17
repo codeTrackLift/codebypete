@@ -87,7 +87,7 @@ const blog13Body = `
                 Contributing to the UI Showcase
             </p>
             <p style='margin: 0.5rem auto;'>
-                This involving making a <span class='text-white'>pull request</span>, obtaining <span class='text-white'>reviewer approvals</span>, then ensuring the subsequent <span class='text-white'>build</span> and <span class='text-white'>deploy workflows</span> successfully completed. 
+                This involves making a <span class='text-white'>pull request</span>, obtaining <span class='text-white'>reviewer approvals</span>, then ensuring the subsequent <span class='text-white'>build</span> and <span class='text-white'>deploy workflows</span> successfully completed. 
             </p>
             <p style='margin: 0.5rem auto;'>
                 Next step was to <span class='text-white'>share my UI Experiment</span>.
@@ -97,7 +97,7 @@ const blog13Body = `
             </p>
             <img src='../pics/blog/giphy_notWorthy.gif' class='img-fluid mx-auto my-3' style='width:20rem' alt='Wayne's World, Wayne and Garth bowing -- not worthy'>
             <p style='margin: 0.5rem auto;'>
-                After making the post, I quickly switched off that Slack channel and decided to work on another ticket (my way to pretend that all it never happened). 
+                After making the post, I quickly switched off that Slack channel and decided to work on another ticket (my way to pretend that it never happened 😣). 
             </p>
             <p style='margin: 0.5rem auto;' class='menloRegular cornflowerBlue'>
                 Regrets?
