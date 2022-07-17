@@ -1,3 +1,4 @@
+let blog13OpenStatus = false;
 let blog12OpenStatus = false;
 let blog11OpenStatus = false;
 let blog10OpenStatus = false;
@@ -13,6 +14,7 @@ let blog1OpenStatus = false;
 let blog0OpenStatus = false;
 
 const resetBlogOpenStatus = () => {
+    blog13OpenStatus = false;
     blog12OpenStatus = false;
     blog11OpenStatus = false;
     blog10OpenStatus = false;
@@ -117,8 +119,13 @@ if (window.location.hash) {
     setTimeout(hash);
 }
 
-// if (window.location.hash === '#blog13') {
-//     blogIndex.unshift(
-
-//     )
-// }
+if (window.location.hash === '#blog13') {
+    blogIndex.unshift(
+        {
+            id: 13,
+            number: 'Thirteen',
+            title: 'UI Experiments',
+            date: 'Jul 17, 2022'
+        },
+    )
+}

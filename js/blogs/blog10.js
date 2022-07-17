@@ -18,13 +18,13 @@ const blog10Body = `
         <div class="row">
             <div class="col-sm-6 my-3">
                 <div class='text-center'><u>Video 1</u></div>
-                <iframe id='blog8Video' class='container-fluid ratio-16x9' src="https://youtube.com/embed/yvSPJEmRH1w" frameborder="0" allowfullscreen>
+                <iframe class='container-fluid ratio-16x9' src="https://youtube.com/embed/yvSPJEmRH1w" frameborder="0" allowfullscreen>
                 </iframe>
                 <span>Application overview, frontend architecture, and authentication.</span>
             </div>
             <div class="col-sm-6 my-3">
                 <div class='text-center'><u>Video 2</u></div>
-                <iframe id='blog8Video' class='container-fluid ratio-16x9' src="https://youtube.com/embed/-0C40KMb4Nc" frameborder="0" allowfullscreen>
+                <iframe class='container-fluid ratio-16x9' src="https://youtube.com/embed/-0C40KMb4Nc" frameborder="0" allowfullscreen>
                 </iframe>
                 <span>Database, data abstraction layer, and API.</span>
             </div>
@@ -32,7 +32,7 @@ const blog10Body = `
         <div class="row">
         <div class="col-sm-6 my-3">
             <div class='text-center'><u>Video 3</u></div>
-            <iframe id='blog8Video' class='container-fluid ratio-16x9' src="https://youtube.com/embed/sS5UZLYyZs4" frameborder="0" allowfullscreen>
+            <iframe class='container-fluid ratio-16x9' src="https://youtube.com/embed/sS5UZLYyZs4" frameborder="0" allowfullscreen>
             </iframe>
             <span>Deployment, hosting, troubleshooting, and reflections.</span>
         </div>
