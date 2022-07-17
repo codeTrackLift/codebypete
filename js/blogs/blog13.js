@@ -115,11 +115,18 @@ const blog13Body = `
                 One of the developers gave me some really <span class='text-white'>great feedback</span> about removing the '<span class='text-white'>filler text</span>,' which produced an overall <span class='text-white'>cleaner presentation</span>.  Thank you for the feedback! 😃
             </p>
             <p style='margin: 0.5rem auto;'>
-                <span class='text-white'>Thank you Forbes</span> for making the <a href='https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web' target='_blank'>opportunity</a>, and <span class='text-white'>experience</span>, possible.  Happy coding to all!
+                <span class='text-white'>Thank you Forbes</span> for making the <a href='https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web' target='_blank'>opportunity</a>, and <span class='text-white'>experience</span>, possible.
             </p>
         </div>
         <div>
             <div class="my-auto text-end">
+                <p>Happy coding!</p>
+                <a href="https://www.linkedin.com/posts/codebypete_reactjs-reactdeveloper-javascript-activity-6954544757037527040-wCrT" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/linkedin_white.png' class='linkLogo' alt="LinkedIn Icon" class='img-fluid' style='max-width:2rem;transform:translateX(-1rem) translateY(1rem);border-radius:4px;'>
+                </a>
+                <a href="https://twitter.com/codeTrackLift/status/1548782086252859392?s=20&t=0LHVGpfEEEF2sDIUjrvrRw" target="_blank" rel='noreferrer'>
+                    <img src='../pics/contact/Twitter_social_icons-circle-white.png' class='linkLogo' alt="Twitter Icon" class='img-fluid' style='max-width:2rem;border-radius:50%;transform:translateX(0.5rem) translateY(1rem);'>
+                </a>
                 <div class="text-end">
                     <img src="../pics/about/profilepic.gif" alt="Picture of Pete" class="profilePic" style='transform:translateX(-2rem)'>
                 </div>
