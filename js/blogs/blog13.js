@@ -106,10 +106,7 @@ const blog13Body = `
                 Also <span class='text-white'>learned</span> something <span class='text-white'>about myself</span>... I had <span class='text-white'>always</span> considered myself to be more on the <span class='text-white'>analytical</span> side.  <span class='text-white'>Never</span> thought of myself as someone who enjoyed <span class='text-white'>creativity</span>.
             </p>
             <p style='margin: 0.5rem auto;'>
-                Aside from that, I <span class='text-white'>met some new developers</span> in response to sharing the experiment. <span class='text-white'>Made some new connections</span>, and maybe even some new friends.
-            </p>
-            <p style='margin: 0.5rem auto;'>
-                One of the developers gave me some really <a href='https://www.forbes.com/sites/forbescommunicationscouncil/2022/01/11/how-to-give-and-receive-feedback-to-strengthen-your-work/' target='_blank'>great feedback</a> about removing the '<span class='text-white'>filler text</span>,' which produced an overall <span class='text-white'>cleaner presentation</span>.  Thank you for the feedback! 😃
+                Aside from that, I <span class='text-white'>met some new developers</span> in response to sharing the experiment. One of the developers gave me some really <a href='https://www.forbes.com/sites/forbescommunicationscouncil/2022/01/11/how-to-give-and-receive-feedback-to-strengthen-your-work/' target='_blank'>great feedback</a> about removing the '<span class='text-white'>filler text</span>,' which produced an overall <span class='text-white'>cleaner presentation</span>.  Thank you for the feedback! 😃
             </p>
             <p style='margin: 0.5rem auto;'>
                 <span class='text-white'>Thank you Forbes</span> for making the <a href='https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web' target='_blank'>opportunity</a> (and <span class='text-white'>experience</span>) possible.
