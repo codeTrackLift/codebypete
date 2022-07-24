@@ -9,7 +9,13 @@
 <img src='./pics/projects/giphycBP.gif' alt='VS Code logo' height='90'> <img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
 
 ## About
-Thanks for visiting my portfolio. This repository is intended to showcase my progression as a Full Stack Web Developer, and includes projects developed during my self-taught journey and MIT xPro Coding Bootcamp.
+Hello! 
+
+My name is Pete.  Thank you for visiting my portfolio!
+
+I was a 'Pharmaceutical Engineer' for two decades.  This repository is intended to showcase my progression as a Web Developer.
+
+My portfolio includes projects developed during my self-taught journey, [MIT xPro Coding Bootcamp](https://www.linkedin.com/posts/codebypete_reactjs-nextjs-sass-activity-6949117987429785600-4QwH), and [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr).
 
 ## How to Run
 
@@ -19,7 +25,7 @@ This portfolio includes the following sections:
 3. My Blog
 4. Projects
 5. Resume
-6. Contact Form
+6. Contact
 
 ## Future Roadmap
 - [x] Refactor with Bootstrap
