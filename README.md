@@ -11,9 +11,9 @@
 ## About
 Hello! 
 
-My name is Pete.  Thank you for visiting my portfolio!
+My name is Pete. Thank you for visiting my portfolio!
 
-I was a 'Pharmaceutical Engineer' for two decades.  This repository is intended to showcase my progression as a Web Developer.
+I was a 'Pharmaceutical Engineer' for two decades. This repository is intended to showcase my progression as a Web Developer.
 
 My portfolio includes projects developed during my self-taught journey, [MIT xPro Coding Bootcamp](https://www.linkedin.com/posts/codebypete_reactjs-nextjs-sass-activity-6949117987429785600-4QwH), and [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr).
 
