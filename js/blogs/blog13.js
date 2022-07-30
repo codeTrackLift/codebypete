@@ -84,7 +84,7 @@ const blog13Body = `
                 Contributing to the UI Showcase
             </p>
             <p style='margin: 0.5rem auto;'>
-                This involves making a <span class='text-white'>pull request</span>, obtaining <span class='text-white'>reviewer approvals</span>, then ensuring the subsequent <span class='text-white'>build</span> and <span class='text-white'>deploy workflows</span> successfully completed. 
+                This involves making a <span class='text-white'>pull request</span>, obtaining <span class='text-white'>reviewer approvals</span>, then ensuring the subsequent <span class='text-white'>build</span> and <span class='text-white'>deploy workflows</span> successfully complete.
             </p>
             <p style='margin: 0.5rem auto;'>
                 Next step was to <span class='text-white'>share my UI Experiment</span>.
