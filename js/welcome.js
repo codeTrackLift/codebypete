@@ -71,7 +71,7 @@ const myWelcome = `
         <div id='bottomNav' class="container-fluid mt-5">
             <h5 class="menloRegular text-silver textShadowBlack text-center mx-auto" style="max-width:860px;">Let me know you visited...</h5>
             <div class="container-fluid text-center mt-4" style="max-width:480px;">
-                <a id='buttonContact' href="../pages/contact.html" class="btn btn-secondary btnDark">Contact Me</a>
+                <a id='buttonContact' href="../pages/contact.html" class="btn btn-secondary btnDark">Contact</a>
         </div>
     </div>
 
