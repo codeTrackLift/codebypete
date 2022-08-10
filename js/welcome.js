@@ -8,15 +8,17 @@ const myWelcome = `
         </div>
 
         <div id='welcomeCard1' class="card col-sm-4" style="width: 18rem;">
-            <img src="../pics/about/crushItApple.jpg" class="card-img-top mx-auto" alt="Pac Man image" style="width:10rem;">
+            <a href='https://www.forbes.com/sites/forbesdigitalgroup/2022/08/10/8-weeks-as-a-43-year-old-software-engineering-intern' target='_blank' class='text-center'>
+                <img src="../pics/about/forbesLogo.png" class="card-img-top mx-auto" alt="Forbes logo" style="width:14rem;">
+            </a>
             <div class="card-body">
-                <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
-                <p class="card-text">University of Delaware, Degree in Biological Sciences</p>
-                <p class="card-text">20 year pharmaceutical professional</p>
-                <p class="card-text">Investing in myself to pursue a childhood passion</p>
+                <h5 class="card-title" style="color:cornflowerblue">Frontend Engineering</h5>
+                <p class="card-text">Read <a href='https://www.forbes.com/sites/forbesdigitalgroup/2022/08/10/8-weeks-as-a-43-year-old-software-engineering-intern' target='_blank'>my article</a> published on Forbes.com</p>
+                <p class="card-text">Demo projects and see my progression</p>
+                <p class="card-text">View my source code or documentation on GitHub</p>
                 <div class="btnContainer mt-3">
-                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
-                    <a href="../pages/blog.html" class="btn btn-secondary">Blog</a>
+                    <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
+                    <a href="../pages/blog.html" class="btn btn-secondary btnDark">Blog</a>    
                 </div>
             </div>
         </div>
@@ -43,20 +45,17 @@ const myWelcome = `
         </div>
 
         <div id='welcomeCard2' class="card col-sm-4" style="width: 18rem;">
-            <iframe class='container-fluid ratio ratio-1x1 pt-4' src="https://youtube.com/embed/L2MLboXUkUA" frameborder="0" allowfullscreen>
-            </iframe>
+            <img src="../pics/about/crushItApple.jpg" class="card-img-top mx-auto" alt="Crush it sticker on an Apple logo" style="width:10rem;">
             <div class="card-body">
-                <h5 class="card-title" style="color:cornflowerblue">See My Work</h5>
-                <p class="card-text">Demo projects and see my progression</p>
-                <p class="card-text">View my source code or documentation on GitHub</p>
-                <p class="card-text">Review my qualificatons and work experience</p>
+                <h5 class="card-title" style="color:cornflowerblue">Passionate About Code</h5>
+                <p class="card-text">University of Delaware, Degree in Biological Sciences</p>
+                <p class="card-text">20 year pharmaceutical professional</p>
+                <p class="card-text">Investing in myself to pursue a childhood passion</p>
                 <div class="btnContainer mt-3">
-                    <a href="../pages/projects.html" class="btn btn-secondary">Projects</a>
-                    <a href="../pages/resume.html" class="btn btn-secondary btnDark">Resume</a>
-                    
+                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
+                    <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
                 </div>
             </div>
-            
         </div>
 
         <div class="myArticles container-fluid text-center mt-4">
