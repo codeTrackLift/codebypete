@@ -318,7 +318,7 @@
 #typeWriter2::before {
     width: 100vw;
     background: black;
-    animation: write 1.5s steps(28) 0.5s forwards;
+    animation: write 1.5s steps(21) 0.5s forwards;
     animation-delay: 5.25s;
 }
 
@@ -326,7 +326,7 @@
     opacity: 1;
     width: 0.15em;
     background: black;
-    animation: write 1.5s steps(28) 0.5s forwards, blink 0.75s reverse steps(28) 3;
+    animation: write 1.5s steps(21) 0.5s forwards, blink 0.75s reverse steps(21) 3;
     animation-delay: 5.25s;
 }
 
