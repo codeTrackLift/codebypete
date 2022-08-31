@@ -1,6 +1,6 @@
 const scrollTainerCard = `
     <div id='scrollTainerCard' class="card col-sm-4" style="width: 18rem;">
-        <img src="../pics/projects/scrollTainerM2CS.jpg" class="card-img-top m-auto img-fluid pt-2" style='width: 10rem;' alt="MIT scrollTainer animated gif with stock ticker.">
+        <img src="../pics/projects/scrollTainerM2CS.jpg" class="card-img-top m-auto img-fluid pt-2" style='width: 10rem;' alt="BMW M2 CS, which is a featured asset in the ScrollTainer UI Experiment.">
         <div class="card-body">
             <h5 class="card-title">ScrollTainer UI Experiment</h5>
             <p class="card-text">This "<span class='text-white'>mini-project</span>" was developed during my <a href='https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/' target='_blank'>Forbes Media internship</a>.  Built with <span class='text-white'>React</span> and <span class='text-white'>Framer-motion</span> for animations.</p>

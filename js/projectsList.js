@@ -63,6 +63,7 @@ const injectProjectsFeatured = () => {
     
     
     projectsContainer.innerHTML += progressionSection;
+    injectTiltCard(progressionProjects);
     injectMernGoalsCard(progressionProjects);
     injectxChangeCard(progressionProjects);
     injectTodoCard(progressionProjects);
@@ -99,6 +100,7 @@ const injectProjectsCategory = () => {
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;
     const selfTaughtProjects = document.getElementById('selfTaughtProjects');
+    injectTiltCard(selfTaughtProjects);
     injectScrollTainerCard(selfTaughtProjects);
     injectMernGoalsCard(selfTaughtProjects);
     injectPomodoroCard(selfTaughtProjects);
@@ -130,4 +132,5 @@ const injectProjectsOldest = () => {
     injectMernGoalsCard(oldestProjects);
     injectxChangeMernCard(oldestProjects);
     injectScrollTainerCard(oldestProjects);
+    injectTiltCard(oldestProjects);
 }

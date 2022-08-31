@@ -4,7 +4,7 @@ const myWelcome = `
 
     <div class="row container-fluid">
         <div class="text-center mb-4">
-            <h5 class='menloRegular textShadowBlack text-silver'><span class='text-white'>Join me</span>, on <a href="../pages/blog.html">myCodingJourney</a>...</h5>
+            <h5 class='menloRegular textShadowBlack text-silver'>/* please visit my new portfolio at <a href="https://www.codebypete.com/">codebypete.com</a> */</h5>
         </div>
 
         <div id='welcomeCard1' class="card col-sm-4" style="width: 18rem;">
