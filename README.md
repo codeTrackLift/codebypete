@@ -1,6 +1,6 @@
-# <img src='./pics/about/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***codeByPete*** | Portfolio <img src='./pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='20'>
+# <img src='./pics/about/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***codeByPete*** | Old Portfolio <img src='./pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='20'>
 
->Please visit [codeByPete.com](https://www.codebypete.com) to join me, on ***myCodingJourney***.  
+>Please visit [codetracklift.github.io/codebypete](https://codetracklift.github.io/codebypete) to check out ***myCodingJourney***.  
 
 <img src='./pics/about/html5_logo.gif' alt='HTML5 logo' height='45'> <img src='./pics/about/css3_logo.gif' alt='CSS3 logo' height='45'> <img src='./pics/about/javascript_logo.gif' alt='JavaScript logo' height='45'> <img src='./pics/about/bootstrap-logo.svg' alt='Bootstrap logo' height='35'> <img src='./pics/about/gitLogoOrangeRed.png' alt='VS Code logo' height='35'> <img src='./pics/about/vsCodeLogo.png' alt='VS Code logo' height='35'> <img src='./pics/about/jest_logo.gif' alt='Jest Logo' height='35'> <img src='./pics/about/mernStackTrans.png' alt='VS Code logo' height='45'> 
 
@@ -9,13 +9,15 @@
 <img src='./pics/projects/giphycBP.gif' alt='VS Code logo' height='90'> <img src='./pics/about/qrByPete_dark.png' alt='VS Code logo' height='90'> 
 
 ## About
-Hello! 
+Hello,
 
-My name is Pete. Thank you for visiting my portfolio!
+My name is Pete. Thank you for visiting my old vanilla JS portfolio!
 
-I was a 'Pharmaceutical Engineer' for two decades. This repository is intended to showcase my progression as a Web Developer.
+>Please visit [codeByPete.com](https://www.codebypete.com) to visit my current portfolio.
 
-My portfolio includes projects developed during my self-taught journey, [MIT xPro Coding Bootcamp](https://www.linkedin.com/posts/codebypete_reactjs-nextjs-sass-activity-6949117987429785600-4QwH), and [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr).
+I was a pharmaceutical engineer for two decades. This portfolio was initially developed ~4 months into my progression as a web developer.
+
+This portfolio includes projects developed during my self-taught journey, [MIT xPro Coding Bootcamp](https://www.linkedin.com/posts/codebypete_reactjs-nextjs-sass-activity-6949117987429785600-4QwH), and [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr).
 
 ## How to Run
 
