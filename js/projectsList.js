@@ -57,22 +57,22 @@ const changeOldestButton = () => {
 // Project sort injection functions
 const injectProjectsFeatured = () => {
     projectsContainer.innerHTML = featuredProjectsSection;
-    injectScrollTainerCard(featuredProjects);
-    injectxChangeMernCard(featuredProjects);
-    injectLenovaIncCard(featuredProjects);
-    
+    injectCBP2Card(featuredProjects);
+    injectcBPCard(featuredProjects);
     
     projectsContainer.innerHTML += progressionSection;
     injectTiltCard(progressionProjects);
+    injectScrollTainerCard(progressionProjects);
+    injectxChangeMernCard(progressionProjects);
     injectMernGoalsCard(progressionProjects);
     injectxChangeCard(progressionProjects);
     injectTodoCard(progressionProjects);
     injectPomodoroCard(progressionProjects);
     injectMarkdownPreviewerCard(progressionProjects);
+    injectLenovaIncCard(progressionProjects);
     injectBusTrackerCard(progressionProjects);
     injectAnimatedHeadCard(progressionProjects);
     injectPacManFactoryCard(progressionProjects);
-    injectcBPCard(progressionProjects);
     injectPacManMiniGameCard(progressionProjects);
     injectLmnoPhotoCard(progressionProjects);
     injectJsCalcCard(progressionProjects);
@@ -100,6 +100,7 @@ const injectProjectsCategory = () => {
     
     projectsContainer.innerHTML += selfTaughtProjectsSection;
     const selfTaughtProjects = document.getElementById('selfTaughtProjects');
+    injectCBP2Card(selfTaughtProjects);
     injectTiltCard(selfTaughtProjects);
     injectScrollTainerCard(selfTaughtProjects);
     injectMernGoalsCard(selfTaughtProjects);
@@ -133,4 +134,5 @@ const injectProjectsOldest = () => {
     injectxChangeMernCard(oldestProjects);
     injectScrollTainerCard(oldestProjects);
     injectTiltCard(oldestProjects);
+    injectCBP2Card(oldestProjects);
 }
