@@ -6,8 +6,8 @@ const cBPCard = `
             <p class="card-text">Developed using <span class='text-white'>HTML</span>, <span class='text-white'>CSS</span>, and vanilla <span class='text-white'>JavaScript</span> with <span class='text-white'>Bootstrap</span> and <span class='text-white'>ScrollMagic</span> libraries.</p>
             <p class="card-text">Includes a <span class='text-white'>mobile first</span> and <span class='text-white'>responsive design</span> with custom JavaScript functionality and CSS animations, see <a href="../pages/blog.html#blog4">blog[4]</a>.</p>
             <div class="btnContainer">
-            <a id='cBP2Demo' href="https://codetracklift.github.io/codebypete/" class="btn btn-secondary">Visit Site</a>
-            <a id='cBP2Repo' href="https://github.com/codeTrackLift/codebypete#readme" class="btn btn-secondary btnDark" target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> Readme</a>
+                <a id='cBPDemo' href="https://codetracklift.github.io/codebypete/" class="btn btn-secondary">Visit Site</a>
+                <a id='cBPRepo' href="https://github.com/codeTrackLift/codebypete#readme" class="btn btn-secondary btnDark" target="'_blank"><img src="../pics/contact/GitHub-Mark-64px.png"> Readme</a>
             </div>
         </div>
         <cite id='cBPCite' class="text-center">Developed Feb-Mar, 2022</cite>
@@ -17,6 +17,13 @@ const cBPCard = `
 const injectcBPCard = (section) => {
     section.innerHTML += cBPCard;
     setTimeout(() => {
+        const cBPDemoController = new ScrollMagic.Controller();
+        const cBPDemo = new ScrollMagic.Scene({
+                triggerElement: '#cBPDemo',
+                offset: -200
+            })
+            .setClassToggle('#cBPDemo', 'show')
+            .addTo(cBPDemoController);
     
         const cBPRepoController = new ScrollMagic.Controller();
         const cBPRepo = new ScrollMagic.Scene({
