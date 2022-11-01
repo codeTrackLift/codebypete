@@ -7,11 +7,11 @@ var emailButton = new ScrollMagic.Scene({
     .addTo(emailButtonController);
     
 var buttonResumeController = new ScrollMagic.Controller();
-var buttonResume = new ScrollMagic.Scene({
-        triggerElement: '#buttonResume',
+var buttonProjects = new ScrollMagic.Scene({
+        triggerElement: '#buttonProjects',
         offset: -350
     })
-    .setClassToggle('#buttonResume', 'show')
+    .setClassToggle('#buttonProjects', 'show')
     .addTo(buttonResumeController);
 
 var buttonAboutController = new ScrollMagic.Controller();

@@ -51,9 +51,9 @@ const myWelcome = `
                 <p class="card-text">University of Delaware, Degree in Biological Sciences</p>
                 <p class="card-text">20 year pharmaceutical professional</p>
                 <p class="card-text">Investing in myself to pursue a childhood passion</p>
-                <div class="btnContainer mt-3">
-                    <a href="../pages/about.html" class="btn btn-secondary btnDark">About</a>
-                    <a href="../pages/resume.html" class="btn btn-secondary">Resume</a>
+                <div class="btnContainer mt-3 mx-auto">
+                    <a href="../pages/about.html" class="btn btn-secondary">About</a>
+                    
                 </div>
             </div>
         </div>

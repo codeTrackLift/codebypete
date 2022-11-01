@@ -20,9 +20,6 @@ const myNavbar = `
                     <a id='navlinkProjects' class="nav-link" href="../pages/projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a id='navlinkResume' class="nav-link" href="../pages/resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
                     <a id='navlinkContact' class="nav-link" href="../pages/contact.html">Contact</a>
                 </li>
             </ul>
